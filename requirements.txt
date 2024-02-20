@@ -1,0 +1,8 @@
+django
+djangorestframework
+jwt
+pillow
+slugify
+xlwt
+xhtml2pdf
+pandas
