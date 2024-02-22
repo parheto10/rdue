@@ -204,3 +204,7 @@ django.core.exceptions.ImproperlyConfigured: Field name `prenoms` is not valid f
 E:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
 Watching for file changes with StatReloader
 "POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
+Watching for file changes with StatReloader
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 90
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 135

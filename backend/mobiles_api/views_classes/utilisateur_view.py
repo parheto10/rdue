@@ -18,15 +18,17 @@ class UtilisateurViewSet(ViewSet):
         password = request.data['password']
         try:
             user = Utilisateur.objects.get(tel=tel)
-            if check_password(password, user.password):
-                serializer = self.serializer_class(user, many=False)
-                response = ResponseClass(result=True, has_data=True, message="Connexion réussie", data=serializer.data)
-                return response.json_response()
+            if user.is_technicien:
+                if check_password(password, user.password):
+                    serializer = self.serializer_class(user, many=False)
+                    response = ResponseClass(result=True, has_data=True, message="Connexion réussie", data=serializer.data)
+                else:
+                    response = ResponseClass(result=False, has_data=False, message="Mot de passe erroné.")
             else:
-                response = ResponseClass(result=False, has_data=False, message="Mot de passe érronné.")
-            return response.json_response()
+                response = ResponseClass(result=False, has_data=False, message="Vous n'êtes pas autorisés à vous connecter à cette application.")
         except Utilisateur.DoesNotExist:
-            response = ResponseClass(result=False, has_data=False, message="Ce numéro de téléphone n'existe pas")
+            response = ResponseClass(result=False, has_data=False, message="Ce numéro de téléphone n'existe pas ou est erroné.")
+        finally:
             return response.json_response()
         
         
