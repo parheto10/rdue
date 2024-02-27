@@ -208,3 +208,17 @@ Watching for file changes with StatReloader
 "POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
 "POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 90
 "POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 135
+Watching for file changes with StatReloader
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
+Watching for file changes with StatReloader
+Method Not Allowed: /api-mobile/utilisateur/connexion/
+"GET /api-mobile/utilisateur/connexion/ HTTP/1.1" 405 49
+Method Not Allowed: /api-mobile/utilisateur/connexion/
+"GET /api-mobile/utilisateur/connexion/ HTTP/1.1" 405 49
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 90
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
