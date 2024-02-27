@@ -61,7 +61,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'corsheaders',
     'myapi',
-    'import_export'
+    'import_export',
+    'mobiles_api'
 ]
 
 MIDDLEWARE = [

@@ -19,7 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 # views classes imports
-from mobiles_api.views import UtilisateurViewSet
+from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, plantingViewSet, DetailPlantingViewSet
 
 # rest_framework imports
 from rest_framework import routers
@@ -28,6 +28,13 @@ from rest_framework import routers
 router = routers.SimpleRouter()
 
 router.register('utilisateur', UtilisateurViewSet, basename='utilisateur')
+router.register('cooperative', CooperativeViewSet, basename='cooperative')
+router.register('section', SectionViewSet, basename='section')
+router.register('campagne', CampagneViewSet, basename='campagne')
+router.register('producteur', ProducteurViewSet, basename='producteur')
+router.register('parcelle', ParcelleViewSet, basename='parcelle')
+router.register('planting', plantingViewSet, basename='planting')
+router.register('detail_planting', DetailPlantingViewSet, basename='detail_planting')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
