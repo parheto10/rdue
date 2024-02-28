@@ -656,3 +656,111 @@ Watching for file changes with StatReloader
 "GET /api-mobile/parcelle/get_all_parcelle_by_producteur/?code_producteur=052-A015 HTTP/1.1" 200 450
 "GET /api-mobile/planting/get_planting_by_parcelle?code_parcelle=052-A015-1 HTTP/1.1" 301 0
 "GET /api-mobile/planting/get_planting_by_parcelle/?code_parcelle=052-A015-1 HTTP/1.1" 200 106
+Watching for file changes with StatReloader
+"GET /admin/myapi/planting/ HTTP/1.1" 200 22711
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/PLG-8850/change/ HTTP/1.1" 200 257715
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /admin/myapi/detailplanting/ HTTP/1.1" 200 41960
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/detailplanting/DPL-2080/change/ HTTP/1.1" 200 25147
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/detailplanting/ HTTP/1.1" 200 41960
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/detailplanting/DPL-8331/change/ HTTP/1.1" 200 25148
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 22711
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_planting?code_planting=DPL-8331 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_planting/?code_planting=DPL-8331 HTTP/1.1" 200 104
+"GET /admin/myapi/detailplanting/ HTTP/1.1" 200 41960
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/detailplanting/DPL-2080/change/ HTTP/1.1" 200 25147
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/PLG-8850/change/?_to_field=code HTTP/1.1" 200 257766
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/detailplanting/DPL-2080/change/ HTTP/1.1" 200 25147
+"GET /admin/myapi/planting/ HTTP/1.1" 200 22711
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/PLG-8850/change/ HTTP/1.1" 200 257715
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 22711
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/PLG-3148/change/ HTTP/1.1" 200 257691
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 22711
+"GET /admin/myapi/planting/PLG-4476/change/ HTTP/1.1" 200 257715
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 22711
+"GET /admin/myapi/planting/PLG-2451/change/ HTTP/1.1" 200 257700
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 22711
+"GET /admin/myapi/planting/PLG-7348/change/ HTTP/1.1" 200 257718
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/detailplanting/ HTTP/1.1" 200 41960
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/detailplanting/DPL-2080/change/ HTTP/1.1" 200 25147
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 22711
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/PLG-8850/change/ HTTP/1.1" 200 257715
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_planting?code_planting=PLG-8850 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_planting/?code_planting=PLG-8850 HTTP/1.1" 200 104
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\detailplanting_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\detailplanting_view.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_planting?code_planting=PLG-8850 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_planting/?code_planting=PLG-8850 HTTP/1.1" 200 1247
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 68676
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /admin/myapi/planting/ HTTP/1.1" 200 22711
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 68676
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 22711
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/PLG-8850/change/ HTTP/1.1" 200 257715
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 68676
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/parcelle/152-ZH168-1/change/ HTTP/1.1" 200 245845
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /api-mobile/planting/get_planting_by_parcelle?code_parcelle=152-ZH168-1 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_planting_by_parcelle/?code_parcelle=152-ZH168-1 HTTP/1.1" 200 107
+"GET /admin/myapi/planting/ HTTP/1.1" 200 22711
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/PLG-8850/change/ HTTP/1.1" 200 257715
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /api-mobile/planting/get_planting_by_parcelle?code_parcelle=152-K483-1 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_planting_by_parcelle/?code_parcelle=152-K483-1 HTTP/1.1" 200 358
+Watching for file changes with StatReloader
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 587
+"GET /api-mobile/culture/get_all_culture HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture/ HTTP/1.1" 200 593
+Not Found: /api-mobile/certification/get_all_certification
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 404 5311
+"GET /api-mobile/certificat/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certification/ HTTP/1.1" 200 439
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\culture_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\culture_view.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/culture/get_all_culture_by_cooperative HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/ HTTP/1.1" 200 107
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=10 HTTP/1.1" 200 421
+E:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=10 HTTP/1.1" 200 138
+"GET /api-mobile/certificat/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certification/ HTTP/1.1" 200 169
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227

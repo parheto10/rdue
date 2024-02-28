@@ -14,8 +14,8 @@ class DetailPlantingViewSet(ViewSet):
     @action(detail=False)
     def get_all_details_plantings_by_planting(self, request):
         try:
-            id_planting = self.request.GET.get('id_planting')
-            planting = Planting.objects.get(pk=id_planting)
+            code_planting = self.request.GET.get('code_planting')
+            planting = Planting.objects.get(pk=code_planting)
             details_plantings = DetailPlanting.objects.filter(planting=planting)
             serializer = self.serializer_class(details_plantings, many=True)
             response = ResponseClass(result=True, has_data=True, message=f'Liste des détails du planting {planting.code}', data=serializer.data)
