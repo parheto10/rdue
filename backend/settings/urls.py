@@ -23,7 +23,6 @@ from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionVie
 
 # rest_framework imports
 from rest_framework import routers
-
 # Routes de l'api pour les applications mobiles
 router = routers.SimpleRouter()
 

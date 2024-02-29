@@ -767,3 +767,34 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 "POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 158
 "POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 158
+Watching for file changes with StatReloader
+"GET /api-mobile/planting/get_planting_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_planting_by_cooperative/?id_cooperative=10 HTTP/1.1" 200 2789
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\planting_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\detailplanting_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\detailplanting_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\detailplanting_view.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=10 HTTP/1.1" 200 12218
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=10 HTTP/1.1" 200 476632
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=10 HTTP/1.1" 200 557130
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\planting_view.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/planting/get_all_planting_by_parcelle?code_parcelle=052-A015-1 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_parcelle/?code_parcelle=052-A015-1 HTTP/1.1" 200 106
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\planting_view.py changed, reloading.
+Watching for file changes with StatReloader
