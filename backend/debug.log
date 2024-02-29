@@ -764,3 +764,6 @@ Watching for file changes with StatReloader
 "GET /api-mobile/certificat/get_all_certification/ HTTP/1.1" 200 169
 "GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
 "GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+Watching for file changes with StatReloader
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 158
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 158

@@ -7,8 +7,8 @@ class UtilisateurSerializer(ModelSerializer):
     
     class Meta:
         model = Utilisateur
-        fields = ['id','nom', 'prenom', 'tel', 'password', 'sexe']
-        read_only = ['id','nom', 'prenom', 'tel', 'password', 'sexe']
+        fields = ['id','nom', 'prenom', 'tel', 'sexe']
+        read_only = ['id','nom', 'prenom', 'tel', 'sexe']
         
 class CooperativeSerializer(ModelSerializer):
     
