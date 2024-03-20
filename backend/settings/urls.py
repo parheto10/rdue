@@ -19,7 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 # views classes imports
-from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, plantingViewSet, DetailPlantingViewSet, CertificationViewSet, CultureViewSet, ModeAcquisitionViewSet
+from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, plantingViewSet, DetailPlantingViewSet, CertificationViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet
 
 # rest_framework imports
 from rest_framework import routers
@@ -37,6 +37,7 @@ router.register('detail_planting', DetailPlantingViewSet, basename='detail_plant
 router.register('certificat', CertificationViewSet, basename='certificat')
 router.register('culture', CultureViewSet, basename='culture')
 router.register('mode_acquisition', ModeAcquisitionViewSet, basename='mode_acquisition')
+router.register('espece', EspeceViewSet, basename='espece')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

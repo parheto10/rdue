@@ -5,16 +5,18 @@ from rest_framework.viewsets import ViewSet
 # internals imports
 from foret.naiveclasses import ResponseClass
 from mobiles_api.serializers import CampagneSerializer
-from myapi.models import Campagne
+from myapi.models import Campagne, Cooperative
 
 class CampagneViewSet(ViewSet):
     
     serializer_class = CampagneSerializer
     
     @action(detail=False)
-    def get_all_active_campagne(self, request):
+    def get_all_active_campagne_by_cooperative(self, request):
         try:
-            campagnes = Campagne.objects.filter(etat=True)
+            id_cooperative = self.request.GET.get('id_cooperative')
+            cooperative = Cooperative.objects.get(pk=id_cooperative)
+            campagnes = Campagne.objects.filter(respo=cooperative.respo, etat=True)
             serializer = self.serializer_class(campagnes, many=True)
             response = ResponseClass(result=True, has_data=True, message=f'Liste des campagnes actives', data=serializer.data)
         except Exception as e:

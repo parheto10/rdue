@@ -11,3 +11,4 @@ from .views_classes.detailplanting_view import DetailPlantingViewSet
 from .views_classes.certification_view import CertificationViewSet
 from .views_classes.culture_view import CultureViewSet
 from .views_classes.modeacquisition_view import ModeAcquisitionViewSet
+from .views_classes.espece_view import EspeceViewSet
