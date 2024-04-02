@@ -16,7 +16,7 @@ class CampagneViewSet(ViewSet):
         try:
             id_cooperative = self.request.GET.get('id_cooperative')
             cooperative = Cooperative.objects.get(pk=id_cooperative)
-            campagnes = Campagne.objects.filter(respo=cooperative.respo, etat=True)
+            campagnes = Campagne.objects.filter(respo=cooperative.respo)
             serializer = self.serializer_class(campagnes, many=True)
             response = ResponseClass(result=True, has_data=True, message=f'Liste des campagnes actives', data=serializer.data)
         except Exception as e:
