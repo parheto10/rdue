@@ -21,10 +21,12 @@ from django.conf.urls.static import static
 # views classes imports
 from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, plantingViewSet, DetailPlantingViewSet, CertificationViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet
 
+from api_importation.views import DataImportation
 # rest_framework imports
 from rest_framework import routers
 # Routes de l'api pour les applications mobiles
 router = routers.SimpleRouter()
+importation = routers.SimpleRouter()
 
 router.register('utilisateur', UtilisateurViewSet, basename='utilisateur')
 router.register('cooperative', CooperativeViewSet, basename='cooperative')
@@ -39,10 +41,13 @@ router.register('culture', CultureViewSet, basename='culture')
 router.register('mode_acquisition', ModeAcquisitionViewSet, basename='mode_acquisition')
 router.register('espece', EspeceViewSet, basename='espece')
 
+importation.register('importation', DataImportation, basename='importation')
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/',include('myapi.urls')),
     path('api-mobile/', include(router.urls)),
+    path('api-importation/', include(importation.urls)),
     path('api-auth/',include('rest_framework.urls')),
 ]
 if settings.DEBUG:
