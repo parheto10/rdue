@@ -3770,3 +3770,4 @@ Watching for file changes with StatReloader
 "GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=19 HTTP/1.1" 200 315
 "GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
 "GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 9496
+Watching for file changes with StatReloader
