@@ -5,7 +5,7 @@ from rest_framework.viewsets import ViewSet
 # internals imports
 from foret.naiveclasses import ResponseClass
 from mobiles_api.serializers import DetailPlantingSerializer
-from myapi.models import Planting, DetailPlanting, Cooperative
+from myapi.models import Espece, Planting, DetailPlanting, Cooperative
 
 class DetailPlantingViewSet(ViewSet):
     
@@ -36,3 +36,22 @@ class DetailPlantingViewSet(ViewSet):
             response = ResponseClass(result=False, has_data=False, message=str(e))
         finally:
             return response.json_response()
+        
+    @action(detail=False, methods=['post'])
+    def synchronisation(self, request):
+        try:
+            code = f'DPL-{DetailPlanting.objects.all().count()}'
+            plants = request.data['plants']
+            planting = None if request.data['planting'] ==None else Planting.objects.get(code=request.data['planting'])
+            espece = None if request.data['espece'] ==None else Espece.objects.get(id=request.data['espece'])
+            detailPlanting, created = DetailPlanting.objects.get_or_create(code=code)
+            detailPlanting.plants = plants
+            detailPlanting.espece = espece
+            detailPlanting.planting = planting
+            detailPlanting.save()
+            response = ResponseClass(result=True, has_data=False, message='')
+        except Exception as e:
+            response = ResponseClass(result=False, has_data=False, message=str(e))
+        finally:
+            return response.json_response()
+        

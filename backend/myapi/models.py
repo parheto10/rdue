@@ -442,13 +442,14 @@ class Parcelle(models.Model):
     #contour = models.TextField(null=True,blank=True)
     superficie = models.FloatField(default=0)
     
-    certificat = models.ForeignKey(Certification, on_delete=models.CASCADE, null=True)
-    code_certif = models.CharField(max_length=150, null=True, blank=True)
-    annee_certificat = models.CharField(max_length=150, null=True, blank=True)
+    # certificat = models.ForeignKey(Certification, on_delete=models.CASCADE, null=True)
+    # code_certif = models.CharField(max_length=150, null=True, blank=True)
+    # annee_certificat = models.CharField(max_length=150, null=True, blank=True)
     annee_acquis = models.CharField(max_length=150, null=True, blank=True)
     culture = models.ForeignKey(Culture, on_delete=models.CASCADE, null=True)
     acquisition = models.ForeignKey(ModeAcquisition, on_delete=models.CASCADE, null=True)
-    
+    titre_de_propriete = models.CharField(max_length=255, null=True)
+    image_du_titre_de_propriete = models.ImageField(upload_to='titre_de_propriete/', null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     

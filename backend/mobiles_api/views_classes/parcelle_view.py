@@ -1,3 +1,5 @@
+from django.core.files import File
+
 # Externals imports
 from rest_framework.decorators import action
 from rest_framework.viewsets import ViewSet
@@ -5,7 +7,7 @@ from rest_framework.viewsets import ViewSet
 # internals imports
 from foret.naiveclasses import ResponseClass
 from mobiles_api.serializers import ParcelleSerializer
-from myapi.models import Parcelle, Producteur, Cooperative
+from myapi.models import Campagne, Culture, ModeAcquisition, Parcelle, Producteur, Cooperative
 
 class ParcelleViewSet(ViewSet):
     
@@ -36,4 +38,35 @@ class ParcelleViewSet(ViewSet):
             response = ResponseClass(result=False, has_data=False, message=str(e))
         finally:
             return response.json_response()
-    
+
+    @action(detail=False, methods=['post'])
+    def synchronisation(self, request):
+        try:
+            code = request.data['code']
+            campagne = None if request.data['campagne']==None else Campagne.objects.get(pk=request.data['campagne'])
+            culture = None if request.data['culture']==None else Culture.objects.get(pk=request.data['culture'])
+            latitude = request.data['latitude']
+            longitude = request.data['longitude']
+            superficie = request.data['superficie']
+            annee_acquis = request.data['annee_acquis']
+            acquisition = None if request.data['acquisition']==None else ModeAcquisition.objects.get(pk=request.data['acquisition'])
+            titre_de_propriete = request.data['titre_de_propriete']
+            image_du_titre_de_propriete = None if request.data['image_du_titre_de_propriete']==None else File(request.data['image_du_titre_de_propriete'])
+            producteur = Producteur.objects.get(pk=request.data['producteur'])
+            parcelle, created = Parcelle.objects.get_or_create(code=code)
+            parcelle.producteur = producteur
+            parcelle.campagne = campagne
+            parcelle.culture = culture
+            parcelle.latitude = latitude
+            parcelle.longitude = longitude
+            parcelle.superficie = superficie
+            parcelle.annee_acquis = annee_acquis
+            parcelle.acquisition = acquisition
+            parcelle.titre_de_propriete = titre_de_propriete
+            parcelle.image_du_titre_de_propriete = image_du_titre_de_propriete
+            parcelle.save()
+            response = ResponseClass(result=True, has_data=False, message='')
+        except Exception as e:
+            response = ResponseClass(result=False, has_data=False, message=str(e))
+        finally:
+            return response.json_response()

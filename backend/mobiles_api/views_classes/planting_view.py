@@ -1,3 +1,5 @@
+from datetime import datetime
+
 # Externals imports
 from rest_framework.decorators import action
 from rest_framework.viewsets import ViewSet
@@ -5,7 +7,7 @@ from rest_framework.viewsets import ViewSet
 # internals imports
 from foret.naiveclasses import ResponseClass
 from mobiles_api.serializers import PlantingSerializer
-from myapi.models import Planting, Parcelle, Cooperative
+from myapi.models import Campagne, Planting, Parcelle, Cooperative
 
 class plantingViewSet(ViewSet):
     serializer_class = PlantingSerializer
@@ -31,6 +33,30 @@ class plantingViewSet(ViewSet):
             plantings = Planting.objects.filter(parcelle__producteur__section__cooperative=cooperative)
             serializer = self.serializer_class(plantings, many=True)
             response = ResponseClass(result=True, has_data=True, message=f'Liste des plantings de la cooperative {cooperative.nomCoop}', data=serializer.data)
+        except Exception as e:
+            response = ResponseClass(result=False, has_data=False, message=str(e))
+        finally:
+            return response.json_response()
+        
+    @action(detail=False, methods=['post'])
+    def synchronisation(self, request):
+        try:
+            code = request.data['code']
+            campagne = None if request.data['campagne']==None else Campagne.objects.get(pk=request.data['campagne'])
+            plant_existant = request.data['plant_existant']
+            plant_recus = int(request.data['plant_recus'])
+            note_plant_existant = request.data['note_plant_existant']
+            date = datetime.fromisoformat(request.data['date'])
+            parcelle = None if request.data['parcelle']==None else Parcelle.objects.get(pk=request.data['parcelle'])
+            planting, created = Planting.objects.get_or_create(code=code)
+            planting.campagne = campagne
+            planting.plant_existant = plant_existant
+            planting.plant_recus = plant_recus
+            planting.note_plant_existant = note_plant_existant
+            planting.date = date
+            planting.parcelle = parcelle
+            planting.save()
+            response = ResponseClass(result=True, has_data=False, message='')
         except Exception as e:
             response = ResponseClass(result=False, has_data=False, message=str(e))
         finally:
