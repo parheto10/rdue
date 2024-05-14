@@ -11,6 +11,6 @@ class Technicien(models.Model):
 
 class Certificat(models.Model):
     code = models.CharField(max_length=255, null=True)
-    annee = models.IntegerField( null=True)
+    annee = models.IntegerField(null=True)
     certification = models.ForeignKey(Certification, on_delete=models.SET_NULL, null=True)
     parcelle = models.ForeignKey(Parcelle, on_delete=models.SET_NULL, null=True)

@@ -2,6 +2,7 @@ from rest_framework.serializers import ModelSerializer
 
 # models imports
 from myapi.models import Cooperative, Utilisateur, Section, Campagne, Producteur, Parcelle, Planting, DetailPlanting, Certification, Culture, ModeAcquisition, Espece
+from .models import Certificat
 
 class UtilisateurSerializer(ModelSerializer):
     
@@ -63,6 +64,12 @@ class CertificationSerializer(ModelSerializer):
     class Meta:
         model = Certification
         fields = ['id', 'libelle']
+        
+class CertificatSerializer(ModelSerializer):
+    
+    class Meta:
+        model = Certificat
+        fields = '__all__'
         
 
 class CultureSerializer(ModelSerializer):

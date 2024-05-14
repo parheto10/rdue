@@ -19,7 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 # views classes imports
-from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, plantingViewSet, DetailPlantingViewSet, CertificationViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet
+from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, plantingViewSet, DetailPlantingViewSet, CertificationViewSet, CertificatViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet
 
 from api_importation.views import DataImportation
 # rest_framework imports
@@ -36,7 +36,8 @@ router.register('producteur', ProducteurViewSet, basename='producteur')
 router.register('parcelle', ParcelleViewSet, basename='parcelle')
 router.register('planting', plantingViewSet, basename='planting')
 router.register('detail_planting', DetailPlantingViewSet, basename='detail_planting')
-router.register('certificat', CertificationViewSet, basename='certificat')
+router.register('certification', CertificationViewSet, basename='certification')
+router.register('certificat', CertificatViewSet, basename='certificat')
 router.register('culture', CultureViewSet, basename='culture')
 router.register('mode_acquisition', ModeAcquisitionViewSet, basename='mode_acquisition')
 router.register('espece', EspeceViewSet, basename='espece')
