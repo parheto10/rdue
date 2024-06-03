@@ -439,7 +439,7 @@ class Parcelle(models.Model):
     campagne = models.ForeignKey(Campagne, on_delete=models.CASCADE, null=True)
     latitude = models.CharField(max_length=200, null=True, blank=True)
     longitude = models.CharField(max_length=200, null=True, blank=True)
-    #contour = models.TextField(null=True,blank=True)
+    is_mapped = models.BooleanField(default=False)
     superficie = models.FloatField(default=0)
     
     # certificat = models.ForeignKey(Certification, on_delete=models.CASCADE, null=True)
