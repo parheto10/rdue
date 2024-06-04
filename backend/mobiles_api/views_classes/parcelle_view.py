@@ -49,13 +49,16 @@ class ParcelleViewSet(ViewSet):
             longitude = request.data['longitude']
             superficie = request.data['superficie']
             annee_acquis = request.data['annee_acquis']
+            is_mapped = bool(request.data['is_mapped'])
             acquisition = None if request.data['acquisition']==None else ModeAcquisition.objects.get(pk=request.data['acquisition'])
             titre_de_propriete = request.data['titre_de_propriete']
             image_du_titre_de_propriete = None if request.data['image_du_titre_de_propriete']==None else File(request.data['image_du_titre_de_propriete'])
+            fichier_de_mappage = File(request.data['fichier_de_mappage'])
             producteur = Producteur.objects.get(pk=request.data['producteur'])
             parcelle, created = Parcelle.objects.get_or_create(code=code)
             parcelle.producteur = producteur
             parcelle.campagne = campagne
+            parcelle.is_mapped = is_mapped
             parcelle.culture = culture
             parcelle.latitude = latitude
             parcelle.longitude = longitude
@@ -64,6 +67,7 @@ class ParcelleViewSet(ViewSet):
             parcelle.acquisition = acquisition
             parcelle.titre_de_propriete = titre_de_propriete
             parcelle.image_du_titre_de_propriete = image_du_titre_de_propriete
+            parcelle.fichier_de_mappage = fichier_de_mappage
             parcelle.save()
             response = ResponseClass(result=True, has_data=False, message='')
         except Exception as e:

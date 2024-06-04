@@ -450,6 +450,7 @@ class Parcelle(models.Model):
     acquisition = models.ForeignKey(ModeAcquisition, on_delete=models.CASCADE, null=True)
     titre_de_propriete = models.CharField(max_length=255, null=True)
     image_du_titre_de_propriete = models.ImageField(upload_to='titre_de_propriete/', null=True)
+    fichier_de_mappage = models.ImageField(upload_to='fichier_mapping/', null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     
