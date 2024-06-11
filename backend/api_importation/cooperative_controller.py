@@ -7,10 +7,11 @@ from myapi.models import Cooperative, Planting, Section, Producteur, Campagne, P
 class CooperativeController:
     taille_du_code_producteur = 9
     message = ''
-    def __init__(self, coop:Cooperative, data:DataFrame) -> None:
+    def __init__(self, coop:Cooperative, camp:Campagne, data:DataFrame) -> None:
         self.especes = ['Acajou','Fraké','Bété','Akpi','Framiré','Asamela','Tiama']
         self.cooperative = coop
         self.data = data
+        self.campagne = camp
         self.sections = self.data[:]['SECTION'].drop_duplicates().values
         self.insertion_section()
 
@@ -35,26 +36,25 @@ class CooperativeController:
     def insertion_prod(self, prod:Series, section:Section):
         try:
             producteur, result = Producteur.objects.get_or_create(code=self.code_prod(prod['CODE PARCELLE']))
-            if result:
-                producteur.section = section
-                producteur.nomComplet = str(prod['NOM DU PRODUCTEUR'])
-                producteur.contacts = str(prod['NUMERO DE TELEPHONE DU PRODUCTEUR'])
-                producteur.campagne = Campagne.objects.get(respo=self.cooperative.respo)
-                producteur.save()
+            producteur.section = section
+            producteur.nomComplet = str(prod.get('NOM DU PRODUCTEUR'))
+            producteur.contacts = str(prod.get('NUMERO DE TELEPHONE DU PRODUCTEUR'))
+            producteur.campagne = self.campagne
+            producteur.save()
             return producteur
         except Exception as e:
             self.message = str(e)
         
     def insertion_parcelle(self, prod:Series, producteur:Producteur):
         try:
-            parcelle, result = Parcelle.objects.get_or_create(code=str(prod['CODE PARCELLE']), producteur = producteur)
-            if result:
-                parcelle.latitude = str(prod['Lat'])
-                parcelle.longitude = str(prod['Lon'])
-                parcelle.code_certif = str(prod['CODE CERTIFICATION'])
-                parcelle.superficie = float(prod['Superficie parcelle'])
-                parcelle.culture = Culture.objects.get(cooperative=self.cooperative)
-                parcelle.save()
+            parcelle, result = Parcelle.objects.get_or_create(code=str(prod.get('CODE PARCELLE')), producteur = producteur)
+            
+            parcelle.latitude = str(prod.get('Lat'))
+            parcelle.longitude = str(prod.get('Lon'))
+            # parcelle.code_certif = str(prod['CODE CERTIFICATION'])
+            parcelle.superficie = float(prod.get('Superficie parcelle'))
+            parcelle.culture = Culture.objects.get(cooperative=self.cooperative)
+            parcelle.save()
             return parcelle
         except Exception as e:
             self.message = str(e)
@@ -63,12 +63,12 @@ class CooperativeController:
         try:
             nbre = Planting.objects.all().count()
             code = 'PLG-'+str(nbre)
-            campagne = Campagne.objects.get(respo=self.cooperative.respo)
+            campagne = self.campagne
             planting, result = Planting.objects.get_or_create(code =code ,parcelle=parcelle, campagne=campagne)
             if result:
-                planting.date = date.fromisoformat(prod['DATE DE PLANTING'])
-                planting.plant_recus = int(prod['Nombre de plants recus'])
-                planting.plant_existant = int(prod['ARBRES EXISTANT'])
+                planting.date = date.fromisoformat(prod.get('DATE DE PLANTING'))
+                planting.plant_recus = int(prod.get('Nombre de plants recus'))
+                planting.plant_existant = int(prod.get('ARBRES EXISTANT'))
                 planting.save()
             return planting
         except Exception as e:

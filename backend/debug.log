@@ -5187,3 +5187,147 @@ Watching for file changes with StatReloader
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
 E:\applications\app_python\rdue\backend\api_importation\cooperative_controller.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 64919
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 64919
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 64919
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 64919
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 64919
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 64919
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+Watching for file changes with StatReloader
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 20587
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/utilisateur/add/ HTTP/1.1" 200 43775
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"POST /admin/myapi/utilisateur/add/ HTTP/1.1" 200 44084
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /admin/myapi/utilisateur/add/ HTTP/1.1" 302 0
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 21114
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/campagne/ HTTP/1.1" 200 21163
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/campagne/11/change/ HTTP/1.1" 200 23379
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /admin/myapi/campagne/11/change/ HTTP/1.1" 302 0
+"GET /admin/myapi/campagne/ HTTP/1.1" 200 21383
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 21194
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/cooperative/21/change/ HTTP/1.1" 200 29374
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /admin/myapi/cooperative/21/change/ HTTP/1.1" 302 0
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 21417
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 68105
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 68096
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 21194
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/cooperative/21/change/ HTTP/1.1" 200 29374
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 21194
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 68105
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/producteur/USO-161FO/change/ HTTP/1.1" 200 30976
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 68105
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 68096
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+"GET /admin/myapi/parcelle/USO-161FOP01/change/ HTTP/1.1" 200 262080
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+E:\applications\app_python\rdue\backend\api_importation\cooperative_controller.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 68496
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/parcelle/USO-161FOP01/change/ HTTP/1.1" 200 262082
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+E:\applications\app_python\rdue\backend\api_importation\cooperative_controller.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\api_importation\cooperative_controller.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\api_importation\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\api_importation\importation_controller.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\api_importation\cooperative_controller.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\api_importation\cooperative_controller.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\api_importation\cooperative_controller.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\api_importation\cooperative_controller.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\api_importation\cooperative_controller.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 21194
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+Watching for file changes with StatReloader
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 75
+"GET /admin/myapi/campagne/ HTTP/1.1" 200 21163
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 148
+E:\applications\app_python\rdue\backend\api_importation\importation_controller.py changed, reloading.
+E:\applications\app_python\rdue\backend\api_importation\importation_controller.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 148
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 148
+E:\applications\app_python\rdue\backend\api_importation\views.py changed, reloading.
+E:\applications\app_python\rdue\backend\api_importation\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 68105
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 68496
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/parcelle/USO-161FOP01/change/ HTTP/1.1" 200 262108
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/ HTTP/1.1" 200 24223
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 21194
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/cooperative/add/ HTTP/1.1" 200 28980
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /admin/myapi/cooperative/add/ HTTP/1.1" 302 0
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 21694
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/campagne/ HTTP/1.1" 200 21163
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/campagne/add/ HTTP/1.1" 200 23088
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /admin/myapi/campagne/add/ HTTP/1.1" 302 0
+"GET /admin/myapi/campagne/ HTTP/1.1" 200 21651
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/culture/ HTTP/1.1" 200 20298
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/culture/add/ HTTP/1.1" 200 21291
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /admin/myapi/culture/add/ HTTP/1.1" 302 0
+"GET /admin/myapi/culture/ HTTP/1.1" 200 20771
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/campagne/ HTTP/1.1" 200 21434
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 101
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 68406
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/producteur/?section__cooperative__id__exact=22 HTTP/1.1" 200 65703
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985

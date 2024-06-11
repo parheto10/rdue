@@ -14,7 +14,8 @@ class DataImportation(ViewSet):
     def cadesa(self, request):
         try:
             file = request.data['data']
-            importation_controller = ImportationController(file)
+            campagne = request.data['campagne']
+            importation_controller = ImportationController(file, campagne=campagne)
             nbre_coop = importation_controller.importer()
             response = ResponseClass(result=True, has_data=True, message=f'{nbre_coop} coopérative(s) importée(s)')
         except Exception as e:
