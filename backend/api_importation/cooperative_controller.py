@@ -8,7 +8,7 @@ class CooperativeController:
     taille_du_code_producteur = 9
     message = ''
     def __init__(self, coop:Cooperative, camp:Campagne, data:DataFrame) -> None:
-        self.especes = ['Acajou','Fraké','Bété','Akpi','Framiré','Asamela','Tiama']
+        self.especes = ['Acajou','Fraké','Bété','Akpi','Framiré','Asamela','Tiama', 'Gmelina', 'Acacia', 'Makoré', 'Pklé', 'Niangon', 'Cedrela', 'Bitei']
         self.cooperative = coop
         self.data = data
         self.campagne = camp
