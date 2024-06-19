@@ -1,4 +1,6 @@
 # Externals imports
+import random
+import uuid
 from rest_framework.decorators import action
 from rest_framework.viewsets import ViewSet
 
@@ -29,7 +31,7 @@ class DetailPlantingViewSet(ViewSet):
         try:
             id_cooperative = self.request.GET.get('id_cooperative')
             cooperative = Cooperative.objects.get(pk=id_cooperative)
-            details_plantings = DetailPlanting.objects.filter(planting__parcelle__producteur__section__cooperative=cooperative)
+            details_plantings = DetailPlanting.objects.filter(planting__parcelle__producteur__section__cooperative=cooperative).exclude(plants=0)
             serializer = self.serializer_class(details_plantings, many=True)
             response = ResponseClass(result=True, has_data=True, message=f'Liste des détails de planting de la coopérative {cooperative.nomCoop}', data=serializer.data)
         except Exception as e:
@@ -40,7 +42,7 @@ class DetailPlantingViewSet(ViewSet):
     @action(detail=False, methods=['post'])
     def synchronisation(self, request):
         try:
-            code = f'DPL-{DetailPlanting.objects.all().count()}'
+            code = f'DPL-{uuid.uuid4().hex.upper()[0:6]}'
             plants = request.data['plants']
             planting = None if request.data['planting'] ==None else Planting.objects.get(code=request.data['planting'])
             espece = None if request.data['espece'] ==None else Espece.objects.get(id=request.data['espece'])

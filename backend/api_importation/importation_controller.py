@@ -20,16 +20,13 @@ class ImportationController:
     
     def importer(self):
         try:
-            cmpt = 0
             coops = self.getCoop()
             for cooperative in coops:
                 if cooperative is not None:
                     data = self.data_frame.loc[self.data_frame['COOPERATIVE']==cooperative.nomCoop]
                     cooperative_controller = CooperativeController(coop=cooperative,camp=self.campagne, data=data)
-                    result = cooperative_controller.insertion_producteur()
-                    if result:
-                        cmpt += 1
-            return cmpt
+                    cooperative_controller.insertion_producteur()
+            self.message = cooperative_controller.message
         except Exception as e:
             self.message = str(e)
             
