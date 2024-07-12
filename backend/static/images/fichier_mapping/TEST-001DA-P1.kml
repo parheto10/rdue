@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Placemark id="3">
+            <name>Code parcelle : TEST-001DA-P1</name>
+            <Polygon id="2">
+                <outerBoundaryIs>
+                    <LinearRing id="4">
+                        <coordinates>-3.9854558,5.3897945,0.0 -3.9854558,5.3897945,0.0 -3.9854887,5.3897986,0.0 -3.9854887,5.3897986,0.0 -3.9854759,5.3897835,0.0 -3.9854759,5.3897835,0.0 -3.9854836,5.3897807,0.0 -3.9854836,5.3897807,0.0 -3.9854826,5.3897899,0.0 -3.9854826,5.3897899,0.0 -3.9854701,5.3897825,0.0 -3.9854701,5.3897825,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>
