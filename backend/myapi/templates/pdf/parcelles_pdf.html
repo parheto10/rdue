@@ -121,19 +121,19 @@
     <tr>
         <td width="30%">
             {% if cooperative.logo %}
-             <img src="http://127.0.0.1:8000{{cooperative.logo.url}}" alt="" height="40" width="40"><br>
+             <img src="http://127.0.0.1:8000{{cooperative.logo.url}}" alt="" height="50" width="80"><br>
             {% endif %}
             <br>
 
         </td>
         <td width="40%" style="text-align: center">
-            <span style="font-weight: bold; text-transform: capitalize; font-size:16px">
+            <span style="font-weight: bold; text-transform: capitalize; font-size:12px">
 
             </span>
         </td>
         <td width="30%" style="text-align: right">
          
-                <b style="margin-top 10px">
+                <b style="margin-top: 10px">
                    Fait le: {% now  ''%}<br>
                    Cordonnée: {{cooperative.contacts}}
                </b>
@@ -150,40 +150,25 @@
 <table class="table table-striped" border="0.3" style="text-align: center; height:20px; padding-top: 0; padding-bottom: -5px; " >
     <thead >
         <tr style="margin-top: 15px;">
-            <th style="width: 3% ;">ID</th>
-            <th >CODE</th>
-            <th style="width: 20% ;">NOM ET PRENOMS</th>
-            <th >SECTION</th>
-            <th >CULTURE</th>
-            <th >CERTIF</th>
-            <th >SUPERFICIE</th>
+            <th style="width: 5% ;">ID</th>
+            <th style="width: 18% ;">CODE</th>
+            <th style="width: 25% ;">NOM ET PRENOMS</th>
+            <th style="width: 12% ;">SECTION</th>
             <th >LATITUDE</th>
             <th >LONGITUDE</th>
+            <th >AIRE</th>
         </tr>
     </thead>
     <tbody >
         {% for parc in parcelles %}
             <tr >
                 <td>{{ forloop.counter }}</td>
-                <td>{{ parc.code }}</td>
-                <td><b>{{ parc.producteur.nomComplet|upper }}</b></td>
+                <td><strong>{{ parc.code }}</strong></td>
+                <td style="font-size: 8px"><b>{{ parc.producteur.nomComplet|upper }}</b></td>
                 <td>{{  parc.producteur.section|upper }}</td>
-
-                <td>
-                    {% if parc.culture %}
-                        {{ parc.culture|upper }}
-                    {% endif %}
-                    
-                
-                </td>
-                <td>
-                    {% if parc.certificat %}
-                        {{ parc.certificat|upper }}
-                    {% endif %}
-                </td>
-                <td>{{ parc.superficie }}</td>
                 <td>{{ parc.latitude }}</td>
                 <td>{{ parc.longitude }}</td>
+                <td>{{ parc.superficie }}</td>
             </tr>
         {% endfor %}
     </tbody>
@@ -194,8 +179,8 @@
 <div id="footer" style="text-align: center; width: 100%">
     <hr style="color: red">
     <h5 style="font-style: italic; text-align: center;">
-        Siège social : {{ cooperative.siege }}      <br/>
-         PRODUCTEURS {{ cooperative.nomCoop }} - Copyright(c) - AGRO-MAP
+         Siège social : {{ cooperative.siege }}      <br/>
+         PARCELLES {{ cooperative.nomCoop }} - Copyright(c) | {% now 'Y/m' %} - AGROMAP
     </h5>
 </div>
 

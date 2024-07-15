@@ -116,5 +116,32 @@ New Parametres CoopaaHS
 Email : anitchecoop@gmail.com
 password : coopaahs2024
 
+Email: agrialcopca@gmail.com
+password : Agri@l2024#
 
 
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+retravailler les Couleur au Niveau des Risque (Orange, Ou Rouge)
+
+Ajoute filtre par section sur la liste des Producteurs
+Ajouter Filtre par section sur la liste des Parcelles
+ajouter filtre niveau de risques sur la lise des Parcelles Suppérieur a 4ha (parcelle Mappé/Non Mapper) 
+
+
+Ajouter Onglet Production 
+
+Estimation 550kg - 650kg
+
+Critère Age de la Parcelle
+
+Echantillon sur un certain nombre e Producteur pour avoir faire une Estimations 
+
+Augmentation de 10%
+
+
+Ajouter Logo Agrial a la place 
+
+
+Presentation AKIDOMPRO Hebdomadaire (Vendredi 07/06/2024  - 14 hre - 15 hre)

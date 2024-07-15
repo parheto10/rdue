@@ -59,7 +59,13 @@ class ProjetSerializer(serializers.ModelSerializer):
                 'plant_aproduit',
                 'respo',
                 'carbon_astock',
+                'logo',
                 'emp_engageof_proj',
+                'total_coop_projet',
+                'total_producteurs_projet',
+                'total_parcelles_projet',
+                'total_parcelles_proj_risk_modere',
+                'total_parcelles_proj_risk_zero',
                 'created_at',
                 'updated_at',
         ]
@@ -247,11 +253,14 @@ class CooperativeSerializer(serializers.ModelSerializer):
                 'updated_at',
                 'total_parcelles_coop_risk_eleve',
                 'total_parcelles_coop_risk_modere',
+                'sumSuperficieRisqueModere',
                 'total_parcelles_coop_risk_zero',
+                'total_parcelles_a_risque',
                 'total_parcelles_sup_4ha',
                 'total_parcelles_inf_4ha',
                 'sumSuperficieInf4ha',
                 'sumSuperficieSup4ha',
+                'total_production_coop',
 
                 # 'pourcentage_parcelles_sup_4ha',
                 # 'pourcentage_parcelles_inf_4ha',
@@ -270,11 +279,12 @@ class CooperativeSerializer(serializers.ModelSerializer):
 class SectionSerializer(serializers.ModelSerializer):
     class Meta:
         model=models.Section
-        fields=['id',
-                'cooperative',
-                'libelle',
-                'created_at',
-                'updated_at',
+        fields=[
+            'id',
+            'cooperative',
+            'libelle',
+            'created_at',
+            'updated_at',
         ]
         
     def __init__(self, *args, **kwargs):
@@ -380,6 +390,7 @@ class ParcelleSerializer(serializers.ModelSerializer):
                 'annee_certificat',
                 'annee_acquis',
                 'culture',
+                'risque',
                 'code_certif',
                 'acquisition',
                 'created_at',
@@ -524,17 +535,18 @@ class SaisonRecolteSerializer(serializers.ModelSerializer):
 class RecolteProducteurSerializer(serializers.ModelSerializer):
     class Meta:
         model=models.RecolteProducteur
-        fields=['code',
-                'producteur',
-                'campagne',
-                'saison',
-                'culture',
-                'lieu_production',
-                'nbre_sacs',
-                'poids_total',
-                'prix_total',
-                'created_at',
-                'updated_at'
+        fields=[
+            'code',
+            'parcelle',
+            'campagne',
+            'saison',
+            'culture',
+            'estimation_production',
+            'nbre_sacs',
+            'poids_total',
+            'prix_total',
+            'created_at',
+            'updated_at',                
         ]
         
     def __init__(self, *args, **kwargs):
@@ -586,3 +598,271 @@ class RdueSerialiser(serializers.ModelSerializer):
             'action_non_conformite',
             'add_le',
         ]
+
+
+############ ENQUETES #############################################
+
+class AgeSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Age
+        fields = [
+            'libelle'
+        ]
+
+    def __init__(self, *args, **kwargs):
+        super(AgeSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+
+class ThemeEnqueteSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Theme_Enquete
+        fields = [
+            'libelle'
+        ]
+
+    def __init__(self, *args, **kwargs):
+        super(ThemeEnqueteSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+
+class ProduitPhytoSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Produit_Phyto
+        fields = [
+            'libelle'
+        ]
+
+    def __init__(self, *args, **kwargs):
+        super(ProduitPhytoSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+
+class EngraisSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Engrais
+        fields = [
+            'libelle'
+        ]
+
+    def __init__(self, *args, **kwargs):
+        super(EngraisSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+
+class EnqueteSocialSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Enquete_Social
+        fields = [
+            "id",
+            "thematique",
+            "producteur",
+            "nb_epouse",
+            "nb_enfant",
+            "nb_personne",
+            "is_compte_bancaire",
+            "is_mobile_money",
+            "numero_mobile_money",
+            "revenu_moyen",
+        ]
+
+    def __init__(self, *args, **kwargs):
+        super(EnqueteSocialSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+
+class AgeEnfantSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Age_enfant
+        fields = [
+            'id',
+            'enquete_social',
+            'age',
+            'nombre_enfant',
+        ]
+
+    def __init__(self, *args, **kwargs):
+        super(AgeEnfantSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+
+class AgescolariseSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Age_scolarise
+        fields = [
+            'id',
+            'enquete_social',
+            'age',
+            'nombre_enfant_scolarise',
+        ]
+
+    def __init__(self, *args, **kwargs):
+        super(AgescolariseSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+
+class EnqueteExploitationSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Enquete_Exploitation
+        fields = [
+            'id',
+            'thematique',
+            'Parcelle',
+            'culture_principale',
+            'culture_secondaire',
+            'is_main_doeuvre_homme',
+            'nb_main_doeuvre_homme',
+            'salaire_moyen_homme',
+            'is_main_doeuvre_femme',
+            'nb_main_doeuvre_femme',
+            'salaire_moyen_femme',
+            'is_produit_phyto',
+            'is_engrais',
+        ]
+
+    def __init__(self, *args, **kwargs):
+        super(EnqueteExploitationSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+
+class DetailAgeHommeSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Detail_Age_Homme
+        fields = [
+            'id',
+            'enquete_exploitation',
+            'age_homme',
+            'nombre_homme',
+        ]
+
+    def __init__(self, *args, **kwargs):
+        super(DetailAgeHommeSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+
+class DetailAgeFemmeSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Detail_Age_Femme
+        fields = [
+            'id',
+            'enquete_exploitation',
+            'age_femme',
+            'nombre_femme',
+        ]
+
+    def __init__(self, *args, **kwargs):
+        super(DetailAgeFemmeSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+class DetailPhytoSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Detail_phyto
+        fields = [
+            'id',
+            'enquete_exploitation',
+            'produits_phyto',
+            'nom_produit',
+        ]
+
+    def __init__(self, *args, **kwargs):
+        super(DetailPhytoSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+
+class DetailEngraisSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Detail_Engrais
+        fields = [
+            'id',
+            'enquete_exploitation',
+            'engrais',
+            'nom_engrais',
+        ]
+    def __init__(self, *args, **kwargs):
+        super(DetailEngraisSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+
+class ActeProprieteSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = models.Acte_Propriete
+        fields = [
+            'id',
+            'libelle',
+        ]
+    def __init__(self, *args, **kwargs):
+        super(ActeProprieteSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 1
+
+
+
+class SectionPointSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=models.Section
+        fields=[
+            'id',
+            'cooperative',
+            'libelle',
+            'created_at',
+            'updated_at',
+        ]
+        
+    def __init__(self, *args, **kwargs):
+        super(SectionPointSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 2
+
+class PointSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=models.Point
+        fields=[
+            'id',
+            'section',
+            'point_type',
+            'libelle',
+            'contacts',
+            'latitude',
+            'longitude',
+            'photo',
+        ]
+    def __init__(self, *args, **kwargs):
+        super(PointSerializer, self).__init__(*args, **kwargs)
+        request = self.context.get('request')
+        self.Meta.depth = 0
+        if request and request.method == 'GET':
+            self.Meta.depth = 2
+
+
+
+
+
+
