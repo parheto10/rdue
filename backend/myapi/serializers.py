@@ -809,7 +809,7 @@ class DetailEngraisSerializer(serializers.ModelSerializer):
 
 class ActeProprieteSerializer(serializers.ModelSerializer):
     class Meta(object):
-        model = models.Acte_Propriete
+        model = models.ActePropriete
         fields = [
             'id',
             'libelle',

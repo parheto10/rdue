@@ -7,7 +7,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('myapi', '0031_rename_is_map_parcelle_is_mapped_and_more'),
+        ('myapi', '0029_alter_cooperative_projet'),
     ]
 
     operations = [

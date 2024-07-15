@@ -532,10 +532,6 @@ class Parcelle(models.Model):
     longitude = models.CharField(max_length=200, null=True, blank=True)
     is_mapped = models.BooleanField(default=False)
     superficie = models.FloatField(default=0)
-    
-    # certificat = models.ForeignKey(Certification, on_delete=models.CASCADE, null=True)
-    # code_certif = models.CharField(max_length=150, null=True, blank=True)
-    # annee_certificat = models.CharField(max_length=150, null=True, blank=True)
     annee_acquis = models.CharField(max_length=150, null=True, blank=True)
     culture = models.ForeignKey(Culture, on_delete=models.CASCADE, null=True)
     acquisition = models.ForeignKey(ModeAcquisition, on_delete=models.CASCADE, null=True)
