@@ -1,12 +1,14 @@
 import os
 from django.shortcuts import render
 
+from .models import RDUE
 from .serializers import CampagneProjetSerializer, CampagneSerializer, CertificationSerializer, \
     CooperativeSerializer, CountrieSerialiser, CultureSerializer, DetailPlantingSerializer, EspeceSerialiser, \
     EspeceSimulateSerializer, GroupeProducteurSerializer, ModeAcquisitionSerializer, MonitoringDetailSerializer, \
     MonitoringSerializer, ObservationMortaliteSerializer, ParcelleSerializer, PlantingSerializer, ProducteurSerializer, \
     ProjetSerializer, RecolteProducteurSerializer, RegionSerializer, SaisonRecolteSerializer, SectionSerializer, \
-    SimulateCarbonSerialiser, UserProjetSerializer, UtilisateurSerializer, RdueSerialiser
+    SimulateCarbonSerialiser, UserProjetSerializer, UtilisateurSerializer, RdueSerialiser, AgeSerializer, SectionPointSerializer, \
+    PointSerializer
 from . import models
 import random
 from django.core.mail import EmailMessage, get_connection
@@ -41,7 +43,7 @@ from reportlab.pdfgen import canvas
 import pandas as pd 
 from django.contrib.staticfiles import finders
 
-from .models import RDUE
+# from .models import RDUE, Enquete
 
 
 def link_callback(uri, rel):
@@ -146,6 +148,30 @@ class LoginUsersView(APIView):
                          'token':token,
                          'bool':True,
                          'role':'responsable',
+                         'proj':False
+                     }
+
+                    return response
+            
+            #connexion Client
+            if user.is_client : 
+                projusers = models.Projet.objects.filter(respo_id = user.id, etat = True)
+                
+                if len(projusers) > 0 :
+                    
+                    response.data = {
+                         'token':token,
+                         'bool':True,
+                         'role':'client',
+                         'proj':True
+                     }
+
+                    return response
+                elif len(projusers) == 0 :
+                    response.data = {
+                         'token':token,
+                         'bool':True,
+                         'role':'client',
                          'proj':False
                      }
 
@@ -425,6 +451,11 @@ class ProjetList(generics.ListAPIView):
         if 'projID' in self.request.GET :
             projID = self.request.GET['projID']
             queryset = models.Projet.objects.filter(id=int(projID))
+            nb_producteurs = models.Producteur.objects.filter(section__cooperative__projet_id=int(projID)).count()
+            print('nombre de Pructeurs : %s' % (nb_producteurs))
+            nb_parcelles = models.Parcelle.objects.filter(
+                producteur__section__cooperative__projet_id=int(projID)).count()
+            # print(nb_parcelles)
             
         if 'userID' in self.request.GET :
             userID = self.request.GET['userID']
@@ -438,12 +469,12 @@ class RegionList(generics.ListCreateAPIView):
     
 class SectionList(generics.ListAPIView):
     serializer_class = SectionSerializer
-
     def get_queryset(self):
         if 'coopID' in self.request.GET:
             coopID = self.request.GET['coopID']
             queryset = models.Section.objects.filter(cooperative_id = int(coopID))
-        
+            # queryset = models.Section.objects.filter(cooperative_id = coopID)
+            # print(queryset)
         return queryset
     
 class GroupeProList(generics.ListCreateAPIView):
@@ -474,15 +505,19 @@ class CooperativeList(generics.ListAPIView):
     def get_queryset(self):
         if 'projID' in self.request.GET:
             projID = self.request.GET['projID']
-            queryset = models.Cooperative.objects.filter(projet_id = int(projID))
+            queryset = models.Cooperative.objects.filter(projet_id = int(projID)).order_by("nomCoop")
+            nb_producteurs = models.Producteur.objects.filter(section__cooperative__projet_id = int(projID)).count()
+            # print('nombre de Pructeurs : %s' %(nb_producteurs))
+            nb_parcelles = models.Parcelle.objects.filter(producteur__section__cooperative__projet_id= int(projID)).count()
+            # print('nombre de Parcelles : %s' %(nb_parcelles))
             
         if 'coopID' in self.request.GET:
             coopID = self.request.GET['coopID']
-            queryset = models.Cooperative.objects.filter(id = int(coopID))
+            queryset = models.Cooperative.objects.filter(id = int(coopID)).order_by("nomCoop")
             
         if 'userID' in self.request.GET:
             userID = self.request.GET['userID']
-            queryset = models.Cooperative.objects.filter(respo_id = int(userID))
+            queryset = models.Cooperative.objects.filter(respo_id = int(userID)).order_by("nomCoop")
         
         return queryset
     
@@ -743,26 +778,26 @@ class ParcelleList_sup_4ha(generics.ListAPIView):
 
         if 'coopID' in self.request.GET:
             coopID = self.request.GET['coopID']
-            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(superficie__gte=4)
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(superficie__gt=4)
 
         if 'manager' in self.request.GET:
             manager = self.request.GET['manager']
-            queryset = models.Parcelle.objects.filter(producteur__section__cooperative__respo = int(manager)).filter(superficie__gte=4)
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative__respo = int(manager)).filter(superficie__gt=4)
 
         if 'q' and 'co' in self.request.GET:
             q = self.request.GET['q']
             coopID = self.request.GET['co']
-            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(Q(producteur__nomComplet__icontains = q) | Q(code__icontains = q)).filter(superficie__gte=4)
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(Q(producteur__nomComplet__icontains = q) | Q(code__icontains = q)).filter(superficie__gt=4)
 
         if 'code' and 'coop' in self.request.GET:
             code = self.request.GET['code']
             coop = self.request.GET['coop']
             parcelle = models.Parcelle.objects.filter(code = code).delete()
-            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coop)).filter(superficie__gte=4)
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coop)).filter(superficie__gt=4)
 
         if 'sectionID' in self.request.GET:
             sectionID = self.request.GET['sectionID']
-            queryset = models.Parcelle.objects.filter(producteur__section_id = int(sectionID)).filter(superficie__gte=4)
+            queryset = models.Parcelle.objects.filter(producteur__section_id = int(sectionID)).filter(superficie__gt=4)
 
         return queryset
 
@@ -774,11 +809,11 @@ class ParcelleList_inf_4ha(generics.ListAPIView):
         if 'coopID' and 'page' in self.request.GET:
             coopID = self.request.GET['coopID']
             limit = self.request.GET['page']
-            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(superficie__lt=4)[:int(limit)] # super > 4 ha
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(superficie__lte=4)[:int(limit)] # super > 4 ha
 
         if 'prodCode' in self.request.GET:
             prodCode = self.request.GET['prodCode']
-            queryset = models.Parcelle.objects.filter(producteur_id = prodCode).filter(superficie__lt=4)
+            queryset = models.Parcelle.objects.filter(producteur_id = prodCode).filter(superficie__lte=4)
 
         if 'parcId' in self.request.GET:
             parcId = self.request.GET['parcId']
@@ -787,28 +822,163 @@ class ParcelleList_inf_4ha(generics.ListAPIView):
 
         if 'coopID' in self.request.GET:
             coopID = self.request.GET['coopID']
-            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(superficie__lt=4)
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(superficie__lte=4)
 
         if 'manager' in self.request.GET:
             manager = self.request.GET['manager']
-            queryset = models.Parcelle.objects.filter(producteur__section__cooperative__respo = int(manager)).filter(superficie__lt=4)
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative__respo = int(manager)).filter(superficie__lte=4)
 
         if 'q' and 'co' in self.request.GET:
             q = self.request.GET['q']
             coopID = self.request.GET['co']
-            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(Q(producteur__nomComplet__icontains = q) | Q(code__icontains = q)).filter(superficie__lt=4)
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(Q(producteur__nomComplet__icontains = q) | Q(code__icontains = q)).filter(superficie__lte=4)
 
         if 'code' and 'coop' in self.request.GET:
             code = self.request.GET['code']
             coop = self.request.GET['coop']
             parcelle = models.Parcelle.objects.filter(code = code).delete()
-            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coop)).filter(superficie__lt=4)
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coop)).filter(superficie__lte=4)
 
         if 'sectionID' in self.request.GET:
             sectionID = self.request.GET['sectionID']
-            queryset = models.Parcelle.objects.filter(producteur__section_id = int(sectionID)).filter(superficie__lt=4)
+            queryset = models.Parcelle.objects.filter(producteur__section_id = int(sectionID)).filter(superficie__lte=4)
 
         return queryset
+
+class ParcelleList_risque_modere(generics.ListAPIView):
+    serializer_class = ParcelleSerializer
+    pagination_class = CustomPagination
+
+    def get_queryset(self):
+        if 'coopID' and 'page' in self.request.GET:
+            coopID = self.request.GET['coopID']
+            limit = self.request.GET['page']
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(Q(risque_id=2) | Q(risque_id=1))[:int(limit)] # super > 4 ha
+
+        if 'prodCode' in self.request.GET:
+            prodCode = self.request.GET['prodCode']
+            queryset = models.Parcelle.objects.filter(producteur_id = prodCode).filter(Q(risque_id=2) | Q(risque_id=1))
+
+        if 'parcId' in self.request.GET:
+            parcId = self.request.GET['parcId']
+            queryset = models.Parcelle.objects.filter(code = parcId)
+
+        if 'coopID' in self.request.GET:
+            coopID = self.request.GET['coopID']
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(Q(risque_id=2) | Q(risque_id=1))
+
+        if 'manager' in self.request.GET:
+            manager = self.request.GET['manager']
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative__respo = int(manager)).filter(Q(risque_id=2) | Q(risque_id=1))
+
+        if 'q' and 'co' in self.request.GET:
+            q = self.request.GET['q']
+            coopID = self.request.GET['co']
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(Q(producteur__nomComplet__icontains = q) | Q(code__icontains = q)).filter(Q(risque_id=2) | Q(risque_id=1))
+
+        if 'code' and 'coop' in self.request.GET:
+            code = self.request.GET['code']
+            coop = self.request.GET['coop']
+            parcelle = models.Parcelle.objects.filter(code = code).delete()
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coop)).filter(Q(risque_id=2) | Q(risque_id=1))
+
+        if 'sectionID' in self.request.GET:
+            sectionID = self.request.GET['sectionID']
+            queryset = models.Parcelle.objects.filter(producteur__section_id = int(sectionID)).filter(Q(risque_id=2) | Q(risque_id=1))
+
+        return queryset
+    
+
+class ParcelleList_plus4_non_mapper(generics.ListAPIView):
+    serializer_class = ParcelleSerializer
+    pagination_class = CustomPagination
+
+    def get_queryset(self):
+        if 'coopID' and 'page' in self.request.GET:
+            coopID = self.request.GET['coopID']
+            limit = self.request.GET['page']
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(superficie__gt=4).filter(is_mapped=False)[:int(limit)] # super > 4 ha non mapper
+            print(queryset)
+
+        if 'prodCode' in self.request.GET:
+            prodCode = self.request.GET['prodCode']
+            queryset = models.Parcelle.objects.filter(producteur_id = prodCode).filter(is_mapped=False).filter(superficie__gt=4)
+
+        if 'parcId' in self.request.GET:
+            parcId = self.request.GET['parcId']
+            queryset = models.Parcelle.objects.filter(code = parcId)
+
+        if 'coopID' in self.request.GET:
+            coopID = self.request.GET['coopID']
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(is_mapped=False).filter(superficie__gt=4)
+
+        if 'manager' in self.request.GET:
+            manager = self.request.GET['manager']
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative__respo = int(manager)).filter(is_mapped=False).filter(superficie__gt=4)
+
+        if 'q' and 'co' in self.request.GET:
+            q = self.request.GET['q']
+            coopID = self.request.GET['co']
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopID)).filter(Q(producteur__nomComplet__icontains = q) | Q(code__icontains = q)).filter(is_mapped=False).filter(superficie__gt=4)
+
+        if 'code' and 'coop' in self.request.GET:
+            code = self.request.GET['code']
+            coop = self.request.GET['coop']
+            parcelle = models.Parcelle.objects.filter(code = code).delete()
+            queryset = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coop)).filter(is_mapped=False).filter(superficie__gt=4)
+
+        if 'sectionID' in self.request.GET:
+            sectionID = self.request.GET['sectionID']
+            queryset = models.Parcelle.objects.filter(producteur__section_id = int(sectionID)).filter(is_mapped=False).filter(superficie__gt=4)
+
+        return queryset
+    
+
+class ProductionList(generics.ListAPIView):
+    serializer_class = RecolteProducteurSerializer
+    pagination_class = CustomPagination
+
+    def get_queryset(self):
+        if 'coopID' and 'page' in self.request.GET:
+            coopID = self.request.GET['coopID']
+            limit = self.request.GET['page']
+            queryset = models.RecolteProducteur.objects.filter(parcelle__producteur__section__cooperative_id = int(coopID)).order_by("producteur")[:int(limit)] # super > 4 ha non mapper
+            print(queryset)
+
+        if 'prodCode' in self.request.GET:
+            prodCode = self.request.GET['prodCode']
+            queryset = models.RecolteProducteur.objects.filter(parcelle__producteur_id = prodCode)
+
+        if 'parcId' in self.request.GET:
+            parcId = self.request.GET['parcId']
+            queryset = models.RecolteProducteur.objects.filter(code = parcId)
+
+        if 'coopID' in self.request.GET:
+            coopID = self.request.GET['coopID']
+            queryset = models.RecolteProducteur.objects.filter(parcelle__producteur__section__cooperative_id = int(coopID))
+
+        if 'manager' in self.request.GET:
+            manager = self.request.GET['manager']
+            queryset = models.RecolteProducteur.objects.filter(parcelle__producteur__section__cooperative__respo = int(manager))
+        if 'q' and 'co' in self.request.GET:
+            q = self.request.GET['q']
+            coopID = self.request.GET['co']
+            queryset = models.RecolteProducteur.objects.filter(parcelle__producteur__section__cooperative_id = int(coopID)).filter(Q(parcelle__producteur__nomComplet__icontains = q) | Q(code__icontains = q))
+
+        if 'code' and 'coop' in self.request.GET:
+            code = self.request.GET['code']
+            coop = self.request.GET['coop']
+            parcelle = models.RecolteProducteur.objects.filter(code = code).delete()
+            queryset = models.RecolteProducteur.objects.filter(parcelle__producteur__section__cooperative_id = int(coop))
+
+        if 'sectionID' in self.request.GET:
+            sectionID = self.request.GET['sectionID']
+            queryset = models.RecolteProducteur.objects.filter(parcelle__producteur__section_id = int(sectionID))
+
+        return queryset
+
+
+
 
 
 @csrf_exempt
@@ -1039,7 +1209,7 @@ class MonitoringList(generics.ListAPIView):
 
 class DetailMonitoringList(generics.ListAPIView):
     serializer_class = MonitoringDetailSerializer
-    
+
     def get_queryset(self):
         if 'code' in self.request.GET:
             code = self.request.GET['code']
@@ -1202,7 +1372,7 @@ def export_prod_cooperative(request):
     else :
         producteurs = models.Producteur.objects.filter(section__cooperative_id = int(coopId),campagne_id=int(campagne)).order_by('nomComplet')
     
-    if format_exp == 'PDF' :
+    if format_exp == 'PDF':
         template_path = 'pdf/producteur_pdf.html'
         context = {
             'cooperative':cooperative,
@@ -1236,7 +1406,7 @@ def export_prod_cooperative(request):
         font_style = xlwt.XFStyle()
         font_style.font.bold = True
 
-        columns = ['CODE', 'NOM ET PRENOMS', 'SECTION', 'NBRE DE PARCELLE', 'CONTACT','LIEU HABITATION']
+        columns = ['CODE', 'NOM ET PRENOMS', 'SECTION', 'NBRE DE PARCELLE', 'CONTACT', 'LOCALITE']
 
         for col_num in range(len(columns)):
             ws.write(row_num, col_num, columns[col_num], font_style)
@@ -1265,7 +1435,7 @@ def export_parcelle_cooperative(request):
     campagne = request.GET.get('campagne')
     coopId = request.GET.get('coopID')
     cooperative = models.Cooperative.objects.get(id=int(coopId))
-    
+
     if campagne == '':
         parcelles = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopId)).order_by('producteur__nomComplet')
     else :
@@ -1296,10 +1466,10 @@ def export_parcelle_cooperative(request):
     
     elif format_exp == 'EXCEL':
         response = HttpResponse(content_type='application/ms-excel')
-        response['Content-Disposition'] = 'attachment; filename="producteurs.xls"'
+        response['Content-Disposition'] = 'attachment; filename="parcelles.xls"'
 
         wb = xlwt.Workbook(encoding='utf-8')
-        ws = wb.add_sheet('Producteurs')
+        ws = wb.add_sheet('Parcelle')
 
         # Sheet header, first row
         row_num = 0
@@ -1307,7 +1477,7 @@ def export_parcelle_cooperative(request):
         font_style = xlwt.XFStyle()
         font_style.font.bold = True
 
-        columns = ['CODE', 'NOM ET PRENOMS', 'SECTION', 'CULTURE','CERTIFICATION', 'SUPERFICIE','LATITUDE','LONGITUDE']
+        columns = ['CODE', 'NOM ET PRENOMS', 'SECTION', 'CULTURE', 'CERTIFICATION', 'SUPERFICIE', 'LATITUDE', 'LONGITUDE']
 
         for col_num in range(len(columns)):
             ws.write(row_num, col_num, columns[col_num], font_style)
@@ -1319,7 +1489,7 @@ def export_parcelle_cooperative(request):
             'producteur__nomComplet',
             'producteur__section__libelle',
             'culture__libelle',
-            'certification',
+            'certificat__libelle',
             'superficie',
             'latitude',
             'longitude'
@@ -1331,7 +1501,146 @@ def export_parcelle_cooperative(request):
 
         wb.save(response)
         return response
-    
+
+def export_parcelle4plus_non_mapped(request):
+    format_exp = request.GET.get('format')
+    campagne = request.GET.get('campagne')
+    coopId = request.GET.get('coopID')
+    cooperative = models.Cooperative.objects.get(id=int(coopId))
+
+    if campagne == '':
+        parcelles = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopId)).filter(superficie__gt=4).filter(is_mapped=False).order_by('producteur__nomComplet')
+    else :
+        parcelles = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopId),campagne_id=int(campagne)).filter(is_mapped=False).order_by('producteur__nomComplet')
+
+    if format_exp == 'PDF' :
+        template_path = 'pdf/parcelles_pdf.html'
+        context = {
+            'cooperative':cooperative,
+            'parcelles':parcelles,
+        }
+
+        response = HttpResponse(content_type='application/pdf')
+        response['Content-Disposition'] = 'attachment; filename="Parcelles.pdf"'
+
+        template = get_template(template_path)
+        html = template.render(context)
+        pisa_status = pisa.CreatePDF(
+        html, dest=response)
+        #print(html)
+        # if error then show some funy view
+        if pisa_status.err:
+            return HttpResponse('Une Erreure est Survenue, Réessayer SVP...' + html + '</pre>')
+
+        return response
+
+    elif format_exp == 'EXCEL':
+        response = HttpResponse(content_type='application/ms-excel')
+        response['Content-Disposition'] = 'attachment; filename="parcelles.xls"'
+
+        wb = xlwt.Workbook(encoding='utf-8')
+        ws = wb.add_sheet('Parcelle')
+
+        # Sheet header, first row
+        row_num = 0
+
+        font_style = xlwt.XFStyle()
+        font_style.font.bold = True
+
+        columns = ['CODE', 'NOM ET PRENOMS', 'SECTION', 'CERTIFICATION', 'LATITUDE', 'LONGITUDE', 'SUPERFICIE']
+
+        for col_num in range(len(columns)):
+            ws.write(row_num, col_num, columns[col_num], font_style)
+
+        # Sheet body, remaining rows
+        font_style = xlwt.XFStyle()
+        rows = parcelles.values_list(
+            'code',
+            'producteur__nomComplet',
+            'producteur__section__libelle',
+            'certificat__libelle',
+            'latitude',
+            'longitude',
+            'superficie',
+        )
+        for row in rows:
+            row_num += 1
+            for col_num in range(len(row)):
+                ws.write(row_num, col_num, row[col_num], font_style)
+
+        wb.save(response)
+        return response
+
+def export_parcelle_a_risque(request):
+    format_exp = request.GET.get('format')
+    campagne = request.GET.get('campagne')
+    coopId = request.GET.get('coopID')
+    cooperative = models.Cooperative.objects.get(id=int(coopId))
+
+    if campagne == '':
+        parcelles = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopId)).filter(Q(risque_id=2) | Q(risque_id=1)).order_by('producteur__nomComplet')
+    else :
+        parcelles = models.Parcelle.objects.filter(producteur__section__cooperative_id = int(coopId),campagne_id=int(campagne)).filter(Q(risque_id=2) | Q(risque_id=1)).order_by('producteur__nomComplet')
+
+    if format_exp == 'PDF' :
+        template_path = 'pdf/parcelles_a_risque_pdf.html'
+        context = {
+            'cooperative':cooperative,
+            'parcelles':parcelles,
+        }
+
+        response = HttpResponse(content_type='application/pdf')
+        response['Content-Disposition'] = 'attachment; filename="Parcelles_a_risque.pdf"'
+
+        template = get_template(template_path)
+        html = template.render(context)
+        pisa_status = pisa.CreatePDF(
+        html, dest=response)
+        #print(html)
+        # if error then show some funy view
+        if pisa_status.err:
+            return HttpResponse('Une Erreure est Survenue, Réessayer SVP...' + html + '</pre>')
+
+        return response
+
+    elif format_exp == 'EXCEL':
+        response = HttpResponse(content_type='application/ms-excel')
+        response['Content-Disposition'] = 'attachment; filename="parcelles.xls"'
+
+        wb = xlwt.Workbook(encoding='utf-8')
+        ws = wb.add_sheet('Parcelle')
+
+        # Sheet header, first row
+        row_num = 0
+
+        font_style = xlwt.XFStyle()
+        font_style.font.bold = True
+
+        columns = ['CODE', 'NOM ET PRENOMS', 'SECTION', 'CERTIFICATION', 'LATITUDE', 'LONGITUDE', 'SUPERFICIE', 'RISQUE']
+
+        for col_num in range(len(columns)):
+            ws.write(row_num, col_num, columns[col_num], font_style)
+
+        # Sheet body, remaining rows
+        font_style = xlwt.XFStyle()
+        rows = parcelles.values_list(
+            'code',
+            'producteur__nomComplet',
+            'producteur__section__libelle',
+            'certificat__libelle',
+            'latitude',
+            'longitude',
+            'superficie',
+            'risque__libelle',
+        )
+        for row in rows:
+            row_num += 1
+            for col_num in range(len(row)):
+                ws.write(row_num, col_num, row[col_num], font_style)
+
+        wb.save(response)
+        return response
+
     
     
 @csrf_exempt
@@ -1484,6 +1793,96 @@ def analyse_rdue(request):
 class ListeAnalyse(generics.ListAPIView):
     queryset = RDUE.objects.all()
     serializer_class = RdueSerialiser
+
+class AgeList(generics.ListCreateAPIView):
+    serializer_class = AgeSerializer
+    queryset = models.Age.objects.all()
+
+
+
+class SectionPointListe(generics.ListAPIView):
+    serializer_class = SectionPointSerializer
+    queryset = models.SectionPoint.objects.all()
+
+
+class PointList(generics.ListAPIView):
+    serializer_class = PointSerializer
+    queryset = models.Point.objects.all()
+
+
+# def create_enquete(request):
+#     producteur =request.POST.get('producteur')
+#     nb_epouse = request.POST.get('nb_epouse')
+#     enfant_mineur = request.POST.get('enfant_mineur')
+#     enfant_majeur = request.POST.get('enfant_majeur')
+#     nb_enfant = request.POST.get('nb_enfant')
+#     enfant_scolarise = request.POST.get('enfant_scolarise')
+#     nb_personne = request.POST.get('nb_personne')
+#     is_manoeuvre = request.POST.get('manoeuvre')
+#     is_manoeuvre_femme = request.POST.get('manoeuvre_femme')
+#     nb_manoeuvre_femme = request.POST.get('nb_manoeuvre_femme')
+#     type_manoeuvre = request.POST.get('type_manoeuvre')
+#     nb_manoeuvre = request.POST.get('nb_manoeuvre')
+#     is_ouvrier_mineur= request.POST.get('is_ouvrier_mineur')
+#     nb_ouvrier_mineur = request.POST.get('nb_ouvrier_mineur')
+#     salaire_ouvrier = request.POST.get('salaire_ouvrier')
+#     utilisation_produit_phyto = request.POST.get('utilisation_produit_phyto')
+#     is_eau_potable = request.POST.get('is_eau_potable')
+#     is_electricite = request.POST.get('is_electricite')
+#     is_soins = request.POST.get('is_soins')
+#     nb_dispensaire = request.POST.get('nb_dispensaire')
+#     dtce_dispensaire = request.POST.get('dtce_dispensaire')
+#     nb_ecole_primaire = request.POST.get('nb_ecole_primaire')
+#     dtce_ecole_primaire = request.POST.get('dtce_ecole_primaire')
+#     is_college = request.POST.get('is_college')
+#     nb_college = request.POST.get('nb_college')
+#     dtce_college = request.POST.get('dtce_college')
+#     is_banque = request.POST.get('is_banque')
+#     nb_banque = request.POST.get('nb_banque')
+#     dtce_banque = request.POST.get('dtce_banque')
+#
+#     enquete = Enquete.objects.create(
+#         producteur = producteur,
+#         nb_epouse = nb_epouse,
+#         enfant_mineur = enfant_mineur,
+#         enfant_majeur = enfant_majeur,
+#         nb_enfant = nb_enfant,
+#         enfant_scolarise = enfant_scolarise,
+#         nb_personne  = nb_personne,
+#         is_manoeuvre = is_manoeuvre,
+#         is_manoeuvre_femme = is_manoeuvre_femme,
+#         nb_manoeuvre_femme = nb_manoeuvre_femme,
+#         type_manoeuvre = type_manoeuvre,
+#         nb_manoeuvre = nb_manoeuvre,
+#         is_ouvrier_mineur = is_ouvrier_mineur,
+#         nb_ouvrier_mineur = nb_ouvrier_mineur,
+#         salaire_ouvrier = salaire_ouvrier,
+#         utilisation_produit_phyto = utilisation_produit_phyto,
+#         is_eau_potable = is_eau_potable,
+#         is_electricite = is_electricite,
+#         is_soins = is_soins,
+#         nb_dispensaire = nb_dispensaire,
+#         dtce_dispensaire = dtce_dispensaire,
+#         nb_ecole_primaire = nb_ecole_primaire,
+#         dtce_ecole_primaire = dtce_ecole_primaire,
+#         is_college = is_college,
+#         nb_college = nb_college,
+#         dtce_college = dtce_college,
+#         is_banque = is_banque,
+#         nb_banque = nb_banque,
+#         dtce_banque = dtce_banque,
+#     )
+#
+#     if enquete :
+#         return JsonResponse({'bool': True, 'msg': 'Enregistrement Effectué avec Succès'})
+#     else:
+#         return JsonResponse({'bool': False, 'msg': 'Ooops... Reessayé svp !'})
+
+
+
+# class EnqueteList(generics.ListCreateAPIView):
+#     serializer_class = EnqueteSerializer
+#     queryset = models.Enquete.objects.all()
 
     
     

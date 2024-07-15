@@ -1,0 +1,726 @@
+.dashboard {
+  background-color: #eef1de;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.dashboard .div-7 {
+  background-color: #eef1de;
+  height: 1078px;
+  position: relative;
+  width: 1440px;
+}
+
+.dashboard .rectangle-3 {
+  background: linear-gradient(180deg, rgb(39.33, 124.67, 9.35) 12.06%, rgba(39.14, 150.52, 0, 0.77) 100%);
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: -1px;
+  width: 1440px;
+}
+
+.dashboard .overlap {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 95px;
+  left: 243px;
+  position: absolute;
+  top: 10px;
+  width: 1146px;
+}
+
+.dashboard .group-5 {
+  height: 28px;
+  left: 1098px;
+  position: absolute;
+  top: 33px;
+  width: 25px;
+}
+
+.dashboard .overlap-group-3 {
+  height: 28px;
+  position: relative;
+}
+
+.dashboard .vector-2 {
+  height: 27px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 21px;
+}
+
+.dashboard .ellipse-4 {
+  background-color: #ff0000;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 5.5px;
+  height: 11px;
+  left: 14px;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.dashboard .overlap-wrapper {
+  height: 26px;
+  left: 1036px;
+  position: absolute;
+  top: 34px;
+  width: 29px;
+}
+
+.dashboard .overlap-2 {
+  height: 26px;
+  position: relative;
+}
+
+.dashboard .vector-3 {
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 29px;
+}
+
+.dashboard .ellipse-5 {
+  background-color: #ff0000;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 5.5px;
+  height: 11px;
+  left: 15px;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.dashboard .overlap-3 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 918px;
+  left: 243px;
+  position: absolute;
+  top: 130px;
+  width: 1146px;
+}
+
+.dashboard .overlap-4 {
+  background-color: #eff2de;
+  border-radius: 10px;
+  height: 68px;
+  left: 244px;
+  position: absolute;
+  top: 20px;
+  width: 710px;
+}
+
+.dashboard .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  left: 203px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  white-space: nowrap;
+}
+
+.dashboard .overlap-5 {
+  background-color: #f4f4f4;
+  border: 1px solid;
+  border-color: #cbd39980;
+  border-radius: 50px;
+  height: 50px;
+  left: 244px;
+  position: absolute;
+  top: 157px;
+  width: 345px;
+}
+
+.dashboard .text-wrapper-6 {
+  color: #898989;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
+}
+
+.dashboard .overlap-6 {
+  background-color: #f4f4f4;
+  border: 1px solid;
+  border-color: #cbd39980;
+  border-radius: 50px;
+  height: 50px;
+  left: 608px;
+  position: absolute;
+  top: 157px;
+  width: 346px;
+}
+
+.dashboard .overlap-7 {
+  background-color: #f4f4f4;
+  border: 1px solid;
+  border-color: #cbd39980;
+  border-radius: 50px;
+  height: 50px;
+  left: 244px;
+  position: absolute;
+  top: 395px;
+  width: 710px;
+}
+
+.dashboard .text-wrapper-7 {
+  color: #898989;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+}
+
+.dashboard .overlap-8 {
+  background-color: #f4f4f4;
+  border: 1px solid;
+  border-color: #cbd39980;
+  border-radius: 50px;
+  height: 50px;
+  left: 244px;
+  position: absolute;
+  top: 693px;
+  width: 223px;
+}
+
+.dashboard .overlap-9 {
+  background-color: #f4f4f4;
+  border: 1px solid;
+  border-color: #cbd39980;
+  border-radius: 50px;
+  height: 50px;
+  left: 487px;
+  position: absolute;
+  top: 693px;
+  width: 223px;
+}
+
+.dashboard .overlap-10 {
+  background-color: #f4f4f4;
+  border: 1px solid;
+  border-color: #cbd39980;
+  border-radius: 50px;
+  height: 50px;
+  left: 731px;
+  position: absolute;
+  top: 693px;
+  width: 223px;
+}
+
+.dashboard .overlap-11 {
+  background-color: #f4f4f4;
+  border: 1px solid;
+  border-color: #cbd39980;
+  border-radius: 10px;
+  height: 110px;
+  left: 244px;
+  position: absolute;
+  top: 514px;
+  width: 710px;
+}
+
+.dashboard .overlap-12 {
+  background-color: #f4f4f4;
+  border: 1px solid;
+  border-color: #cbd39980;
+  border-radius: 50px;
+  height: 50px;
+  left: 244px;
+  position: absolute;
+  top: 276px;
+  width: 345px;
+}
+
+.dashboard .overlap-13 {
+  background-color: #f4f4f4;
+  border: 1px solid;
+  border-color: #cbd39980;
+  border-radius: 50px;
+  height: 50px;
+  left: 608px;
+  position: absolute;
+  top: 276px;
+  width: 346px;
+}
+
+.dashboard .overlap-14 {
+  background-color: #94a91b;
+  border-radius: 50px;
+  height: 50px;
+  left: 244px;
+  position: absolute;
+  top: 825px;
+  width: 710px;
+}
+
+.dashboard .text-wrapper-8 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 320px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-9 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 244px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 484px;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-10 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 608px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 246px;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-11 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 244px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 365px;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-12 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 244px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 663px;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-13 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 487px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 663px;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-14 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 731px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 663px;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-15 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 244px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 246px;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-16 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 244px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 127px;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-17 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 608px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 127px;
+  white-space: nowrap;
+}
+
+.dashboard .group-6 {
+  background-color: #ffffff;
+  height: 100px;
+  left: 0;
+  position: fixed;
+  top: 5px;
+  width: 223px;
+}
+
+.dashboard .rectangle-4 {
+  height: 652px;
+  left: 0;
+  object-fit: cover;
+  position: fixed;
+  top: 105px;
+  width: 223px;
+}
+
+.dashboard .rectangle-5 {
+  background: linear-gradient(180deg, rgb(255, 255, 255) 12.06%, rgba(255, 255, 255, 0.77) 100%);
+  height: 652px;
+  left: 0;
+  position: fixed;
+  top: 105px;
+  width: 223px;
+}
+
+.dashboard .group-7 {
+  height: 22px;
+  left: 18px;
+  position: fixed;
+  top: 355px;
+  width: 203px;
+}
+
+.dashboard .text-wrapper-18 {
+  color: #e9a800;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.dashboard .vector-4 {
+  height: 1px;
+  left: 66px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 136px;
+}
+
+.dashboard .group-8 {
+  height: 22px;
+  left: 18px;
+  position: fixed;
+  top: 479px;
+  width: 195px;
+}
+
+.dashboard .text-wrapper-19 {
+  color: #94a91b;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.dashboard .vector-5 {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+.dashboard .group-9 {
+  height: 22px;
+  left: 18px;
+  position: fixed;
+  top: 573px;
+  width: 124px;
+}
+
+.dashboard .vector-6 {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.dashboard .group-10 {
+  display: block;
+  height: 20px;
+  left: 18px;
+  position: fixed;
+  top: 216px;
+  width: 132px;
+}
+
+.dashboard .group-11 {
+  height: 20px;
+  position: relative;
+  width: 134px;
+}
+
+.dashboard .group-12 {
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.dashboard .group-13 {
+  display: block;
+  height: 24px;
+  left: 18px;
+  position: fixed;
+  top: 120px;
+  width: 153px;
+}
+
+.dashboard .vector-7 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.dashboard .text-wrapper-20 {
+  color: #94a91b;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3px;
+}
+
+.dashboard .group-14 {
+  height: 85px;
+  left: 52px;
+  position: fixed;
+  top: 6px;
+  width: 119px;
+}
+
+.dashboard .group-15 {
+  height: 85px;
+  width: 121px;
+}
+
+.dashboard .overlap-group-4 {
+  height: 85px;
+  position: relative;
+  width: 119px;
+}
+
+.dashboard .logo-agro-map {
+  height: 73px;
+  left: 23px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.dashboard .text-wrapper-21 {
+  color: #94a91b;
+  font-family: "Inter", Helvetica;
+  font-size: 19px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 62px;
+}
+
+.dashboard .group-16 {
+  height: 22px;
+  left: 18px;
+  position: fixed;
+  top: 169px;
+  width: 203px;
+}
+
+.dashboard .vector-8 {
+  height: 1px;
+  left: 142px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 60px;
+}
+
+.dashboard .group-17 {
+  height: 22px;
+  left: 18px;
+  position: fixed;
+  top: 526px;
+  width: 203px;
+}
+
+.dashboard .vector-9 {
+  height: 1px;
+  left: 110px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 92px;
+}
+
+.dashboard .group-18 {
+  height: 52px;
+  left: 0;
+  position: fixed;
+  top: 402px;
+  width: 223px;
+}
+
+.dashboard .overlap-15 {
+  height: 52px;
+  position: relative;
+}
+
+.dashboard .rectangle-6 {
+  background-color: #e9a800;
+  height: 52px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.dashboard .group-19 {
+  background-color: #e9a80033;
+  height: 52px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 223px;
+}
+
+.dashboard .group-20 {
+  height: 22px;
+  left: 18px;
+  position: relative;
+  top: 15px;
+  width: 175px;
+}
+
+.dashboard .text-wrapper-22 {
+  color: #e9a800;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+}
+
+.dashboard .group-21 {
+  display: block;
+  height: 22px;
+  left: 18px;
+  position: fixed;
+  top: 261px;
+  width: 175px;
+}
+
+.dashboard .vector-10 {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.dashboard .group-22 {
+  height: 22px;
+  left: 18px;
+  position: fixed;
+  top: 308px;
+  width: 150px;
+}
+
+.dashboard .group-23 {
+  display: block;
+  height: 24px;
+  left: 18px;
+  position: fixed;
+  top: 620px;
+  width: 92px;
+}
+
+.dashboard .vector-11 {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 24px;
+}

@@ -34,9 +34,15 @@ urlpatterns = [
     path('producteurs-list-paginate/',views.ProducteurList.as_view()),
     path('producteurs-list/',views.ProducteurListNotPaginate.as_view()),
     path('parcelles-list/',views.ParcelleList.as_view()),
+    path('productions-list/',views.ProductionList.as_view()),
+    
 
     path('parcelles-list-sup-4ha/',views.ParcelleList_sup_4ha.as_view()), #parcelles-list-sup-4ha
     path('parcelles-list-inf-4ha/',views.ParcelleList_inf_4ha.as_view()), #parcelles-list-inf-4ha
+    path('parcelles-list-modere/',views.ParcelleList_risque_modere.as_view()), #parcelles-list-modere
+    path('parcelles-list-sup-4ha-non-mapper/',views.ParcelleList_plus4_non_mapper.as_view()), #parcelles-list-4ha-non-mapper
+
+    
 
     path('parcelles-carte/',views.ParcelleListCarte.as_view()), ##### Parcelles For Carte
     path('create-new-parcelle/',views.create_new_parcelle),
@@ -66,6 +72,10 @@ urlpatterns = [
     
     path('export-prod-cooperative/',views.export_prod_cooperative),
     path('export-parcelle-cooperative/',views.export_parcelle_cooperative),
+    path('export-parcelle-cooperative-non-mapper/',views.export_parcelle4plus_non_mapped),
+    path('export-parcelle-cooperative-a-risque/',views.export_parcelle_a_risque),
+
+    
     
     path('certification-list/',views.CertificationList.as_view()),
     
@@ -83,4 +93,12 @@ urlpatterns = [
     ############## ANALYSE RDUE #####################
     path('analyses_rdue/',views.ListeAnalyse.as_view()),
     path('create_analyse/',views.analyse_rdue),
+
+    ############## ENQUETES #####################
+    path('ages_liste/',views.AgeList.as_view()),
+    # path('create_enquete/',views.create_enquete),
+
+    ############## POINTS #####################
+    path('section_point/',views.SectionPointListe.as_view()),
+    path('points/',views.PointList.as_view()),
 ]

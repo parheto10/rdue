@@ -1,0 +1,25 @@
+.en-cours {
+  align-items: center;
+  background-color: #94a91b;
+  border-radius: 20px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 1027px;
+  padding: 5px 10px;
+  position: relative;
+  top: 268px;
+}
+
+.en-cours .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
