@@ -7,7 +7,7 @@ from .models import Campagne, CampagneProjet, CategorieEspece, Certification, Co
     ObservationMonitoring, ObservationMortalite, Parcelle, Planting, Producteur, Projet, RecolteProducteur, Region, \
     SaisonRecolte, Section, SimulateCarbon, UserProjet, Utilisateur, RDUE, RisqueRDUE, Age, Theme_Enquete, \
     Produit_Phyto, Engrais, Enquete_Social, Age_enfant, Age_scolarise, Enquete_Exploitation, Detail_Age_Homme , \
-    Detail_Age_Femme, Detail_phyto, Detail_Engrais, ActePropriete, SectionPoint, Point
+    Detail_Age_Femme, Detail_phyto, Detail_Engrais, Acte_Propriete, SectionPoint, Point
 
 
 @admin.register(Section)
@@ -143,7 +143,7 @@ admin.site.register(Detail_Age_Homme)
 admin.site.register(Detail_Age_Femme)
 admin.site.register(Detail_phyto)
 admin.site.register(Detail_Engrais)
-admin.site.register(ActePropriete)
+admin.site.register(Acte_Propriete)
 
 admin.site.register(SectionPoint)
 admin.site.register(Point)

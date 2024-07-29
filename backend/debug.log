@@ -7212,3 +7212,151 @@ Watching for file changes with StatReloader
 "GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 105
 "GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
 "GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 125
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 117
+Watching for file changes with StatReloader
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 631035
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 158
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 393
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 169
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 318
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 9952
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 108
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 851
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 504818
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 631035
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 105
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 125
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 160
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0707229041 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0707229041 HTTP/1.1" 200 422
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 318
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 9496
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 108
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 727
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 441929
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 542705
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 608
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 1304
+Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 85
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 85
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 85
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 85
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 156
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 160
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0707229041 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0707229041 HTTP/1.1" 200 422
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 318
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 9496
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 108
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 727
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 441929
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 542705
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 608
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 1304
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 160
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0707229041 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0707229041 HTTP/1.1" 200 422
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 318
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 9496
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 108
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 727
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 441929
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 542705
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 608
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 1304
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 64
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 64
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 99
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\myapi\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\myapi\admin.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\myapi\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 110
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader

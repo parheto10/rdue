@@ -490,7 +490,7 @@ class Certification(models.Model):
         return '%s' %(self.libelle)
 
 
-class ActePropriete(models.Model):
+class Acte_Propriete(models.Model):
     libelle = models.CharField(max_length=250, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -501,7 +501,7 @@ class ActePropriete(models.Model):
 
     def save(self, force_insert=False, force_update=False, using=None):
         self.libelle = self.libelle.upper()
-        super(ActePropriete, self).save(force_insert, force_update, using)
+        super(Acte_Propriete, self).save(force_insert, force_update, using)
 
     def __str__(self):
         return '%s' % (self.libelle)
@@ -535,7 +535,7 @@ class Parcelle(models.Model):
     annee_acquis = models.CharField(max_length=150, null=True, blank=True)
     culture = models.ForeignKey(Culture, on_delete=models.CASCADE, null=True)
     acquisition = models.ForeignKey(ModeAcquisition, on_delete=models.CASCADE, null=True)
-    titre_de_propriete = models.ForeignKey(ActePropriete, on_delete=models.CASCADE, null=True)
+    titre_de_propriete = models.ForeignKey(Acte_Propriete, on_delete=models.CASCADE, null=True)
     image_du_titre_de_propriete = models.ImageField(upload_to='titre_de_propriete/', null=True)
     fichier_de_mappage = models.ImageField(upload_to='fichier_mapping/', null=True)
     created_at = models.DateTimeField(auto_now_add=True)

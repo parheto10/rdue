@@ -9,7 +9,7 @@ from rest_framework.viewsets import ViewSet
 from mobiles_api.controllers.parcelle_controller import ParcelleController
 from foret.naiveclasses import ResponseClass
 from mobiles_api.serializers import ParcelleSerializer
-from myapi.models import Campagne, Culture, ModeAcquisition, Parcelle, Producteur, Cooperative
+from myapi.models import Acte_Propriete, Campagne, Culture, ModeAcquisition, Parcelle, Producteur, Cooperative
 
 class ParcelleViewSet(ViewSet):
     
@@ -54,12 +54,12 @@ class ParcelleViewSet(ViewSet):
             annee_acquis = request.data['annee_acquis']
             is_mapped = bool(request.data['is_mapped'])
             acquisition = None if request.data['acquisition']==None else ModeAcquisition.objects.get(pk=request.data['acquisition'])
-            titre_de_propriete = request.data['titre_de_propriete']
+            titre_de_propriete = None if request.data['titre_de_propriete']==None else Acte_Propriete.objects.get(pk=request.data['titre_de_propriete'])
             image_du_titre_de_propriete = None if request.data['image_du_titre_de_propriete']==None else File(request.data['image_du_titre_de_propriete'])
-            fichier_de_mappage = self.controller_class.json_to_kml(File(request.data['fichier_de_mappage']))
-            fichier_de_mappage_path = f'{code}.kml'
-            fichier_de_mappage.save(fichier_de_mappage_path)
-            producteur = Producteur.objects.get(pk=request.data['producteur'])
+            # fichier_de_mappage = self.controller_class.json_to_kml(File(request.data['fichier_de_mappage']))
+            # fichier_de_mappage_path = f'{code}.kml'
+            # fichier_de_mappage.save(fichier_de_mappage_path)
+            producteur = Producteur.objects.get(code=request.data['producteur'])
             parcelle, created = Parcelle.objects.get_or_create(code=code)
             parcelle.producteur = producteur
             parcelle.campagne = campagne
@@ -72,10 +72,11 @@ class ParcelleViewSet(ViewSet):
             parcelle.acquisition = acquisition
             parcelle.titre_de_propriete = titre_de_propriete
             parcelle.image_du_titre_de_propriete = image_du_titre_de_propriete
-            with open(fichier_de_mappage_path, 'rb') as mapping:
-                parcelle.fichier_de_mappage = File(mapping)
-                parcelle.save()
-            os.remove(fichier_de_mappage_path)
+            # with open(fichier_de_mappage_path, 'rb') as mapping:
+            #     parcelle.fichier_de_mappage = File(mapping)
+            #     parcelle.save()
+            # os.remove(fichier_de_mappage_path)
+            parcelle.save()
             response = ResponseClass(result=True, has_data=False, message='')
         except Exception as e:
             response = ResponseClass(result=False, has_data=False, message=str(e))
