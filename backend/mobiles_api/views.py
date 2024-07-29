@@ -12,3 +12,4 @@ from .views_classes.certification_view import CertificationViewSet, CertificatVi
 from .views_classes.culture_view import CultureViewSet
 from .views_classes.modeacquisition_view import ModeAcquisitionViewSet
 from .views_classes.espece_view import EspeceViewSet
+from .views_classes.actepropriete_view import ActeProprieteViewSet

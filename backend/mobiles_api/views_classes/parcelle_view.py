@@ -54,7 +54,7 @@ class ParcelleViewSet(ViewSet):
             annee_acquis = request.data['annee_acquis']
             is_mapped = bool(request.data['is_mapped'])
             acquisition = None if request.data['acquisition']==None else ModeAcquisition.objects.get(pk=request.data['acquisition'])
-            titre_de_propriete = None if request.data['titre_de_propriete']==None else Acte_Propriete.objects.get(pk=request.data['titre_de_propriete'])
+            titre_de_propriete = None if request.data['titre_de_propriete']=='' else Acte_Propriete.objects.get(pk=request.data['titre_de_propriete'])
             image_du_titre_de_propriete = None if request.data['image_du_titre_de_propriete']==None else File(request.data['image_du_titre_de_propriete'])
             # fichier_de_mappage = self.controller_class.json_to_kml(File(request.data['fichier_de_mappage']))
             # fichier_de_mappage_path = f'{code}.kml'

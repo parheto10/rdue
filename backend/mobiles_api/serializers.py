@@ -1,7 +1,7 @@
 from rest_framework.serializers import ModelSerializer
 
 # models imports
-from myapi.models import Cooperative, Utilisateur, Section, Campagne, Producteur, Parcelle, Planting, DetailPlanting, Certification, Culture, ModeAcquisition, Espece
+from myapi.models import Acte_Propriete, Cooperative, Utilisateur, Section, Campagne, Producteur, Parcelle, Planting, DetailPlanting, Certification, Culture, ModeAcquisition, Espece
 from .models import Certificat
 
 class UtilisateurSerializer(ModelSerializer):
@@ -83,4 +83,10 @@ class ModeAcquisitionSerializer(ModelSerializer):
     
     class Meta:
         model = ModeAcquisition
+        fields = ['id', 'libelle']
+        
+class ActeProprieteSerializer(ModelSerializer):
+    
+    class Meta:
+        model = Acte_Propriete
         fields = ['id', 'libelle']

@@ -7360,3 +7360,19 @@ Watching for file changes with StatReloader
 "POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 110
 E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 105
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 64
+Watching for file changes with StatReloader
+Not Found: /api-mobile/mode_acquisition/get_all_acte_propriete
+"GET /api-mobile/mode_acquisition/get_all_acte_propriete HTTP/1.1" 404 8091
+Not Found: /api-mobile/mode_acquisition/get_all_acte_propriete
+"GET /api-mobile/mode_acquisition/get_all_acte_propriete HTTP/1.1" 404 8091
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 289
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\actepropriete_view.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
