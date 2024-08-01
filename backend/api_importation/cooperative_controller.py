@@ -40,6 +40,7 @@ class CooperativeController:
             producteur.section = section
             producteur.nomComplet = str(prod.get('NOM DU PRODUCTEUR'))
             producteur.contacts = str(prod.get('NUMERO DE TELEPHONE DU PRODUCTEUR'))
+            producteur.lieu_habitation = str(prod.get('LOCALITE'))
             producteur.campagne = self.campagne
             producteur.save()
             return producteur
