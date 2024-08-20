@@ -1477,7 +1477,7 @@ def export_parcelle_cooperative(request):
         font_style = xlwt.XFStyle()
         font_style.font.bold = True
 
-        columns = ['CODE', 'NOM ET PRENOMS', 'SECTION', 'CULTURE', 'CERTIFICATION', 'SUPERFICIE', 'LATITUDE', 'LONGITUDE']
+        columns = ['CODE', 'NOM ET PRENOMS', 'SECTION', 'CULTURE', 'SUPERFICIE', 'LATITUDE', 'LONGITUDE']
 
         for col_num in range(len(columns)):
             ws.write(row_num, col_num, columns[col_num], font_style)
@@ -1489,7 +1489,6 @@ def export_parcelle_cooperative(request):
             'producteur__nomComplet',
             'producteur__section__libelle',
             'culture__libelle',
-            'certificat__libelle',
             'superficie',
             'latitude',
             'longitude'
