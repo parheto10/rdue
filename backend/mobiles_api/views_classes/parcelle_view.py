@@ -46,19 +46,19 @@ class ParcelleViewSet(ViewSet):
     def synchronisation(self, request):
         try:
             code = request.data['code']
-            campagne = None if request.data['campagne']==None else Campagne.objects.get(pk=request.data['campagne'])
-            culture = None if request.data['culture']==None else Culture.objects.get(pk=request.data['culture'])
+            campagne = None if request.data['campagne']== '' else Campagne.objects.get(pk=request.data['campagne'])
+            culture = None if request.data['culture']== '' else Culture.objects.get(pk=request.data['culture'])
             latitude = request.data['latitude']
             longitude = request.data['longitude']
             superficie = request.data['superficie']
             annee_acquis = request.data['annee_acquis']
             is_mapped = bool(request.data['is_mapped'])
-            acquisition = None if request.data['acquisition']==None else ModeAcquisition.objects.get(pk=request.data['acquisition'])
+            acquisition = None if request.data['acquisition']== '' else ModeAcquisition.objects.get(pk=request.data['acquisition'])
             titre_de_propriete = None if request.data['titre_de_propriete']=='' else Acte_Propriete.objects.get(pk=request.data['titre_de_propriete'])
             image_du_titre_de_propriete = None if request.data['image_du_titre_de_propriete']==None else File(request.data['image_du_titre_de_propriete'])
-            # fichier_de_mappage = self.controller_class.json_to_kml(File(request.data['fichier_de_mappage']))
-            # fichier_de_mappage_path = f'{code}.kml'
-            # fichier_de_mappage.save(fichier_de_mappage_path)
+            fichier_de_mappage = self.controller_class.json_to_kml(File(request.data['fichier_de_mappage']))
+            fichier_de_mappage_path = f'{code}.kml'
+            fichier_de_mappage.save(fichier_de_mappage_path)
             producteur = Producteur.objects.get(code=request.data['producteur'])
             parcelle, created = Parcelle.objects.get_or_create(code=code)
             parcelle.producteur = producteur
@@ -72,10 +72,10 @@ class ParcelleViewSet(ViewSet):
             parcelle.acquisition = acquisition
             parcelle.titre_de_propriete = titre_de_propriete
             parcelle.image_du_titre_de_propriete = image_du_titre_de_propriete
-            # with open(fichier_de_mappage_path, 'rb') as mapping:
-            #     parcelle.fichier_de_mappage = File(mapping)
-            #     parcelle.save()
-            # os.remove(fichier_de_mappage_path)
+            with open(fichier_de_mappage_path, 'rb') as mapping:
+                parcelle.fichier_de_mappage = File(mapping)
+                parcelle.save()
+            os.remove(fichier_de_mappage_path)
             parcelle.save()
             response = ResponseClass(result=True, has_data=False, message='')
         except Exception as e:
