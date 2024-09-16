@@ -1,5 +1,3 @@
-from datetime import datetime
-import uuid
 # Externals imports
 from rest_framework.decorators import action
 from rest_framework.viewsets import ViewSet
@@ -11,10 +9,11 @@ from foret.naiveclasses import ResponseClass
 from mobiles_api.serializers import PlantingSerializer
 from myapi.models import Campagne, Planting, Parcelle, Cooperative
 
-class plantingViewSet(ViewSet):
+class PlantingViewSet(ViewSet):
     serializer_class = PlantingSerializer
     planting_controller = PlantingController()
     detail_planting_controller = DetailPlantingController()
+    
     @action(detail=False)
     def get_all_planting_by_parcelle(self, request):
         try:
@@ -50,7 +49,7 @@ class plantingViewSet(ViewSet):
             if planting is not None:
                 for detail in details:
                     detail_planting.append(self.detail_planting_controller.synchronisation(detail, planting=planting))
-            response = ResponseClass(result=True, has_data=False, message=str(detail_planting))
+            response = ResponseClass(result=True, has_data=False, message=f'Synchronisation du planting {planting.code} réussie avec {len(detail_planting)} détails')
         except Exception as e:
             response = ResponseClass(result=False, has_data=False, message=str(e))
         finally:

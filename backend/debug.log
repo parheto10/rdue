@@ -8679,3 +8679,103 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 "POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 64
 "POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 64
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=10 HTTP/1.1" 200 107
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 107
+Not Found: /api-mobile/planting/get_planting_by_cooperative
+"GET /api-mobile/planting/get_planting_by_cooperative?id_cooperative=7 HTTP/1.1" 404 9409
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 608
+"GET /api-mobile/monitoring/get_all_monitoring_by_planting?code_planting=PLG-B2F679CDA3 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_planting/?code_planting=PLG-B2F679CDA3 HTTP/1.1" 200 109
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 127
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_planting?code_planting=PLG-B2F679CDA3 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_planting/?code_planting=PLG-B2F679CDA3 HTTP/1.1" 200 634
+Internal Server Error: /api-mobile/monitoring/synchronisation
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api-mobile/monitoring/synchronisation/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api-mobile/monitoring/synchronisation HTTP/1.1" 500 70688
+"POST /api-mobile/monitoring/synchronisation/ HTTP/1.1" 200 141
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 317
+"GET /api-mobile/monitoring/get_all_monitoring_by_planting?code_planting=PLG-B2F679CDA3 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_planting/?code_planting=PLG-B2F679CDA3 HTTP/1.1" 200 319
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_monitoring?code_monitoring=MNT-53F461E7C3 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_monitoring/?code_monitoring=MNT-53F461E7C3 HTTP/1.1" 200 747
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 762
+E:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\settings\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\observationmortalite_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\settings\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\monitoring_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\monitoring_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\monitoring_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\monitoring_view.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\observationmonitoring_controller.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\monitoring_view.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/monitoring/synchronisation/ HTTP/1.1" 200 140
+Watching for file changes with StatReloader
+"POST /api-mobile/monitoring/synchronisation/ HTTP/1.1" 200 159
+E:\applications\app_python\rdue\backend\mobiles_api\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\applications\app_python\rdue\backend\settings\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring/ HTTP/1.1" 200 82
+"GET /api-mobile/monitoring/get_all_monitoring_by_planting?code_planting=PLG-B2F679CDA3 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_planting/?code_planting=PLG-B2F679CDA3 HTTP/1.1" 200 743
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=7 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=7 HTTP/1.1" 200 741
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring?code_monitoring=MNT-028ACA3F36 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring/?code_monitoring=MNT-028ACA3F36 HTTP/1.1" 200 82
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\observationmonitoring_view.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring?code_monitoring=MNT-028ACA3F36 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring/?code_monitoring=MNT-028ACA3F36 HTTP/1.1" 200 82
+Watching for file changes with StatReloader
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring?code_monitoring=MNT-028ACA3F36 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring/?code_monitoring=MNT-028ACA3F36 HTTP/1.1" 200 82
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\observationmonitoring_view.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring?code_monitoring=MNT-028ACA3F36 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring/?code_monitoring=MNT-028ACA3F36 HTTP/1.1" 200 296
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring?code_monitoring=MNT-7C7C83689E HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring/?code_monitoring=MNT-7C7C83689E HTTP/1.1" 200 112
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring?code_monitoring=MNT-53F461E7C3 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_observation_all_observation_monitoring_by_monitoring/?code_monitoring=MNT-53F461E7C3 HTTP/1.1" 200 112

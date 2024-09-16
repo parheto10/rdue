@@ -19,8 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 # views classes imports
-from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, plantingViewSet, DetailPlantingViewSet, CertificationViewSet, CertificatViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet, ActeProprieteViewSet
-
+from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, PlantingViewSet, DetailPlantingViewSet, CertificationViewSet, CertificatViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet, ActeProprieteViewSet, MonitoringViewSet, DetailMonitoringViewSet, ObservationMortaliteViewSet, ObservationMonitoringViewSet
 from api_importation.views import DataImportation
 # rest_framework imports
 from rest_framework import routers
@@ -34,7 +33,7 @@ router.register('section', SectionViewSet, basename='section')
 router.register('campagne', CampagneViewSet, basename='campagne')
 router.register('producteur', ProducteurViewSet, basename='producteur')
 router.register('parcelle', ParcelleViewSet, basename='parcelle')
-router.register('planting', plantingViewSet, basename='planting')
+router.register('planting', PlantingViewSet, basename='planting')
 router.register('detail_planting', DetailPlantingViewSet, basename='detail_planting')
 router.register('certification', CertificationViewSet, basename='certification')
 router.register('certificat', CertificatViewSet, basename='certificat')
@@ -42,6 +41,10 @@ router.register('culture', CultureViewSet, basename='culture')
 router.register('mode_acquisition', ModeAcquisitionViewSet, basename='mode_acquisition')
 router.register('espece', EspeceViewSet, basename='espece')
 router.register('acte_propriete', ActeProprieteViewSet, basename='acte_propriete')
+router.register('monitoring', MonitoringViewSet, basename='monitoring')
+router.register('detail_monitoring', DetailMonitoringViewSet, basename='detail_monitoring')
+router.register('observation_mortalite', ObservationMortaliteViewSet, basename='observation_mortalite')
+router.register('observation_monitoring', ObservationMonitoringViewSet, basename='observation_monitoring')
 
 importation.register('importation', DataImportation, basename='importation')
 
