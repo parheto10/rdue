@@ -23,4 +23,4 @@ class PlantingController:
             planting.save()
             return planting
         except Exception as e:
-            None
+            raise Exception(str(e))

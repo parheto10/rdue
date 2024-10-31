@@ -18,5 +18,5 @@ class DetailMonitoringController:
             detailMonitoring.save()
             return detailMonitoring
         except Exception as e:
-            None
+            raise Exception(str(e))
         

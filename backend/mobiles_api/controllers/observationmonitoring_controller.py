@@ -8,4 +8,4 @@ class ObservationMonitoringController:
             observation_monitoring = ObservationMonitoring.objects.create(monitoring = monitoring, observation= observation_mortalite)
             return observation_monitoring
         except Exception as e:
-            return None
+            raise Exception(str(e))

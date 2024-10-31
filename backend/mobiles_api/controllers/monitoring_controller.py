@@ -12,7 +12,7 @@ class MonitoringController :
             planting = Planting.objects.get(pk=request.data['planting'])
             date  = datetime.fromisoformat(request.data['date'])
             taux_reussite = Decimal(request.data['taux_reussite'])
-            campagne = None if request.data['campagne']==None else Campagne.objects.get(pk=request.data['campagne'])
+            campagne = planting.campagne
             
             monitoring, created = Monitoring.objects.get_or_create(code=code)
             monitoring.planting = planting
@@ -22,4 +22,4 @@ class MonitoringController :
             monitoring.save()
             return monitoring
         except Exception as e:
-            None
+            raise Exception(str(e))
