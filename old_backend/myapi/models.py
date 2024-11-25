@@ -530,23 +530,14 @@ class Parcelle(models.Model):
     campagne = models.ForeignKey(Campagne, on_delete=models.CASCADE, null=True)
     latitude = models.CharField(max_length=200, null=True, blank=True)
     longitude = models.CharField(max_length=200, null=True, blank=True)
-    #contour = models.TextField(null=True,blank=True)
-    superficie = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True)
-    # superficie = models.FloatField(default=0)
-    is_doc_propriete = models.BooleanField(default=False)
-    certificat = models.ForeignKey(Certification, on_delete=models.CASCADE, null=True)
-    type_acte_propriete = models.ForeignKey(Acte_Propriete, on_delete=models.CASCADE, null=True)
-    doc_acte_propriete = models.FileField(upload_to='Documents/%Y/%m/%d', null=True, blank=True)
-    code_certif = models.CharField(max_length=150, null=True, blank=True)
-    annee_certificat = models.CharField(max_length=150, null=True, blank=True)
+    is_mapped = models.BooleanField(default=False)
+    superficie = models.FloatField(default=0)
     annee_acquis = models.CharField(max_length=150, null=True, blank=True)
     culture = models.ForeignKey(Culture, on_delete=models.CASCADE, null=True)
     acquisition = models.ForeignKey(ModeAcquisition, on_delete=models.CASCADE, null=True)
-    is_mapped = models.BooleanField(default=False)
-    fichier_de_mappage = models.FileField(upload_to='fichier_mapping/', null=True, blank=True)
-
-
-    
+    titre_de_propriete = models.ForeignKey(Acte_Propriete, on_delete=models.CASCADE, null=True)
+    image_du_titre_de_propriete = models.ImageField(upload_to='titre_de_propriete/', null=True)
+    fichier_de_mappage = models.ImageField(upload_to='fichier_mapping/', null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     

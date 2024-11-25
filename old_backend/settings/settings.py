@@ -28,6 +28,25 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+LOGGING = {
+    'version':1,
+    'disable_existing_loggers':False,
+    'handlers':{
+        'file':{
+            'level':'INFO',
+            'class':'logging.FileHandler',
+            'filename':'debug.log',
+        }
+    },
+    'loggers':{
+            'django':{
+                'handlers':['file'],
+                'level':'INFO',
+                'propagate':True
+            }
+        }
+}
+
 
 # Application definition
 
@@ -42,7 +61,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'corsheaders',
     'myapi',
-    'import_export'
+    'import_export',
+    'mobiles_api'
 ]
 
 MIDDLEWARE = [
