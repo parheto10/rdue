@@ -5,7 +5,6 @@ from myapi.models import Acte_Propriete, Cooperative, Utilisateur, Section, Camp
 from .models import Certificat
 
 class UtilisateurSerializer(ModelSerializer):
-    
     class Meta:
         model = Utilisateur
         fields = ['id','nom', 'prenom', 'tel', 'sexe']

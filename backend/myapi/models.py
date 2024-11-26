@@ -75,7 +75,7 @@ class Utilisateur(AbstractBaseUser):
     prenom = models.CharField(max_length=100,null=True)
     code = models.CharField(max_length=100,null=True,blank=True,unique=True)
     tel = models.CharField(max_length=100,null=True)
-    # sexe = models.CharField(max_length=50,null=True)
+    sexe = models.CharField(max_length=50,null=True)
     # date_adh_agromap = models.DateField(null=True,blank=True)
     fonction = models.CharField(max_length=100,null=True)
     password = models.CharField(max_length=300)

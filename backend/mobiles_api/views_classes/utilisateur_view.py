@@ -28,6 +28,8 @@ class UtilisateurViewSet(ViewSet):
                 response = ResponseClass(result=False, has_data=False, message="Vous n'êtes pas autorisés à vous connecter à cette application.")
         except Utilisateur.DoesNotExist:
             response = ResponseClass(result=False, has_data=False, message="Ce numéro de téléphone n'existe pas ou est erroné.")
+        except Exception as e:
+            response = ResponseClass(result=False, has_data=False, message=str(e))
         finally:
             return response.json_response()
         
