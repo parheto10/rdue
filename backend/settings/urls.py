@@ -19,7 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 # views classes imports
-from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, PlantingViewSet, DetailPlantingViewSet, CertificationViewSet, CertificatViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet, ActeProprieteViewSet
+from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, PlantingViewSet, DetailPlantingViewSet, CertificationViewSet, CertificatViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet, ActeProprieteViewSet, ObservationMortaliteViewSet, ObservationMonitoringViewSet, MonitoringViewSet, DetailMonitoringViewSet
 
 from api_importation.views import DataImportation
 # rest_framework imports
@@ -42,6 +42,10 @@ router.register('culture', CultureViewSet, basename='culture')
 router.register('mode_acquisition', ModeAcquisitionViewSet, basename='mode_acquisition')
 router.register('espece', EspeceViewSet, basename='espece')
 router.register('acte_propriete', ActeProprieteViewSet, basename='acte_propriete')
+router.register('observation_mortalite', ObservationMortaliteViewSet, basename='observation_mortalite')
+router.register('observation_monitoring', ObservationMonitoringViewSet, basename='observation_monitoring')
+router.register('monitoring', MonitoringViewSet, basename='monitoring')
+router.register('detail_monitoring', DetailMonitoringViewSet, basename='detail_monitoring')
 
 importation.register('importation', DataImportation, basename='importation')
 
