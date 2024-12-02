@@ -2,7 +2,7 @@ from rest_framework.serializers import ModelSerializer
 
 # models imports
 from myapi.models import Acte_Propriete, Cooperative, Utilisateur, Section, Campagne, Producteur, Parcelle, Planting, DetailPlanting, Certification, Culture, ModeAcquisition, Espece, Monitoring, MonitoringDetail, ObservationMortalite, ObservationMonitoring
-from .models import Certificat
+from .models import Certificat, CompensationPSE, CategorieActiviteRetribution, ActiviteRetribution, InfoPSE
 
 class UtilisateurSerializer(ModelSerializer):
     class Meta:
@@ -110,4 +110,25 @@ class ObservationMortaliteSerializer(ModelSerializer):
 class ObservationMonitoringSerializer(ModelSerializer):
     class Meta:
         model = ObservationMonitoring
+        fields = '__all__'
+
+
+class CompensationPSESerializer(ModelSerializer):
+    class Meta:
+        model = CompensationPSE
+        fields = '__all__'
+        
+class CategorieActiviteRetributionSerializer(ModelSerializer):
+    class Meta:
+        model = CategorieActiviteRetribution
+        fields = '__all__'
+        
+class ActiviteRetributionSerializer(ModelSerializer):
+    class Meta:
+        model = ActiviteRetribution
+        fields = '__all__'
+        
+class InfoPSESerializer(ModelSerializer):
+    class Meta:
+        model = InfoPSE
         fields = '__all__'

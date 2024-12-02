@@ -19,7 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 # views classes imports
-from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, PlantingViewSet, DetailPlantingViewSet, CertificationViewSet, CertificatViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet, ActeProprieteViewSet, ObservationMortaliteViewSet, ObservationMonitoringViewSet, MonitoringViewSet, DetailMonitoringViewSet
+from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, PlantingViewSet, DetailPlantingViewSet, CertificationViewSet, CertificatViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet, ActeProprieteViewSet, ObservationMortaliteViewSet, ObservationMonitoringViewSet, MonitoringViewSet, DetailMonitoringViewSet, CompensationPSEViewSet, CategorieActiviteRetributionViewSet, ActiviteRetributionViewSet, InfoPSEViewSet
 
 from api_importation.views import DataImportation
 # rest_framework imports
@@ -46,6 +46,10 @@ router.register('observation_mortalite', ObservationMortaliteViewSet, basename='
 router.register('observation_monitoring', ObservationMonitoringViewSet, basename='observation_monitoring')
 router.register('monitoring', MonitoringViewSet, basename='monitoring')
 router.register('detail_monitoring', DetailMonitoringViewSet, basename='detail_monitoring')
+router.register('compensation-pse', CompensationPSEViewSet, basename='compensation-pse')
+router.register('categorie-activite-retribution', CategorieActiviteRetributionViewSet, basename='categorie-activite-retribution')
+router.register('activite-retribution', ActiviteRetributionViewSet, basename='activite-retribution')
+router.register('info-pse', InfoPSEViewSet, basename='info-pse')
 
 importation.register('importation', DataImportation, basename='importation')
 
