@@ -17,3 +17,6 @@ from .views_classes.monitoring_view import MonitoringViewSet
 from .views_classes.detailmonitoring_view import DetailMonitoringViewSet
 from .views_classes.observationmortalite_view import ObservationMortaliteViewSet
 from .views_classes.observationmonitoring_view import ObservationMonitoringViewSet
+from .views_classes.compensation_pse_view import CompensationPSEViewSet
+from .views_classes.activite_retribution_view import CategorieActiviteRetributionViewSet, ActiviteRetributionViewSet
+from .views_classes.info_pse_view import InfoPSEViewSet

@@ -905,8 +905,3 @@ class PointSerializer(serializers.ModelSerializer):
         if request and request.method == 'GET':
             self.Meta.depth = 2
 
-
-
-
-
-

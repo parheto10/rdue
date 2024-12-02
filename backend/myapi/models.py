@@ -741,7 +741,7 @@ class RecolteProducteur(models.Model):
             self.check_gap = False
         super(RecolteProducteur, self).save(force_insert, force_update, using)
 
-    
+
 
 
 
