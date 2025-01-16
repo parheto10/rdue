@@ -6,10 +6,9 @@ from myapi.models import Cooperative, Planting, Section, Producteur, Campagne, P
 
 
 class CooperativeController:
-    taille_du_code_producteur = 9
     message = ''
     def __init__(self, coop:Cooperative, camp:Campagne, data:DataFrame) -> None:
-        self.especes = ['Acajou','Fraké','Bété','Akpi','Framiré','Asamela','Tiama', 'Gmelina', 'Acacia', 'Makoré', 'Pklé', 'Niangon', 'Cedrela', 'Bitei']
+        self.especes = ["BANGBAYÉ","ACACIA","ALBIZIA","EMIEN","AKO","BAZA","KAPOTIER","POÉ","CEDRELA","FROMAGÉ","ORANGE","TIAMA","SIPO","PETIT COLA","GMELINA","SIBO/BAHIA","NIANGON","KPLÉ","ACAJOU / PETITE FEUILLE","ACAJOU / GRAND FEUILLE","ACAJOU","BÉTÉ","POIVRE LONG","IROKO","KOTO","AVOCAT","ASAMELA","DAMEBA","AKODIAKÉDÉ","ILOMBA","APKI","POÉ","TECK","FRAMIRÉ","FRAKÉ","MAKORÉ","BITEI"]
         self.cooperative = coop
         self.data = data
         self.campagne = camp
@@ -36,7 +35,7 @@ class CooperativeController:
         
     def insertion_prod(self, prod:Series, section:Section):
         try:
-            producteur, result = Producteur.objects.get_or_create(code=self.code_prod(prod['CODE PARCELLE']))
+            producteur, result = Producteur.objects.get_or_create(code=str(prod.get('CODE PRODUCTEUR')))
             producteur.section = section
             producteur.nomComplet = str(prod.get('NOM DU PRODUCTEUR'))
             producteur.contacts = str(prod.get('NUMERO DE TELEPHONE DU PRODUCTEUR'))
@@ -50,9 +49,9 @@ class CooperativeController:
     def insertion_parcelle(self, prod:Series, producteur:Producteur):
         try:
             parcelle, result = Parcelle.objects.get_or_create(code=str(prod.get('CODE PARCELLE')), producteur = producteur)
-            parcelle.latitude = str(prod.get('Lat'))
-            parcelle.longitude = str(prod.get('Lon'))
-            parcelle.superficie = float(prod.get('Superficie parcelle'))
+            parcelle.latitude = str(prod.get('LAT'))
+            parcelle.longitude = str(prod.get('LONG'))
+            parcelle.superficie = float(prod.get('SUPERFICIE PARCELLE'))
             parcelle.culture = Culture.objects.get(cooperative=self.cooperative)
             parcelle.save()
             return parcelle
@@ -61,16 +60,16 @@ class CooperativeController:
         
     def insertion_planting(self, prod:Series, parcelle:Parcelle):
         try:
-            date_planting = prod.get('DATE DE PLANTING')
-            if date_planting != None:
-                code =  f"PLG-{uuid.uuid4().hex.upper()[0:10]}"
-                campagne = self.campagne
-                planting, result = Planting.objects.get_or_create(code =code ,parcelle=parcelle, campagne=campagne)
-                planting.date = date.fromisoformat(date_planting)
-                planting.plant_recus = int(prod.get('Nombre de plants recus'))
-                planting.plant_existant = int(prod.get('ARBRES EXISTANT'))
-                planting.save()
-                return planting
+            # date_planting = self.campagne.dateDebut if prod.get('DATE DE PLANTING') == None else prod.get('DATE DE PLANTING')
+            
+            code =  f"PLG-{uuid.uuid4().hex.upper()[0:10]}"
+            campagne = self.campagne
+            planting, result = Planting.objects.get_or_create(code =code ,parcelle=parcelle, campagne=campagne)
+            # planting.date = date.fromisoformat(date_planting)
+            planting.plant_recus = int(prod.get('NOMBRE DE PLANTS RECUS'))
+            planting.plant_existant = int(prod.get('ARBRES EXISTANTS'))
+            planting.save()
+            return planting
         except Exception as e:
             self.message = str(e)
         

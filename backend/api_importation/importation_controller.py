@@ -13,7 +13,7 @@ class ImportationController:
     
     def getCoop(self):
         try:
-            coops = Cooperative.objects.filter(nomCoop__in = self.coops)
+            coops = Cooperative.objects.filter(nomCoop = 'CAFUVA SCOOPS')
             return coops
         except ObjectDoesNotExist:
             return None
