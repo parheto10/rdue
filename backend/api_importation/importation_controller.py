@@ -7,13 +7,14 @@ from .cooperative_controller import CooperativeController
 class ImportationController:
     message = ''
     def __init__(self, file, campagne) -> None:
-        self.data_frame = pd.read_csv(file, delimiter=";", encoding='utf-8')
+        self.data_frame = pd.read_excel(file)
+        # self.data_frame = pd.read_csv(file, delimiter=";", encoding='utf-8')
         self.coops = self.data_frame['COOPERATIVE'].drop_duplicates().values
         self.campagne = Campagne.objects.get(pk=campagne)
     
     def getCoop(self):
         try:
-            coops = Cooperative.objects.filter(nomCoop = 'CAFUVA SCOOPS')
+            coops = Cooperative.objects.filter(nomCoop__in = self.coops)
             return coops
         except ObjectDoesNotExist:
             return None

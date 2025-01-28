@@ -50,7 +50,7 @@ class CooperativeController:
         try:
             parcelle, result = Parcelle.objects.get_or_create(code=str(prod.get('CODE PARCELLE')), producteur = producteur)
             parcelle.latitude = str(prod.get('LAT'))
-            parcelle.longitude = str(prod.get('LONG'))
+            parcelle.longitude = str(prod.get('LON'))
             parcelle.superficie = float(prod.get('SUPERFICIE PARCELLE'))
             parcelle.culture = Culture.objects.get(cooperative=self.cooperative)
             parcelle.save()
@@ -60,12 +60,12 @@ class CooperativeController:
         
     def insertion_planting(self, prod:Series, parcelle:Parcelle):
         try:
-            # date_planting = self.campagne.dateDebut if prod.get('DATE DE PLANTING') == None else prod.get('DATE DE PLANTING')
+            date_planting =  prod.get('DATE DE PLANTING')
             
             code =  f"PLG-{uuid.uuid4().hex.upper()[0:10]}"
             campagne = self.campagne
             planting, result = Planting.objects.get_or_create(code =code ,parcelle=parcelle, campagne=campagne)
-            # planting.date = date.fromisoformat(date_planting)
+            planting.date = date_planting # date.fromisoformat(date_planting)
             planting.plant_recus = int(prod.get('NOMBRE DE PLANTS RECUS'))
             planting.plant_existant = int(prod.get('ARBRES EXISTANTS'))
             planting.save()
