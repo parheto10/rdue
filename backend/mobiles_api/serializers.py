@@ -75,7 +75,7 @@ class CultureSerializer(ModelSerializer):
     
     class Meta:
         model = Culture
-        fields = ['id', 'libelle']
+        fields = ['id', 'libelle', 'prix_unitaire_culture']
         
 
 class ModeAcquisitionSerializer(ModelSerializer):
