@@ -9,12 +9,12 @@ class ImportationController:
     def __init__(self, file, campagne) -> None:
         self.data_frame = pd.read_excel(file)
         # self.data_frame = pd.read_csv(file, delimiter=";", encoding='utf-8')
-        self.coops = self.data_frame['COOPERATIVE'].drop_duplicates().values
+        self.coops = self.data_frame['COOPERATIVE'].str.strip().drop_duplicates().values
         self.campagne = Campagne.objects.get(pk=campagne)
     
     def getCoop(self):
         try:
-            coops = Cooperative.objects.filter(nomCoop__in = self.coops)
+            coops = Cooperative.objects.filter(nomCoop__in =self.coops)
             return coops
         except ObjectDoesNotExist:
             return None
@@ -22,6 +22,7 @@ class ImportationController:
     def importer(self):
         try:
             coops = self.getCoop()
+            self.data_frame['COOPERATIVE'] = self.data_frame['COOPERATIVE'].str.strip()
             for cooperative in coops:
                 if cooperative is not None:
                     data = self.data_frame.loc[self.data_frame['COOPERATIVE']==cooperative.nomCoop]
