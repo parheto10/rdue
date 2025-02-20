@@ -62,7 +62,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'myapi',
     'import_export',
-    'mobiles_api'
+    'mobiles_api',
+    'enquete'
 ]
 
 MIDDLEWARE = [
