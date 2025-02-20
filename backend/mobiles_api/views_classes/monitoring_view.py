@@ -35,7 +35,7 @@ class MonitoringViewSet (ViewSet):
         try:
             id_cooperative = self.request.GET.get('id_cooperative')
             cooperative = Cooperative.objects.get(pk=id_cooperative)
-            monitorings = Monitoring.objects.filter(planting__parcelle__producteur__section__cooperative=cooperative).exclude(date=None)
+            monitorings = Monitoring.objects.filter(planting__parcelle__producteur__section__cooperative=cooperative)
             serializer = self.serializer_class(monitorings, many=True)
             response = ResponseClass(result=True, has_data=True, message=f'Liste des monitorings de la cooperative {cooperative.nomCoop}', data=serializer.data)
         except Exception as e:

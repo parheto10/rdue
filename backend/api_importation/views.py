@@ -19,3 +19,15 @@ class DataImportation(ViewSet):
         except Exception as e:
             response = ResponseClass(result=False, has_data=False, message=str(e))
         return response.json_response()
+    
+    @action(detail=False, methods=['post'])
+    def importation_monitoring(self, request):
+        try:
+            file = request.data['data']
+            campagne = request.data['campagne']
+            importation_controller = ImportationController(file, campagne=campagne)
+            importation_controller.importation_monitoring()
+            response = ResponseClass(result=True, has_data=True, message=importation_controller.message)
+        except Exception as e:
+            response = ResponseClass(result=False, has_data=False, message=str(e))
+        return response.json_response()

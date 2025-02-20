@@ -2,7 +2,7 @@ from decimal import Decimal
 from datetime import date
 import uuid
 from pandas import DataFrame, Series
-from myapi.models import Cooperative, Planting, Section, Producteur, Campagne, Parcelle, DetailPlanting, Espece, Culture
+from myapi.models import Cooperative, Monitoring, MonitoringDetail, Planting, Section, Producteur, Campagne, Parcelle, DetailPlanting, Espece, Culture
 
 
 class CooperativeController:
@@ -140,4 +140,91 @@ class CooperativeController:
             self.message = self.message + f" Prods: {self.producteurs_non_enregistres} Parcelles: {self.parcelles_non_enregistres}"                          
         except Exception as e:
             self.message = str(e)
-                    
+
+class MonitoringCooperativeController:
+    def __init__(self, coop:Cooperative, camp:Campagne, data:DataFrame) -> None:
+        self.especes = ["BANGBAYÉ","ACACIA","ALBIZIA","EMIEN","AKO","BAZA","KAPOTIER","CEDRELA","FROMAGÉ","ORANGER","TIAMA","SIPO","PETIT COLA","GMELINA","SIBO/BAHIA","NIANGON","KPLÉ","ACAJOU / PETITE FEUILLE","ACAJOU / GRAND FEUILLE","ACAJOU","BÉTÉ","POIVRE LONG","IROKO","KOTO","AVOCAT","ASAMELA","DAMEBA","AKODIAKÉDÉ","ILOMBA","AKPI","POÉ","TECK","FRAMIRÉ","FRAKÉ","MAKORÉ","BITEI"]
+        self.cooperative = coop
+        self.data = data
+        self.campagne = camp
+        self.nbre_monitoring = 0
+        self.nbre_detail_monitoring = 0
+        self.message = ''
+        self.list_code_parcelle = []
+        
+    def get_parcelle(self, code_parcelle:str):
+        try:
+            parcelle = Parcelle.objects.get(code = code_parcelle, producteur__section__cooperative = self.cooperative)
+            return parcelle
+        except Exception as e:
+            return None
+        
+    def get_last_planting(self, code_parcelle:str):
+        parcelle = self.get_parcelle(code_parcelle=code_parcelle)
+        if parcelle is not None:
+            return Planting.objects.filter(parcelle = parcelle, campagne = self.campagne).last()
+        else:
+            self.list_code_parcelle.append(code_parcelle)
+            return None
+    
+    def get_list_detail_planting(self, code_parcelle:str):
+        last_planting = self.get_last_planting(code_parcelle=code_parcelle)
+        if last_planting is not None:
+            details_planting = list(DetailPlanting.objects.filter(planting = last_planting))
+            return details_planting
+        else:
+            return None
+        
+    def create_monitoring(self, planting:Planting, row:Series):
+        try:
+            code = f"MNT-{uuid.uuid4().hex.upper()[0:10]}"
+            # date  = None if row.get('') datetime.fromisoformat(request.data['date'])
+            taux_reussite = Decimal(row.get('TAUX DE SURVIE'))
+            monitoring = Monitoring.objects.create(code=code, planting = planting, campagne = planting.campagne)
+            monitoring.taux_reussite = taux_reussite
+            monitoring.save()
+            return monitoring
+        except Exception as e:
+            return None       
+        
+    def insert_detail_monitoring(self, detail_planting:DetailPlanting, monitoring:Monitoring, row:Series):
+        try:
+            code = f'DMN-{uuid.uuid4().hex.upper()[0:10]}'
+            plant_denombre = int(row.get(detail_planting.espece.libelle))
+            taux_reussite = ((plant_denombre/detail_planting.plants) * 100)
+            detailMonitoring, created = MonitoringDetail.objects.get_or_create(code=code)
+            detailMonitoring.monitoring = monitoring
+            detailMonitoring.espece = detail_planting.espece
+            detailMonitoring.plant_denombre = plant_denombre
+            detailMonitoring.taux_reussite = taux_reussite
+            detailMonitoring.save()
+            return detailMonitoring
+        except Exception as e:
+            return None
+        
+    def multiple_insert_detail_monitoring(self, details_planting:list[DetailPlanting], monitoring:Monitoring, row:Series):
+        nbre_detail = 0
+        for detail_planting in details_planting:
+           detail_monitoring = self.insert_detail_monitoring(detail_planting=detail_planting, monitoring=monitoring, row=row)
+           if detail_monitoring is not None:
+               nbre_detail +=1
+        return nbre_detail
+               
+    def insert_monitoring(self, row:Series):
+        last_planting = self.get_last_planting(code_parcelle=row.get('CODE PARCELLE'))
+        if last_planting is not None:
+            details_planting = list(DetailPlanting.objects.filter(planting = last_planting, espece__libelle__in = self.especes))
+            if len(details_planting) > 0:
+                monitoring = self.create_monitoring(planting=last_planting, row=row)
+                if monitoring is not None:
+                    self.nbre_monitoring += 1
+                    self.nbre_detail_monitoring += self.multiple_insert_detail_monitoring(details_planting=details_planting, monitoring=monitoring, row=row)
+            else:
+                return None
+        else:
+            return None
+        
+    def importer_monitoring(self):
+        for index, row in self.data.iterrows():
+            self.insert_monitoring(row=row)
+        self.message = f"Monitoring:{self.nbre_monitoring}\n Détails monitoring: {self.nbre_detail_monitoring} Code Non trouvés: {self.list_code_parcelle}"
