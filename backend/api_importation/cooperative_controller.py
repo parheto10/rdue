@@ -1,8 +1,8 @@
 from decimal import Decimal
-from datetime import date
+from datetime import datetime
 import uuid
 from pandas import DataFrame, Series
-from myapi.models import Cooperative, Monitoring, MonitoringDetail, Planting, Section, Producteur, Campagne, Parcelle, DetailPlanting, Espece, Culture
+from myapi.models import Cooperative, Monitoring, MonitoringDetail, ObservationMonitoring, ObservationMortalite, Planting, Section, Producteur, Campagne, Parcelle, DetailPlanting, Espece, Culture
 
 
 class CooperativeController:
@@ -178,27 +178,42 @@ class MonitoringCooperativeController:
     def create_monitoring(self, planting:Planting, row:Series):
         try:
             code = f"MNT-{uuid.uuid4().hex.upper()[0:10]}"
-            # date  = None if row.get('') datetime.fromisoformat(request.data['date'])
-            taux_reussite = Decimal(row.get('TAUX DE SURVIE'))
+            date  = None if row.get('DATE DE MONITORING') == None else row.get('DATE DE MONITORING')
+            taux_reussite = Decimal(row.get('TAUX DE SURVIE')) * 100
             monitoring = Monitoring.objects.create(code=code, planting = planting, campagne = planting.campagne)
             monitoring.taux_reussite = taux_reussite
+            monitoring.date = date
             monitoring.save()
             return monitoring
         except Exception as e:
-            return None       
+            return None     
+        
+    def insert_causes_de_mortalite(self, monitoring:Monitoring, row:Series):
+        try:
+            sont_plusieurs_causes = str(row.get('FACTEURS DES MORTALITES')).find('|')
+            if sont_plusieurs_causes < 0:
+                cause_de_mortalite = ObservationMortalite.objects.get(libelle = str(row.get('FACTEURS DES MORTALITES')))
+                ObservationMonitoring.objects.create(monitoring=monitoring, observation = cause_de_mortalite)
+            else:
+                causes_de_mortalite = list(ObservationMortalite.objects.filter(libelle__in = str(row.get('FACTEURS DES MORTALITES')).split('|')))
+                for cause in causes_de_mortalite:
+                    ObservationMonitoring.objects.create(monitoring=monitoring, observation = cause)
+        except ObservationMortalite.DoesNotExist:
+            raise Exception(f"{row.get('FACTEURS DES MORTALITES')}")
         
     def insert_detail_monitoring(self, detail_planting:DetailPlanting, monitoring:Monitoring, row:Series):
         try:
-            code = f'DMN-{uuid.uuid4().hex.upper()[0:10]}'
-            plant_denombre = int(row.get(detail_planting.espece.libelle))
-            taux_reussite = ((plant_denombre/detail_planting.plants) * 100)
-            detailMonitoring, created = MonitoringDetail.objects.get_or_create(code=code)
-            detailMonitoring.monitoring = monitoring
-            detailMonitoring.espece = detail_planting.espece
-            detailMonitoring.plant_denombre = plant_denombre
-            detailMonitoring.taux_reussite = taux_reussite
-            detailMonitoring.save()
-            return detailMonitoring
+            if row.get(detail_planting.espece.libelle) is not None:
+                code = f'DMN-{uuid.uuid4().hex.upper()[0:10]}'
+                plant_denombre = int(row.get(detail_planting.espece.libelle))
+                taux_reussite = ((plant_denombre/detail_planting.plants) * 100)
+                detailMonitoring = MonitoringDetail.objects.create(code=code)
+                detailMonitoring.monitoring = monitoring
+                detailMonitoring.espece = detail_planting.espece
+                detailMonitoring.plant_denombre = plant_denombre
+                detailMonitoring.taux_reussite = taux_reussite
+                detailMonitoring.save()
+                return detailMonitoring
         except Exception as e:
             return None
         
@@ -218,6 +233,7 @@ class MonitoringCooperativeController:
                 monitoring = self.create_monitoring(planting=last_planting, row=row)
                 if monitoring is not None:
                     self.nbre_monitoring += 1
+                    self.insert_causes_de_mortalite(monitoring=monitoring, row=row)
                     self.nbre_detail_monitoring += self.multiple_insert_detail_monitoring(details_planting=details_planting, monitoring=monitoring, row=row)
             else:
                 return None
