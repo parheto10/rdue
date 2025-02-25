@@ -21,7 +21,7 @@ from django.conf.urls.static import static
 # views classes imports
 from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, PlantingViewSet, DetailPlantingViewSet, CertificationViewSet, CertificatViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet, ActeProprieteViewSet, ObservationMortaliteViewSet, ObservationMonitoringViewSet, MonitoringViewSet, DetailMonitoringViewSet, CompensationPSEViewSet, CategorieActiviteRetributionViewSet, ActiviteRetributionViewSet, InfoPSEViewSet
 from api_importation.views import DataImportation
-from enquete.views import EnqueteViewSet
+from enquete.views import EnqueteViewSet, QuestionViewSet
 # rest_framework imports
 from rest_framework import routers
 # Routes de l'api pour les applications mobiles
@@ -56,6 +56,7 @@ router.register('info-pse', InfoPSEViewSet, basename='info-pse')
 importation.register('importation', DataImportation, basename='importation')
 # Enquête
 enquete.register('enquete', EnqueteViewSet, basename='enquete')
+enquete.register('question', QuestionViewSet, basename='question')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

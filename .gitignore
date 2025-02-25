@@ -1,2 +1,3 @@
 # Ignorer le fichier log
 *.log
+*.pyc

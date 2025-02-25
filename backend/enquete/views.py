@@ -1,13 +1,23 @@
 from rest_framework.decorators import action
 from rest_framework.viewsets import ViewSet
+from enquete.controllers import QuestionController
 from foret.naiveclasses import ResponseClass
-from enquete.models import Enqueteur, Question, Enquete
-from enquete.serializers import QuestionSerializer, EnqueteSerializer
+from enquete.models import Enqueteur, Question, Enquete, TypeEnquete, TypeQuestion
+from enquete.serializers import QuestionSerializer, EnqueteSerializer, TypeEnqueteSerializer, TypeQuestionSerializer
 
 class EnqueteViewSet(ViewSet):
     
     enquete_serializer_class = EnqueteSerializer
-    question_serializer_class = QuestionSerializer
+    
+    @action(detail=False)
+    def get_types_enquete(self, request):
+        try:
+            serializer = TypeEnqueteSerializer(TypeEnquete.objects.all(), many=True)
+            response = ResponseClass(result=True, has_data=True, message="Types d'Enquête", data=serializer.data)
+        except Exception as e:
+            response = ResponseClass(result=False, has_data=False, message=str(e))
+        finally:
+            return response.json_response()
     
     @action(detail=False)
     def get_enquetes(self, request):
@@ -21,6 +31,33 @@ class EnqueteViewSet(ViewSet):
         finally:
             return response.json_response()
         
+
+        
+class QuestionViewSet(ViewSet):
+       
+    question_serializer_class = QuestionSerializer
+    
+    @action(detail=False)
+    def get_types_question(self, request):
+        try:
+            serializer = TypeQuestionSerializer(TypeQuestion.objects.all(), many=True)
+            response = ResponseClass(result=True, has_data=True, message="Types de question", data=serializer.data)
+        except Exception as e:
+            response = ResponseClass(result=False, has_data=False, message=str(e))
+        finally:
+            return response.json_response()
+    
+    @action(detail=False, methods=['POST'])
+    def insert_questions(self, request):
+        try:
+            controller_class = QuestionController(file=request.data['fichier'], identifiant_enquete=request.data['identifiant_enquete'])
+            controller_class.multiple_insert()
+            response = ResponseClass(result=True, has_data=True, message=f"{controller_class.total} questions importées")
+        except Exception as e:
+            response = ResponseClass(result=False, has_data=False, message=str(e))
+        finally:
+            return response.json_response()
+    
     @action(detail=False)
     def get_questions(self, request):
         try:
@@ -33,6 +70,4 @@ class EnqueteViewSet(ViewSet):
             response = ResponseClass(result=False, has_data=False, message="Ce technicien n'existe pas dans la base")
         finally:
             return response.json_response()
-       
-        
     
