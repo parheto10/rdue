@@ -27,7 +27,6 @@ from rest_framework import routers
 # Routes de l'api pour les applications mobiles
 router = routers.SimpleRouter()
 importation = routers.SimpleRouter()
-enquete = routers.SimpleRouter()
 
 router.register('utilisateur', UtilisateurViewSet, basename='utilisateur')
 router.register('cooperative', CooperativeViewSet, basename='cooperative')
@@ -55,15 +54,14 @@ router.register('info-pse', InfoPSEViewSet, basename='info-pse')
 # Importation Data
 importation.register('importation', DataImportation, basename='importation')
 # Enquête
-enquete.register('enquete', EnqueteViewSet, basename='enquete')
-enquete.register('question', QuestionViewSet, basename='question')
+router.register('enquete', EnqueteViewSet, basename='enquete')
+router.register('question', QuestionViewSet, basename='question')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/',include('myapi.urls')),
     path('api-mobile/', include(router.urls)),
     path('api-importation/', include(importation.urls)),
-    path('api-enquete/', include(enquete.urls)),
     path('api-auth/',include('rest_framework.urls')),
 ]
 if settings.DEBUG:
