@@ -551,7 +551,7 @@ class Acte_Propriete(models.Model):
 
 
 class RisqueRDUE(models.Model):
-    cooperative = models.ForeignKey(Cooperative, on_delete=models.CASCADE, null=True)
+    # cooperative = models.ForeignKey(Cooperative, on_delete=models.CASCADE, null=True)
     libelle = models.CharField(max_length=255)
 
     class Meta:

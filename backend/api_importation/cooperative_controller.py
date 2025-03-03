@@ -11,7 +11,7 @@ class CooperativeController:
     planting_non_enregistres = []
     message = ''
     def __init__(self, coop:Cooperative, camp:Campagne, data:DataFrame) -> None:
-        self.especes = ["BANGBAYÉ","ACACIA","ALBIZIA","EMIEN","AKO","BAZA","KAPOTIER","CEDRELA","FROMAGÉ","ORANGER","TIAMA","SIPO","PETIT COLA","GMELINA","SIBO/BAHIA","NIANGON","KPLÉ","ACAJOU / PETITE FEUILLE","ACAJOU / GRAND FEUILLE","ACAJOU","BÉTÉ","POIVRE LONG","IROKO","KOTO","AVOCAT","ASAMELA","DAMEBA","AKODIAKÉDÉ","ILOMBA","APKI","POÉ","TECK","FRAMIRÉ","FRAKÉ","MAKORÉ","BITEI"]
+        self.especes = ["BANGBAYÉ", "AIELÉ", "ACACIA","ALBIZIA","EMIEN","AKO","BAZA","KAPOTIER","CEDRELA","FROMAGER","ORANGER","TIAMA","SIPO","PETIT COLA","GMELINA","SIBO/BAHIA","NIANGON","KPLÉ","ACAJOU / PETITE FEUILLE","ACAJOU / GRAND FEUILLE","ACAJOU","BÉTÉ","POIVRE LONG","IROKO","KOTO","AVOCAT","ASAMELA","DAMEBA","AKODIAKÉDÉ","ILOMBA","AKPI","POÉ","TECK","FRAMIRÉ","FRAKÉ","MAKORÉ","BITEI"]
         self.cooperative = coop
         self.data = data
         self.campagne = camp
@@ -111,8 +111,8 @@ class CooperativeController:
         nbre_parcelles = 0
         nbre_plantings = 0
         nbre_details_planting = 0
-        self.data.loc[:,'SECTION'] = self.data['SECTION'].astype(str).str.strip().str.upper()
-        self.data.loc[:,'CODE PRODUCTEUR'] = self.data['CODE PRODUCTEUR'].astype(str).str.strip()
+        # self.data.loc[:,'SECTION'] = self.data['SECTION'].astype(str).str.strip().str.upper()
+        # self.data.loc[:,'CODE PRODUCTEUR'] = self.data['CODE PRODUCTEUR'].astype(str).str.strip()
         try:
             bd_sections = Section.objects.filter(cooperative=self.cooperative)
             nbre_sections = bd_sections.count()
@@ -233,7 +233,8 @@ class MonitoringCooperativeController:
                 monitoring = self.create_monitoring(planting=last_planting, row=row)
                 if monitoring is not None:
                     self.nbre_monitoring += 1
-                    self.insert_causes_de_mortalite(monitoring=monitoring, row=row)
+                    if monitoring.taux_reussite < 100:
+                        self.insert_causes_de_mortalite(monitoring=monitoring, row=row)
                     self.nbre_detail_monitoring += self.multiple_insert_detail_monitoring(details_planting=details_planting, monitoring=monitoring, row=row)
             else:
                 return None
