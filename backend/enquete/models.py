@@ -50,11 +50,11 @@ class Reponse(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     
     def __str__(self):
-        return self.enquete.identifiant + self.repondant.nom
+        return self.enquete.identifiant + ' - '  + self.repondant.nom + ' ' + self.repondant.prenom
 
 class Enqueteur(models.Model):
     user = models.OneToOneField(Utilisateur, on_delete=models.CASCADE, null=True)
     enquetes = models.ManyToManyField(Enquete)
     
     def __str__(self):
-        return self.user.nom + ' ' +self.user.prenom
+        return self.user.nom + ' ' + self.user.prenom

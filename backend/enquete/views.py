@@ -1,8 +1,9 @@
 from rest_framework.decorators import action
 from rest_framework.viewsets import ViewSet
+from myapi.models import Utilisateur
 from enquete.controllers import QuestionController
 from foret.naiveclasses import ResponseClass
-from enquete.models import Enqueteur, Question, Enquete, TypeEnquete, TypeQuestion
+from enquete.models import Enqueteur, Question, Enquete, Reponse, TypeEnquete, TypeQuestion
 from enquete.serializers import QuestionSerializer, EnqueteSerializer, TypeEnqueteSerializer, TypeQuestionSerializer
 
 class EnqueteViewSet(ViewSet):
@@ -22,12 +23,28 @@ class EnqueteViewSet(ViewSet):
     @action(detail=False)
     def get_enquetes(self, request):
         try:
-            tel = self.request.GET.get('technicien_tel')
+            tel = request.GET.get('technicien_tel')
             enqueteur = Enqueteur.objects.get(user__tel=tel)
             serializer = self.enquete_serializer_class(enqueteur.enquetes.filter(est_ouverte = True), many=True)
             response = ResponseClass(result=True, has_data=True, message="Enquêtes ouvertes", data=serializer.data)
         except Enqueteur.DoesNotExist:
             response = ResponseClass(result=False, has_data=False, message="Ce technicien n'existe pas dans la base")
+        finally:
+            return response.json_response()
+        
+    @action(detail=False, methods=['post'])
+    def synchronisation(self, request):
+        try:
+            user = Utilisateur.objects.get(tel=request.data['technicien_tel'])
+            enquete = Enquete.objects.get(identifiant = request.data["reponse_enquete"]['identifiant_enquete'])   
+            Reponse.objects.create(enquete = enquete, repondant = user, reponses = request.data["reponse_enquete"]["reponse"])
+            response = ResponseClass(result=True, has_data=False, message=f"Reponse enregistrée avec succès")
+        except Enquete.DoesNotExist:
+            response = ResponseClass(result=False, has_data=False, message="Cette enquête a été fermée ou supprimée")
+        except Enqueteur.DoesNotExist:
+            response = ResponseClass(result=False, has_data=False, message="Ce technicien n'existe pas dans la base")
+        except Exception as e:
+            response = ResponseClass(result=False, has_data=False, message=str(e))
         finally:
             return response.json_response()
         
