@@ -18659,3 +18659,48 @@ Watching for file changes with StatReloader
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
 "GET /admin/myapi/detailplanting/ HTTP/1.1" 200 60965
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+Watching for file changes with StatReloader
+"GET /admin/myapi/detailplanting/ HTTP/1.1" 200 60958
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 63584
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 63620
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 63594
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+- Broken pipe from ('127.0.0.1', 57522)
+"GET /admin/myapi/planting/ HTTP/1.1" 200 63394
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 63394
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 63394
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+Watching for file changes with StatReloader
+"GET /admin/myapi/planting/ HTTP/1.1" 200 55684
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 95974
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 95234
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 95234
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 95234
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+- Broken pipe from ('127.0.0.1', 58375)
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 95187
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 95187
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/planting/ HTTP/1.1" 200 63394
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/detailplanting/ HTTP/1.1" 200 60965
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/monitoring/ HTTP/1.1" 200 57894
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/monitoring/ HTTP/1.1" 200 57894
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+- Broken pipe from ('127.0.0.1', 59032)
+"GET /admin/myapi/monitoring/ HTTP/1.1" 200 57894
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/monitoringdetail/ HTTP/1.1" 200 58605
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
