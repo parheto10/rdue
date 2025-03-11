@@ -18704,3 +18704,31 @@ Watching for file changes with StatReloader
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
 "GET /admin/myapi/monitoringdetail/ HTTP/1.1" 200 58605
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2754
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2805
+"GET /admin/ HTTP/1.1" 200 34856
+"GET /admin/mobiles_api/infopse/ HTTP/1.1" 200 27015
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/mobiles_api/infopse/2/change/ HTTP/1.1" 200 33431
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/mobiles_api/infopse/ HTTP/1.1" 200 27015
+"GET /admin/mobiles_api/infopse/1/change/ HTTP/1.1" 200 33440
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/mobiles_api/infopse/ HTTP/1.1" 200 27015
+"GET /admin/mobiles_api/infopse/2/change/ HTTP/1.1" 200 33431
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/mobiles_api/infopse/ HTTP/1.1" 200 27015
+"GET /admin/mobiles_api/infopse/2/change/ HTTP/1.1" 200 33431
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/mobiles_api/infopse/ HTTP/1.1" 200 27015
+"GET /admin/mobiles_api/infopse/1/change/ HTTP/1.1" 200 33440
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 27741
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/cooperative/9/change/ HTTP/1.1" 200 38237
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 27741
+Watching for file changes with StatReloader
