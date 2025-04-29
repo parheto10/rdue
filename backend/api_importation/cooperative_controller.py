@@ -59,14 +59,13 @@ class CooperativeController:
     def insertion_parcelle(self, prod:Series, producteur:Producteur):
         try:
             code =  prod.get('CODE PARCELLE')
-            parcelle, is_created = Parcelle.objects.get_or_create(code=code, producteur = producteur)
+            parcelle, is_created = Parcelle.objects.get_or_create(code=code, producteur = producteur, culture=Culture.objects.get(cooperative=self.cooperative))
             if is_created == False:
                 self.parcelles_non_enregistres.append(parcelle.code)
             else:
                 parcelle.latitude = str(prod.get('LAT'))
                 parcelle.longitude = str(prod.get('LON'))
                 parcelle.superficie = float(prod.get('SUPERFICIE PARCELLE'))
-                parcelle.culture = Culture.objects.get(cooperative=self.cooperative)
                 parcelle.save()
             return parcelle
         except Exception as e:
