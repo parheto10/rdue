@@ -312,7 +312,7 @@ class Fournisseur(models.Model):
 
 
 class Cooperative(models.Model):
-    fournisseur = models.ManyToManyField(Fournisseur, related_name="fournisseurs_cooperative", blank=True)
+    # fournisseur = models.ManyToManyField(Fournisseur, related_name="fournisseurs_cooperative", blank=True)
     region = models.ForeignKey(Region,on_delete=models.CASCADE,null=True)
     respCoop = models.CharField(max_length=255, blank=True, null=True)
     numConnaissement = models.CharField(max_length=255, blank=True, null=True)
@@ -572,7 +572,7 @@ class Parcelle(models.Model):
     is_mapped = models.BooleanField(default=False)
     superficie = models.FloatField(default=0)
     annee_acquis = models.CharField(max_length=150, null=True, blank=True)
-    age_parcelle = models.PositiveIntegerField(default=0)
+    # age_parcelle = models.PositiveIntegerField(default=0)
     culture = models.ForeignKey(Culture, on_delete=models.CASCADE, null=True)
     acquisition = models.ForeignKey(ModeAcquisition, on_delete=models.CASCADE, null=True, blank=True)
     titre_de_propriete = models.ForeignKey(Acte_Propriete, on_delete=models.CASCADE, null=True, blank=True)

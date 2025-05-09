@@ -30,6 +30,8 @@ class QuestionController:
             question = Question.objects.create(**value)
             self.total += 1
             return question
+        except TypeQuestion.DoesNotExist:
+            raise Exception(f"{row.get('TYPE')} n'existe pas dans la base")
         except Exception as e:
             raise Exception(str(e))
     

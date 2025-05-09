@@ -1313,3 +1313,1030 @@ Not Found: /favicon.ico
 "GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 704
 "GET /api-mobile/question/get_questions?technicien_tel=0767623025 HTTP/1.1" 301 0
 "GET /api-mobile/question/get_questions/?technicien_tel=0767623025 HTTP/1.1" 200 19045
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2757
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4256
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34562
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 26756
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+D:\applications\app_python\rdue\backend\settings\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2754
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2805
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4256
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34706
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 25399
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26194
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 26832
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26194
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26488
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26493
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26488
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26489
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26487
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26495
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 28344
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26194
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 28545
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 25392
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typeenquete/add/ HTTP/1.1" 200 26805
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typeenquete/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 26894
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 25359
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enquete/add/ HTTP/1.1" 200 33596
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/projet/add/?_to_field=id&_popup=1 HTTP/1.1" 200 13623
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"POST /admin/myapi/projet/add/?_to_field=id&_popup=1 HTTP/1.1" 200 13816
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/myapi/projet/add/?_to_field=id&_popup=1 HTTP/1.1" 200 358
+"GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+"POST /admin/enquete/enquete/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 26760
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 26799
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/add/ HTTP/1.1" 200 58523
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"POST /api-mobile/question/insert_questions/ HTTP/1.1" 200 108
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 28323
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/question/insert_questions/ HTTP/1.1" 200 94
+"GET /admin/enquete/question/ HTTP/1.1" 200 39512
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/question/ HTTP/1.1" 200 35005
+"GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+"POST /admin/enquete/question/ HTTP/1.1" 302 0
+"GET /admin/enquete/question/ HTTP/1.1" 200 25513
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /api-mobile/question/insert_questions/ HTTP/1.1" 200 90
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 26799
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/add/ HTTP/1.1" 200 58523
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/myapi/utilisateur/add/ HTTP/1.1" 302 0
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 27261
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 25373
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/add/ HTTP/1.1" 200 28584
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/enqueteur/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 26830
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+Watching for file changes with StatReloader
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0708153554 HTTP/1.1" 200 104
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0708153554 HTTP/1.1" 200 104
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0708153554 HTTP/1.1" 200 104
+Not Found: /
+"GET / HTTP/1.1" 404 2757
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2808
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4256
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34416
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 25396
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/mobiles_api/technicien/add/ HTTP/1.1" 200 29054
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"POST /admin/mobiles_api/technicien/add/ HTTP/1.1" 302 0
+"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 26866
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+- Broken pipe from ('192.168.1.4', 49880)
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0708153554 HTTP/1.1" 301 0
+Internal Server Error: /api-mobile/cooperative/get_cooperative/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: myapi_fournisseur
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py", line 22, in get_cooperative
+    response = ResponseClass(result=True, has_data=True, message=f'Coopérative {technicien.cooperative.nomCoop}', data=serializer.data)
+                                                                                                                       ^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\relations.py", line 567, in to_representation
+    for value in iterable
+                 ^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Python\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: myapi_fournisseur
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py", line 26, in get_cooperative
+    return response.json_response()
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0708153554 HTTP/1.1" 500 185290
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+- Broken pipe from ('192.168.1.4', 49890)
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0708153554 HTTP/1.1" 301 0
+Internal Server Error: /api-mobile/cooperative/get_cooperative/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: myapi_fournisseur
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py", line 22, in get_cooperative
+    response = ResponseClass(result=True, has_data=True, message=f'Coopérative {technicien.cooperative.nomCoop}', data=serializer.data)
+                                                                                                                       ^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\relations.py", line 567, in to_representation
+    for value in iterable
+                 ^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Python\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: myapi_fournisseur
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py", line 26, in get_cooperative
+    return response.json_response()
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0708153554 HTTP/1.1" 500 185290
+"GET /admin/mobiles_api/technicien/1/change/ HTTP/1.1" 200 29348
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 26620
+Watching for file changes with StatReloader
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0708153554 HTTP/1.1" 301 0
+Internal Server Error: /api-mobile/cooperative/get_cooperative/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: myapi_fournisseur
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py", line 22, in get_cooperative
+    response = ResponseClass(result=True, has_data=True, message=f'Coopérative {technicien.cooperative.nomCoop}', data=serializer.data)
+                                                                                                                       ^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\relations.py", line 567, in to_representation
+    for value in iterable
+                 ^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Python\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: myapi_fournisseur
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py", line 26, in get_cooperative
+    return response.json_response()
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0708153554 HTTP/1.1" 500 186035
+Watching for file changes with StatReloader
+"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 26620
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 26620
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/mobiles_api/technicien/1/change/ HTTP/1.1" 200 29348
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 26620
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 27028
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/campagne/ HTTP/1.1" 200 26775
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/espece/ HTTP/1.1" 200 34210
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/campagne/ HTTP/1.1" 200 26775
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/espece/ HTTP/1.1" 200 34210
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 26793
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+Internal Server Error: /admin/myapi/cooperative/1/change/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: myapi_fournisseur
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\contrib\admin\options.py", line 1819, in _changeform_view
+    form = ModelForm(instance=obj)
+  File "C:\Python\Lib\site-packages\django\forms\models.py", line 357, in __init__
+    object_data = model_to_dict(instance, opts.fields, opts.exclude)
+  File "C:\Python\Lib\site-packages\django\forms\models.py", line 115, in model_to_dict
+    data[f.name] = f.value_from_object(instance)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\fields\related.py", line 1953, in value_from_object
+    return [] if obj.pk is None else list(getattr(obj, self.attname).all())
+                                     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Python\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: myapi_fournisseur
+"GET /admin/myapi/cooperative/1/change/ HTTP/1.1" 500 183889
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 26793
+Watching for file changes with StatReloader
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 26793
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+Internal Server Error: /admin/myapi/cooperative/1/change/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: myapi_fournisseur
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\contrib\admin\options.py", line 1819, in _changeform_view
+    form = ModelForm(instance=obj)
+  File "C:\Python\Lib\site-packages\django\forms\models.py", line 357, in __init__
+    object_data = model_to_dict(instance, opts.fields, opts.exclude)
+  File "C:\Python\Lib\site-packages\django\forms\models.py", line 115, in model_to_dict
+    data[f.name] = f.value_from_object(instance)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\fields\related.py", line 1953, in value_from_object
+    return [] if obj.pk is None else list(getattr(obj, self.attname).all())
+                                     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Python\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: myapi_fournisseur
+"GET /admin/myapi/cooperative/1/change/ HTTP/1.1" 500 183889
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 26793
+D:\applications\app_python\rdue\backend\myapi\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapi/cooperative/1/change/ HTTP/1.1" 200 36780
+- Broken pipe from ('192.168.1.54', 62820)
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/myapi/cooperative/1/change/ HTTP/1.1" 302 0
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 27026
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0708153554 HTTP/1.1" 200 463
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 318
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 141
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 366
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 99
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 9251
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 101
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 102
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 85
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 284022
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 108
+D:\applications\app_python\rdue\backend\myapi\models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0708153554 HTTP/1.1" 200 463
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 318
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 141
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 366
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 99
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 9251
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 101
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 102
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 85
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 284022
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 517707
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 82
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 116
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 136
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 118
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 138
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 204
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0708153554 HTTP/1.1" 200 414
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 783
+"GET /api-mobile/question/get_questions?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0708153554 HTTP/1.1" 200 29282
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2757
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2808
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4256
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34426
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 26793
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/myapi/cooperative/1/change/ HTTP/1.1" 200 36780
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"POST /admin/myapi/cooperative/1/change/ HTTP/1.1" 302 0
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 27026
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+Watching for file changes with StatReloader
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 27028
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/2/change/ HTTP/1.1" 200 59013
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0708153554 HTTP/1.1" 200 466
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 318
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 141
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 366
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 99
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 9251
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 101
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 102
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 85
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 284022
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 517707
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 82
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 116
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 136
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 118
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 138
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 204
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0708153554 HTTP/1.1" 200 414
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 783
+"GET /api-mobile/question/get_questions?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0708153554 HTTP/1.1" 200 29282
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2754
+Not Found: /
+"GET / HTTP/1.1" 404 2754
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2805
+Not Found: /
+"GET / HTTP/1.1" 404 2754
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4256
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34711
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 25399
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 25392
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/reponse/ HTTP/1.1" 200 25359
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/question/ HTTP/1.1" 200 25366
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 25373
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 25359
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 25392
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typeenquete/add/ HTTP/1.1" 200 26805
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"POST /admin/enquete/typeenquete/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 26894
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 25359
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enquete/add/ HTTP/1.1" 200 33596
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/projet/add/?_to_field=id&_popup=1 HTTP/1.1" 200 13623
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"POST /admin/myapi/projet/add/?_to_field=id&_popup=1 HTTP/1.1" 200 13816
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/myapi/projet/add/?_to_field=id&_popup=1 HTTP/1.1" 200 358
+"GET /static/admin/js/popup_response.js HTTP/1.1" 304 0
+"POST /admin/enquete/enquete/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 26760
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 25399
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26194
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26491
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26488
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26493
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26488
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26489
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26487
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26495
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26497
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 28545
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 26799
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/add/ HTTP/1.1" 200 58874
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"POST /admin/myapi/utilisateur/add/ HTTP/1.1" 302 0
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 27261
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 25396
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/mobiles_api/technicien/add/ HTTP/1.1" 200 29054
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/mobiles_api/technicien/add/ HTTP/1.1" 302 0
+"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 26866
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 25373
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/add/ HTTP/1.1" 200 28584
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/enqueteur/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 26830
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /api-mobile/question/insert_questions/ HTTP/1.1" 200 90
+Watching for file changes with StatReloader
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+Not Found: /
+"GET / HTTP/1.1" 404 2757
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2808
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 177
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0708153554 HTTP/1.1" 200 476
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 318
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 141
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 366
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 99
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 9251
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 101
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 277169
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 505141
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 82
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 431
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 462
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 118
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 138
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=1 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=1 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 204
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0708153554 HTTP/1.1" 200 414
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 783
+"GET /api-mobile/question/get_questions?technicien_tel=0708153554 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0708153554 HTTP/1.1" 200 33333
