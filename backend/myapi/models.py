@@ -3,14 +3,10 @@ from __future__ import unicode_literals
 
 import os
 import time
-import datetime
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, Permission
 from django.core import serializers
 from django.db import models
 from django.db.models import Sum
-from PIL import Image
-from django.forms import ValidationError
-from django_resized import ResizedImageField
 from django.contrib.auth.hashers import make_password,check_password
 from django.db.models import Q
 
@@ -551,7 +547,7 @@ class Acte_Propriete(models.Model):
 
 
 class RisqueRDUE(models.Model):
-    cooperative = models.ForeignKey(Cooperative, on_delete=models.CASCADE, null=True)
+    # cooperative = models.ForeignKey(Cooperative, on_delete=models.CASCADE, null=True)
     libelle = models.CharField(max_length=255)
 
     class Meta:
@@ -597,6 +593,8 @@ class Planting(models.Model):
     plant_existant = models.IntegerField(default=0)
     plant_recus = models.IntegerField(default=0)
     note_plant_existant = models.TextField(null=True)
+    latitude_du_lieu_de_planting = models.CharField(max_length=200, null=True, blank=True)
+    longitude_du_lieu_de_planting = models.CharField(max_length=200, null=True, blank=True)
     campagne = models.ForeignKey(Campagne, on_delete=models.CASCADE, null=True)
     date = models.DateField(null=True,blank=True)
     
@@ -645,6 +643,8 @@ class Monitoring(models.Model):
     #plant_denombre_total = models.IntegerField(default=0)
     date = models.DateField(null=True,blank=True)
     taux_reussite = models.DecimalField(max_digits=1000, decimal_places=2, null=True, blank=True,default=0)
+    latitude_du_lieu_de_monitoring = models.CharField(max_length=200, null=True, blank=True)
+    longitude_du_lieu_de_monitoring = models.CharField(max_length=200, null=True, blank=True)
     campagne = models.ForeignKey(Campagne, on_delete=models.CASCADE, null=True)
     
     created_at = models.DateTimeField(auto_now_add=True)

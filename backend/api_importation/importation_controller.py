@@ -23,6 +23,9 @@ class ImportationController:
         try:
             coops = self.getCoop()
             self.data_frame['COOPERATIVE'] = self.data_frame['COOPERATIVE'].str.strip()
+            self.data_frame['SECTION'] = self.data_frame['SECTION'].str.strip()
+            self.data_frame['CODE PARCELLE'] = self.data_frame['CODE PARCELLE'].str.upper().str.strip()
+            self.data_frame['NOM DU PRODUCTEUR'] = self.data_frame['NOM DU PRODUCTEUR'].str.upper().str.strip()
             for cooperative in coops:
                 if cooperative is not None:
                     data = self.data_frame.loc[self.data_frame['COOPERATIVE']==cooperative.nomCoop]

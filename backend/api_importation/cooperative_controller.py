@@ -11,7 +11,7 @@ class CooperativeController:
     planting_non_enregistres = []
     message = ''
     def __init__(self, coop:Cooperative, camp:Campagne, data:DataFrame) -> None:
-        self.especes = ["BANGBAYÉ","ACACIA","ALBIZIA","EMIEN","AKO","BAZA","KAPOTIER","CEDRELA","FROMAGÉ","ORANGER","TIAMA","SIPO","PETIT COLA","GMELINA","SIBO/BAHIA","NIANGON","KPLÉ","ACAJOU / PETITE FEUILLE","ACAJOU / GRAND FEUILLE","ACAJOU","BÉTÉ","POIVRE LONG","IROKO","KOTO","AVOCAT","ASAMELA","DAMEBA","AKODIAKÉDÉ","ILOMBA","APKI","POÉ","TECK","FRAMIRÉ","FRAKÉ","MAKORÉ","BITEI"]
+        self.especes = ["BANGBAYÉ", "AIELÉ", "ACACIA","ALBIZIA","EMIEN","AKO","BAZA","KAPOTIER","CEDRELA","FROMAGER","ORANGER","TIAMA","SIPO","PETIT COLA","GMELINA","SIBO/BAHIA","NIANGON","KPLÉ","ACAJOU / PETITE FEUILLE","ACAJOU / GRAND FEUILLE","ACAJOU","BÉTÉ","POIVRE LONG","IROKO","KOTO","AVOCAT","ASAMELA","DAMEBA","AKODIAKÉDÉ","ILOMBA","AKPI","POÉ","TECK","FRAMIRÉ","FRAKÉ","MAKORÉ","BITEI"]
         self.cooperative = coop
         self.data = data
         self.campagne = camp
@@ -59,14 +59,13 @@ class CooperativeController:
     def insertion_parcelle(self, prod:Series, producteur:Producteur):
         try:
             code =  prod.get('CODE PARCELLE')
-            parcelle, is_created = Parcelle.objects.get_or_create(code=code, producteur = producteur)
+            parcelle, is_created = Parcelle.objects.get_or_create(code=code, producteur = producteur, culture=Culture.objects.get(cooperative=self.cooperative))
             if is_created == False:
                 self.parcelles_non_enregistres.append(parcelle.code)
             else:
                 parcelle.latitude = str(prod.get('LAT'))
                 parcelle.longitude = str(prod.get('LON'))
                 parcelle.superficie = float(prod.get('SUPERFICIE PARCELLE'))
-                parcelle.culture = Culture.objects.get(cooperative=self.cooperative)
                 parcelle.save()
             return parcelle
         except Exception as e:
@@ -111,8 +110,8 @@ class CooperativeController:
         nbre_parcelles = 0
         nbre_plantings = 0
         nbre_details_planting = 0
-        self.data.loc[:,'SECTION'] = self.data['SECTION'].astype(str).str.strip().str.upper()
-        self.data.loc[:,'CODE PRODUCTEUR'] = self.data['CODE PRODUCTEUR'].astype(str).str.strip()
+        # self.data.loc[:,'SECTION'] = self.data['SECTION'].astype(str).str.strip().str.upper()
+        # self.data.loc[:,'CODE PRODUCTEUR'] = self.data['CODE PRODUCTEUR'].astype(str).str.strip()
         try:
             bd_sections = Section.objects.filter(cooperative=self.cooperative)
             nbre_sections = bd_sections.count()
@@ -156,24 +155,24 @@ class MonitoringCooperativeController:
         try:
             parcelle = Parcelle.objects.get(code = code_parcelle, producteur__section__cooperative = self.cooperative)
             return parcelle
-        except Exception as e:
-            return None
+        except Parcelle.DoesNotExist:
+            raise Exception(f"La parcelle {code_parcelle} n'existe pas")
         
     def get_last_planting(self, code_parcelle:str):
         parcelle = self.get_parcelle(code_parcelle=code_parcelle)
-        if parcelle is not None:
-            return Planting.objects.filter(parcelle = parcelle, campagne = self.campagne).last()
+        planting = Planting.objects.filter(parcelle = parcelle, campagne = self.campagne).last()
+        if planting is not None:
+            return planting
         else:
-            self.list_code_parcelle.append(code_parcelle)
-            return None
+            raise Exception(f"La parcelle {code_parcelle} n'a pas de planting")
     
     def get_list_detail_planting(self, code_parcelle:str):
         last_planting = self.get_last_planting(code_parcelle=code_parcelle)
-        if last_planting is not None:
-            details_planting = list(DetailPlanting.objects.filter(planting = last_planting))
+        details_planting = list(DetailPlanting.objects.filter(planting = last_planting))
+        if (len(details_planting)>0):
             return details_planting
         else:
-            return None
+            raise Exception(f"Le planting {last_planting.code} n'a pas de détails")
         
     def create_monitoring(self, planting:Planting, row:Series):
         try:
@@ -184,9 +183,10 @@ class MonitoringCooperativeController:
             monitoring.taux_reussite = taux_reussite
             monitoring.date = date
             monitoring.save()
+            self.nbre_monitoring += 1
             return monitoring
         except Exception as e:
-            return None     
+            raise Exception(f"Le monitoring sur la parcelle {row.get('CODE PARCELLE')} n'a pas été enregistré")     
         
     def insert_causes_de_mortalite(self, monitoring:Monitoring, row:Series):
         try:
@@ -199,11 +199,12 @@ class MonitoringCooperativeController:
                 for cause in causes_de_mortalite:
                     ObservationMonitoring.objects.create(monitoring=monitoring, observation = cause)
         except ObservationMortalite.DoesNotExist:
-            raise Exception(f"{row.get('FACTEURS DES MORTALITES')}")
+            pass
+            # raise Exception(f"La cause de mortalité '{row.get('FACTEURS DES MORTALITES')}' sur la parcelle {row.get('CODE PARCELLE')} n'existe pas")
         
     def insert_detail_monitoring(self, detail_planting:DetailPlanting, monitoring:Monitoring, row:Series):
-        try:
-            if row.get(detail_planting.espece.libelle) is not None:
+        if row.get(detail_planting.espece.libelle) is not None:
+            try:
                 code = f'DMN-{uuid.uuid4().hex.upper()[0:10]}'
                 plant_denombre = int(row.get(detail_planting.espece.libelle))
                 taux_reussite = ((plant_denombre/detail_planting.plants) * 100)
@@ -214,31 +215,28 @@ class MonitoringCooperativeController:
                 detailMonitoring.taux_reussite = taux_reussite
                 detailMonitoring.save()
                 return detailMonitoring
-        except Exception as e:
-            return None
+            except Exception as e:
+                raise Exception(f"Le monitoring de l'espèce {detail_planting.espece.libelle} sur la parcelle {row.get('CODE PARCELLE')} n'a été enregitré")
+        else:
+            raise Exception(f"L'espèce {detail_planting.espece.libelle} sur la parcelle {row.get('CODE PARCELLE')} n'existe pas dans le fichier excell")
+        
         
     def multiple_insert_detail_monitoring(self, details_planting:list[DetailPlanting], monitoring:Monitoring, row:Series):
         nbre_detail = 0
-        for detail_planting in details_planting:
-           detail_monitoring = self.insert_detail_monitoring(detail_planting=detail_planting, monitoring=monitoring, row=row)
-           if detail_monitoring is not None:
-               nbre_detail +=1
+        if(len(details_planting)>0):
+            for detail_planting in details_planting:
+                self.insert_detail_monitoring(detail_planting=detail_planting, monitoring=monitoring, row=row)
+                nbre_detail +=1
         return nbre_detail
                
     def insert_monitoring(self, row:Series):
         last_planting = self.get_last_planting(code_parcelle=row.get('CODE PARCELLE'))
-        if last_planting is not None:
-            details_planting = list(DetailPlanting.objects.filter(planting = last_planting, espece__libelle__in = self.especes))
-            if len(details_planting) > 0:
-                monitoring = self.create_monitoring(planting=last_planting, row=row)
-                if monitoring is not None:
-                    self.nbre_monitoring += 1
-                    self.insert_causes_de_mortalite(monitoring=monitoring, row=row)
-                    self.nbre_detail_monitoring += self.multiple_insert_detail_monitoring(details_planting=details_planting, monitoring=monitoring, row=row)
-            else:
-                return None
-        else:
-            return None
+        details_planting = list(DetailPlanting.objects.filter(planting = last_planting, espece__libelle__in = self.especes))
+        monitoring = self.create_monitoring(planting=last_planting, row=row)
+        if monitoring.taux_reussite < 100:
+            if row.get('FACTEURS DES MORTALITES') is not None and row.get('FACTEURS DES MORTALITES') != 'nan':
+                self.insert_causes_de_mortalite(monitoring=monitoring, row=row)
+        self.nbre_detail_monitoring += self.multiple_insert_detail_monitoring(details_planting=details_planting, monitoring=monitoring, row=row)
         
     def importer_monitoring(self):
         for index, row in self.data.iterrows():
