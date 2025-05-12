@@ -1,621 +1,70 @@
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\settings\settings.py changed, reloading.
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2527
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2578
-"GET /admin HTTP/1.1" 301 0
-"GET /admin/ HTTP/1.1" 302 0
-"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4233
-"GET /static/admin/css/login.css HTTP/1.1" 200 958
-"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
-"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
-"GET /static/admin/css/base.css HTTP/1.1" 200 21544
-"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
-"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
-"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
-"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
-"GET /admin/ HTTP/1.1" 200 23710
-"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
-"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
-"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
-"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\settings\urls.py changed, reloading.
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\settings\urls.py changed, reloading.
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\settings\urls.py changed, reloading.
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\settings\urls.py changed, reloading.
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\settings\urls.py changed, reloading.
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2638
-Not Found: /api-mobile
-"GET /api-mobile HTTP/1.1" 404 2686
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py changed, reloading.
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2638
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2689
-"GET /admin/ HTTP/1.1" 200 23710
-"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
-"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
-"GET /static/admin/css/base.css HTTP/1.1" 304 0
-"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
-"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
-"GET /static/admin/js/theme.js HTTP/1.1" 304 0
-"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
-"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
-"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
-"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
-"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 19431
-"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
-"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
-"GET /static/admin/js/core.js HTTP/1.1" 200 6208
-"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
-"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
-"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
-"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
-"GET /static/admin/js/filters.js HTTP/1.1" 200 978
-"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
-"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
-"GET /admin/myapi/utilisateur/add/ HTTP/1.1" 200 42567
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
-"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
-"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
-"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
-"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
-"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
-"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
-"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
-"POST /admin/myapi/utilisateur/add/ HTTP/1.1" 302 0
-"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 19958
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
-"GET /admin/myapi/utilisateur/12/change/ HTTP/1.1" 200 43055
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 19725
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-"GET /admin/myapi/utilisateur/12/change/ HTTP/1.1" 302 0
-"GET /admin/login/?next=/admin/myapi/utilisateur/12/change/ HTTP/1.1" 200 4289
-"GET /static/admin/css/base.css HTTP/1.1" 200 21544
-"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
-"GET /static/admin/css/login.css HTTP/1.1" 200 958
-"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
-"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
-"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
-"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2692
-"POST /admin/login/?next=/admin/myapi/utilisateur/12/change/ HTTP/1.1" 302 0
-"GET /admin/myapi/utilisateur/12/change/ HTTP/1.1" 200 43055
-"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
-"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
-"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
-"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
-"GET /static/admin/js/core.js HTTP/1.1" 200 6208
-"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
-"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
-"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
-"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
-"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
-"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
-"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
-"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
-"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
-"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
-"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
-"POST /admin/myapi/utilisateur/12/change/ HTTP/1.1" 302 0
-"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 19961
-"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
-"GET /static/admin/js/filters.js HTTP/1.1" 200 978
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
-"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
-"GET /admin/myapi/utilisateur/12/change/ HTTP/1.1" 200 43031
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"POST /admin/myapi/utilisateur/12/change/ HTTP/1.1" 302 0
-"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 19961
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-Not Found: /utilisateur/connexion
-"POST /utilisateur/connexion HTTP/1.1" 404 2723
-Internal Server Error: /api-mobile/utilisateur/connexion
-Traceback (most recent call last):
-  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
-    response = self.process_response(request, response)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\middleware\common.py", line 108, in process_response
-    return self.response_redirect_class(self.get_full_path_with_slash(request))
-                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
-    raise RuntimeError(
-RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 192.168.1.33:8000/api-mobile/utilisateur/connexion/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
-"POST /api-mobile/utilisateur/connexion HTTP/1.1" 500 69534
-Internal Server Error: /api-mobile/utilisateur/connexion/
-Traceback (most recent call last):
-  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py", line 23, in connexion
-    response = ResponseClass(result=True, has_data=True, message="Connexion r�ussie", data=serializer.data)
-                                                                                           ^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 555, in data
-    ret = super().data
-          ^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 253, in data
-    self._data = self.to_representation(self.instance)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
-    for field in fields:
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
-    for field in self.fields.values():
-                 ^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\utils\functional.py", line 47, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
-                                         ^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 356, in fields
-    for key, value in self.get_fields().items():
-                      ^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 1076, in get_fields
-    field_class, field_kwargs = self.build_field(
-                                ^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 1222, in build_field
-    return self.build_unknown_field(field_name, model_class)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 1340, in build_unknown_field
-    raise ImproperlyConfigured(
-django.core.exceptions.ImproperlyConfigured: Field name `prenoms` is not valid for model `Utilisateur`.
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 500 142328
-E:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 90
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 135
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-Method Not Allowed: /api-mobile/utilisateur/connexion/
-"GET /api-mobile/utilisateur/connexion/ HTTP/1.1" 405 49
-Method Not Allowed: /api-mobile/utilisateur/connexion/
-"GET /api-mobile/utilisateur/connexion/ HTTP/1.1" 405 49
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 90
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 252
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2638
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2689
-"GET /admin/ HTTP/1.1" 200 23664
-"GET /static/admin/css/base.css HTTP/1.1" 304 0
-"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
-"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
-"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
-"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
-"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
-"GET /static/admin/js/theme.js HTTP/1.1" 304 0
-"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
-"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
-"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
-E:\applications\app_python\rdue\backend\mobiles_api\admin.py changed, reloading.
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\admin.py changed, reloading.
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
 Watching for file changes with StatReloader
-"GET /admin/ HTTP/1.1" 200 24379
-"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 17780
-"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
-"GET /static/admin/js/actions.js HTTP/1.1" 304 0
-"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
-"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
-"GET /static/admin/js/core.js HTTP/1.1" 304 0
-"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
-"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
-"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
-"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
-"GET /static/admin/js/filters.js HTTP/1.1" 304 0
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
-"GET /admin/mobiles_api/technicien/add/ HTTP/1.1" 200 21848
-"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
-"GET /static/admin/css/forms.css HTTP/1.1" 304 0
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
-"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
-"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
-"GET /admin/myapi/cooperative/ HTTP/1.1" 200 20658
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /admin/myapi/cooperative/12/change/ HTTP/1.1" 200 29119
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 17780
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /admin/mobiles_api/technicien/add/ HTTP/1.1" 200 21848
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"POST /admin/mobiles_api/technicien/add/ HTTP/1.1" 302 0
-"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 19384
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
-"GET /admin/myapi/countrie/ HTTP/1.1" 200 19281
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-E:\applications\app_python\rdue\backend\mobiles_api\models.py changed, reloading.
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
 Watching for file changes with StatReloader
-"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 19122
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-E:\applications\app_python\rdue\backend\settings\urls.py changed, reloading.
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views.py changed, reloading.
-Watching for file changes with StatReloader
-Not Found: /api/api-mobile/cooperative/get_cooperative
-"GET /api/api-mobile/cooperative/get_cooperative?tel=0706623025 HTTP/1.1" 404 12462
-Not Found: /api/cooperative/get_cooperative
-"GET /api/cooperative/get_cooperative?tel=0706623025 HTTP/1.1" 404 12429
-"GET /api-mobile/cooperative/get_cooperative?tel=0706623025 HTTP/1.1" 301 0
-"GET /api-mobile/cooperative/get_cooperative/?tel=0706623025 HTTP/1.1" 200 104
-"GET /api-mobile/cooperative/get_cooperative?tel=0767623025 HTTP/1.1" 301 0
-Internal Server Error: /api-mobile/cooperative/get_cooperative/
-Traceback (most recent call last):
-  File "E:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py", line 22, in get_cooperative
-    response = ResponseClass(result=True, has_data=True, message=f"Coop�rative {technicien.cooperative.nomCoop}", data=serializer.data)
-                                                                                                                       ^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 555, in data
-    ret = super().data
-          ^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 253, in data
-    self._data = self.to_representation(self.instance)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
-    for field in fields:
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
-    for field in self.fields.values():
-                 ^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\utils\functional.py", line 47, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
-                                         ^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 356, in fields
-    for key, value in self.get_fields().items():
-                      ^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 1027, in get_fields
-    assert hasattr(self, 'Meta'), (
-AssertionError: Class CooperativeSerializer missing "Meta" attribute
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py", line 26, in get_cooperative
-    return response.json_response()
-           ^^^^^^^^
-UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
-"GET /api-mobile/cooperative/get_cooperative/?tel=0767623025 HTTP/1.1" 500 126921
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /api-mobile/cooperative/get_cooperative?tel=0767623025 HTTP/1.1" 301 0
-Internal Server Error: /api-mobile/cooperative/get_cooperative/
-Traceback (most recent call last):
-  File "E:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py", line 22, in get_cooperative
-    response = ResponseClass(result=True, has_data=True, message=f'Coop�rative {technicien.cooperative.nomCoop}', data=serializer.data)
-                                                                                                                       ^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 555, in data
-    ret = super().data
-          ^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 253, in data
-    self._data = self.to_representation(self.instance)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
-    for field in fields:
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
-    for field in self.fields.values():
-                 ^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\utils\functional.py", line 47, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
-                                         ^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 356, in fields
-    for key, value in self.get_fields().items():
-                      ^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 1027, in get_fields
-    assert hasattr(self, 'Meta'), (
-AssertionError: Class CooperativeSerializer missing "Meta" attribute
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py", line 26, in get_cooperative
-    return response.json_response()
-           ^^^^^^^^
-UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
-"GET /api-mobile/cooperative/get_cooperative/?tel=0767623025 HTTP/1.1" 500 126921
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /api-mobile/cooperative/get_cooperative?tel=0767623025 HTTP/1.1" 301 0
-Internal Server Error: /api-mobile/cooperative/get_cooperative/
-Traceback (most recent call last):
-  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py", line 22, in get_cooperative
-    response = ResponseClass(result=True, has_data=True, message=f'Coop�rative {technicien.cooperative.nomCoop}', data=serializer.data)
-                                                                                                                       ^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 555, in data
-    ret = super().data
-          ^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 253, in data
-    self._data = self.to_representation(self.instance)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
-    for field in fields:
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
-    for field in self.fields.values():
-                 ^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\utils\functional.py", line 47, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
-                                         ^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 356, in fields
-    for key, value in self.get_fields().items():
-                      ^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 1027, in get_fields
-    assert hasattr(self, 'Meta'), (
-AssertionError: Class CooperativeSerializer missing "Meta" attribute
-"GET /api-mobile/cooperative/get_cooperative/?tel=0767623025 HTTP/1.1" 500 122023
-E:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /api-mobile/cooperative/get_cooperative?tel=0767623025 HTTP/1.1" 301 0
-"GET /api-mobile/cooperative/get_cooperative/?tel=0767623025 HTTP/1.1" 200 400
-"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 262
-E:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\cooperative_view.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\settings\urls.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
-Internal Server Error: /api-mobile/section/all_section_by_cooperative/
-Traceback (most recent call last):
-  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 511, in dispatch
-    self.response = self.finalize_response(request, response, *args, **kwargs)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 423, in finalize_response
-    assert isinstance(response, HttpResponseBase), (
-AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
-"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=10 HTTP/1.1" 500 80649
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\section_view.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\section_view.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
-Internal Server Error: /api-mobile/section/all_section_by_cooperative/
-Traceback (most recent call last):
-  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 511, in dispatch
-    self.response = self.finalize_response(request, response, *args, **kwargs)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 423, in finalize_response
-    assert isinstance(response, HttpResponseBase), (
-AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
-"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=10 HTTP/1.1" 500 80649
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\section_view.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
-Internal Server Error: /api-mobile/section/all_section_by_cooperative/
-Traceback (most recent call last):
-  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 511, in dispatch
-    self.response = self.finalize_response(request, response, *args, **kwargs)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 423, in finalize_response
-    assert isinstance(response, HttpResponseBase), (
-AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
-"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=10 HTTP/1.1" 500 80649
-"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
-Internal Server Error: /api-mobile/section/all_section_by_cooperative/
-Traceback (most recent call last):
-  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 511, in dispatch
-    self.response = self.finalize_response(request, response, *args, **kwargs)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 423, in finalize_response
-    assert isinstance(response, HttpResponseBase), (
-AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
-"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=10 HTTP/1.1" 500 80649
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\section_view.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\section_view.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
-"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=10 HTTP/1.1" 200 3849
-E:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
-"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=10 HTTP/1.1" 200 119
-E:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=10 HTTP/1.1" 301 0
-"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=10 HTTP/1.1" 200 3355
-E:\applications\app_python\rdue\backend\settings\urls.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\section_view.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\settings\urls.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\producteur_view.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\planting_view.py changed, reloading.
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\arbre_existant_controller.py changed, reloading.
 Watching for file changes with StatReloader
 E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\detailplanting_view.py changed, reloading.
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\campagne_view.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\campagne_view.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\campagne_view.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\campagne_view.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\campagne_view.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\campagne_view.py changed, reloading.
-Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\campagne_view.py changed, reloading.
-Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 108
 E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
 Watching for file changes with StatReloader
 E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
 Watching for file changes with StatReloader
+<<<<<<< HEAD
 E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
 Watching for file changes with StatReloader
 E:\applications\app_python\rdue\backend\mobiles_api\views_classes\planting_view.py changed, reloading.
@@ -10021,14 +9470,20 @@ Watching for file changes with StatReloader
 E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
 Watching for file changes with StatReloader
 E:\applications\app_python\rdue\backend\mobiles_api\controllers\certification_controller.py changed, reloading.
+=======
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\parcelle_controller.py changed, reloading.
+>>>>>>> 1b9549bdd04a34fa06c3a13b74eb7e4e7b2f14b2
 Watching for file changes with StatReloader
 E:\applications\app_python\rdue\backend\mobiles_api\controllers\parcelle_controller.py changed, reloading.
 Watching for file changes with StatReloader
-"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 78
-Not Found: /api-mobile/enquete_sociale/synchronisation/
-"POST /api-mobile/enquete_sociale/synchronisation/ HTTP/1.1" 404 10266
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\parcelle_controller.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 108
 E:\applications\app_python\rdue\backend\mobiles_api\views_classes\parcelle_view.py changed, reloading.
 Watching for file changes with StatReloader
+<<<<<<< HEAD
 Watching for file changes with StatReloader
 "POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 160
 "GET /api-mobile/cooperative/get_cooperative?technicien_tel=0707229041 HTTP/1.1" 301 0
@@ -10729,44 +10184,26 @@ Watching for file changes with StatReloader
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
 "GET /admin/myapi/monitoring/ HTTP/1.1" 200 25125
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+=======
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 149
+>>>>>>> 1b9549bdd04a34fa06c3a13b74eb7e4e7b2f14b2
 E:\applications\app_python\rdue\backend\mobiles_api\models.py changed, reloading.
 Watching for file changes with StatReloader
-"GET /admin/mobiles_api/infopse/ HTTP/1.1" 200 23273
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /admin/mobiles_api/infopse/add/ HTTP/1.1" 200 30876
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"POST /api-mobile/activite-retribution/insert/ HTTP/1.1" 200 92
-"GET /admin/mobiles_api/infopse/add/ HTTP/1.1" 200 30922
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"POST /admin/mobiles_api/infopse/add/ HTTP/1.1" 302 0
-"GET /admin/mobiles_api/infopse/ HTTP/1.1" 200 24865
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
-"GET /api-mobile/info-pse/info_pse_list/ HTTP/1.1" 200 215
-"GET /admin/mobiles_api/infopse/1/change/ HTTP/1.1" 200 31226
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /admin/myapi/projet/ HTTP/1.1" 200 24760
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"GET /api-mobile/info-pse/info_pse_list_by_projet/?id_projet=1 HTTP/1.1" 200 76
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\info_pse_view.py changed, reloading.
 Watching for file changes with StatReloader
-"GET /api-mobile/info-pse/info_pse_list_by_projet/?id_projet=1 HTTP/1.1" 200 215
-"GET /api-mobile/info-pse/info_pse_list_by_projet/?id_projet=1 HTTP/1.1" 200 215
-"GET /api-mobile/info-pse/info_pse_list_by_projet/?id_projet=1 HTTP/1.1" 200 215
-"POST /api-mobile/info-pse/insert/ HTTP/1.1" 200 121
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\info_pse_view.py changed, reloading.
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 108
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\parcelle_controller.py changed, reloading.
 Watching for file changes with StatReloader
-"GET /admin/myapi/projet/ HTTP/1.1" 200 24760
-"GET /admin/jsi18n/ HTTP/1.1" 200 8985
-"POST /api-mobile/info-pse/insert/ HTTP/1.1" 200 168
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\info_pse_view.py changed, reloading.
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\parcelle_controller.py changed, reloading.
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\info_pse_view.py changed, reloading.
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 93
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\parcelle_controller.py changed, reloading.
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\info_pse_view.py changed, reloading.
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\parcelle_controller.py changed, reloading.
 Watching for file changes with StatReloader
-E:\applications\app_python\rdue\backend\mobiles_api\views_classes\info_pse_view.py changed, reloading.
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 108
+E:\applications\app_python\rdue\backend\mobiles_api\controllers\parcelle_controller.py changed, reloading.
 Watching for file changes with StatReloader
+<<<<<<< HEAD
 "POST /api-mobile/info-pse/insert/ HTTP/1.1" 200 96
 "GET /admin/myapi/projet/ HTTP/1.1" 200 24760
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
@@ -11242,6 +10679,10 @@ Not Found: /favicon.ico
 "GET /api/obervation-list/ HTTP/1.1" 200 149
 "GET /api/monitoring-list/?parcId=03-SAF-433 HTTP/1.1" 200 2
 "GET /api/monitoring-list/?parcId=03-SAF-433 HTTP/1.1" 200 2
+=======
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 85
+"POST /api-mobile/parcelle/synchronisation/ HTTP/1.1" 200 108
+>>>>>>> 1b9549bdd04a34fa06c3a13b74eb7e4e7b2f14b2
 Watching for file changes with StatReloader
 Not Found: /
 "GET / HTTP/1.1" 404 2754
@@ -11249,38 +10690,40 @@ Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 2805
 "GET /admin/ HTTP/1.1" 302 0
 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4233
-"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
 "GET /static/admin/css/base.css HTTP/1.1" 304 0
-"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
-"GET /static/admin/css/login.css HTTP/1.1" 304 0
-"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
-"GET /admin/ HTTP/1.1" 200 32367
+"GET /admin/ HTTP/1.1" 200 34856
 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
-"GET /admin/myapi/espece/ HTTP/1.1" 200 34298
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 73653
 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
-"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
-"GET /static/admin/js/actions.js HTTP/1.1" 304 0
 "GET /static/admin/js/core.js HTTP/1.1" 304 0
 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
-"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
-"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
-"GET /admin/myapi/espece/add/ HTTP/1.1" 200 29051
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+"GET /admin/myapi/producteur/GL181/change/ HTTP/1.1" 200 37277
 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
-"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
-"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+<<<<<<< HEAD
 "POST /admin/myapi/espece/add/ HTTP/1.1" 200 29231
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
 "POST /admin/myapi/espece/add/ HTTP/1.1" 302 0
@@ -17331,15 +16774,41 @@ Not Found: /favicon.ico
 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
 "GET /admin/ HTTP/1.1" 200 34711
 "GET /admin/myapi/cooperative/ HTTP/1.1" 200 25561
+=======
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /admin/myapi/producteur/ HTTP/1.1" 200 73653
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 28066
+>>>>>>> 1b9549bdd04a34fa06c3a13b74eb7e4e7b2f14b2
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
 "GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 25373
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+<<<<<<< HEAD
 "GET /admin/myapi/espece/ HTTP/1.1" 200 37440
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
 "GET /admin/myapi/utilisateur/ HTTP/1.1" 200 26926
+=======
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26470
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 28833
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/typequestion/4/change/ HTTP/1.1" 200 26398
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /admin/enquete/typequestion/4/change/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 28857
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 26924
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 26697
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 26924
+>>>>>>> 1b9549bdd04a34fa06c3a13b74eb7e4e7b2f14b2
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
 "GET /admin/myapi/utilisateur/3/change/ HTTP/1.1" 200 57834
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+<<<<<<< HEAD
 "GET /admin/myapi/utilisateur/ HTTP/1.1" 200 26926
 "GET /admin/myapi/campagne/ HTTP/1.1" 200 26914
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
@@ -17373,17 +16842,232 @@ Watching for file changes with StatReloader
 E:\applications\app_python\rdue\backend\settings\settings.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+=======
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 28624
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/question/ HTTP/1.1" 200 30646
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/question/14/change/ HTTP/1.1" 200 31464
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+E:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2754
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2805
+"GET /admin/ HTTP/1.1" 200 34899
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 26924
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/question/ HTTP/1.1" 200 30646
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /admin/enquete/question/ HTTP/1.1" 200 27501
+"GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+"POST /admin/enquete/question/ HTTP/1.1" 302 0
+"GET /admin/enquete/question/ HTTP/1.1" 200 25490
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 28624
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 27071
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/reponse/ HTTP/1.1" 200 27300
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /admin/enquete/reponse/ HTTP/1.1" 200 25738
+"POST /admin/enquete/reponse/ HTTP/1.1" 302 0
+"GET /admin/enquete/reponse/ HTTP/1.1" 200 25481
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/question/ HTTP/1.1" 200 25343
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 26697
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 26924
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+Method Not Allowed: /api-mobile/question/insert_questions/
+"GET /api-mobile/question/insert_questions/ HTTP/1.1" 405 49
+"POST /api-mobile/question/insert_questions/ HTTP/1.1" 200 103
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 26924
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /api-mobile/question/insert_questions/ HTTP/1.1" 200 90
+"GET /admin/enquete/question/ HTTP/1.1" 200 32520
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 26924
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /api-mobile/question/insert_questions/ HTTP/1.1" 200 108
+"GET /admin/enquete/question/ HTTP/1.1" 200 35219
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /admin/enquete/question/ HTTP/1.1" 200 26697
+"POST /admin/enquete/question/ HTTP/1.1" 302 0
+"GET /admin/enquete/question/ HTTP/1.1" 200 32666
+"GET /admin/jsi18n/ HTTP/1.1" 200 8985
+"POST /api-mobile/question/insert_questions/ HTTP/1.1" 200 90
+Watching for file changes with StatReloader
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 485
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 148764
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 197111
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 172
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 104
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 124
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 106
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 126
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 299
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0767623025 HTTP/1.1" 200 717
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 704
+"GET /api-mobile/question/get_questions?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0767623025 HTTP/1.1" 200 18466
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 485
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 148764
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 197111
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 172
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 104
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 124
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 106
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 126
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 299
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0767623025 HTTP/1.1" 200 717
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 704
+"GET /api-mobile/question/get_questions?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0767623025 HTTP/1.1" 200 18466
+Watching for file changes with StatReloader
+"POST /api-mobile/enquete/synchronisation/ HTTP/1.1" 200 105
+"POST /api-mobile/enquete/synchronisation/ HTTP/1.1" 200 105
+"POST /api-mobile/enquete/synchronisation/ HTTP/1.1" 200 105
+>>>>>>> 1b9549bdd04a34fa06c3a13b74eb7e4e7b2f14b2
 Not Found: /
 "GET / HTTP/1.1" 404 2869
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 2920
 "GET /admin HTTP/1.1" 301 0
 "GET /admin/ HTTP/1.1" 302 0
+<<<<<<< HEAD
 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4233
 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
 "GET /admin/ HTTP/1.1" 200 34708
+=======
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4256
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34166
+>>>>>>> 1b9549bdd04a34fa06c3a13b74eb7e4e7b2f14b2
 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /admin/enquete/reponse/ HTTP/1.1" 200 27024
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/enquete/reponse/14/change/ HTTP/1.1" 200 1136186
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /admin/enquete/reponse/ HTTP/1.1" 200 27024
+"GET /admin/enquete/reponse/13/change/ HTTP/1.1" 200 31285
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/reponse/ HTTP/1.1" 200 27024
+"GET /admin/enquete/reponse/12/change/ HTTP/1.1" 200 31285
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2757
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2808
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4256
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34166
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+<<<<<<< HEAD
 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
 "GET /admin/myapi/monitoring/ HTTP/1.1" 200 57818
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
@@ -18704,3 +18388,941 @@ Watching for file changes with StatReloader
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
 "GET /admin/myapi/monitoringdetail/ HTTP/1.1" 200 58605
 "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+=======
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /admin/enquete/question/ HTTP/1.1" 200 34643
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/enquete/question/47/change/ HTTP/1.1" 200 31405
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"POST /admin/enquete/question/47/change/ HTTP/1.1" 302 0
+"GET /admin/enquete/question/ HTTP/1.1" 200 34871
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 26606
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/mobiles_api/technicien/1/change/ HTTP/1.1" 200 29524
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/2/change/?_to_field=id HTTP/1.1" 200 59404
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /admin/mobiles_api/technicien/1/change/ HTTP/1.1" 200 29524
+"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 26606
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 485
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 148764
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 485
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 148764
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 197111
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 172
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 104
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 124
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 106
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 126
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 299
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0767623025 HTTP/1.1" 200 717
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 704
+"GET /api-mobile/question/get_questions?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0767623025 HTTP/1.1" 200 18464
+"GET /admin/enquete/reponse/ HTTP/1.1" 200 27024
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/reponse/ HTTP/1.1" 200 25763
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+"POST /admin/enquete/reponse/ HTTP/1.1" 302 0
+"GET /admin/enquete/reponse/ HTTP/1.1" 200 25504
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 26855
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 28108
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/question/ HTTP/1.1" 200 34643
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /api-mobile/enquete/synchronisation/ HTTP/1.1" 200 105
+"GET /admin/enquete/reponse/ HTTP/1.1" 200 26567
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/reponse/15/change/ HTTP/1.1" 200 31095
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\myapi\models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 485
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 148764
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 197111
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 172
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 104
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 124
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 106
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 126
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 299
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0767623025 HTTP/1.1" 200 717
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 704
+"GET /api-mobile/question/get_questions?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0767623025 HTTP/1.1" 200 18464
+"POST /api-mobile/planting/synchronisation/ HTTP/1.1" 200 139
+Watching for file changes with StatReloader
+"POST /api-mobile/planting/synchronisation/ HTTP/1.1" 200 139
+"POST /api-mobile/planting/synchronisation/ HTTP/1.1" 200 139
+"POST /api-mobile/planting/synchronisation/ HTTP/1.1" 200 139
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 485
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 148764
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 197111
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 172
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1107
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 995
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 106
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 126
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 299
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0767623025 HTTP/1.1" 200 717
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 704
+"GET /api-mobile/question/get_questions?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0767623025 HTTP/1.1" 200 18464
+D:\applications\app_python\rdue\backend\myapi\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\myapi\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\mobiles_api\controllers\planting_controller.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\myapi\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\mobiles_api\controllers\planting_controller.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\mobiles_api\controllers\planting_controller.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api-mobile/planting/synchronisation/ HTTP/1.1" 200 139
+Not Found: /
+"GET / HTTP/1.1" 404 2757
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2808
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4256
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34193
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 83733
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/myapi/planting/ HTTP/1.1" 200 54285
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/planting/PLG-47FED4E1E3/change/ HTTP/1.1" 200 141855
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 485
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 148764
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 197111
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 172
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1758
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1170
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 106
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 126
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 299
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0767623025 HTTP/1.1" 200 717
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 704
+"GET /api-mobile/question/get_questions?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0767623025 HTTP/1.1" 200 18464
+"POST /api-mobile/monitoring/synchronisation/ HTTP/1.1" 200 159
+"GET /admin/myapi/monitoring/ HTTP/1.1" 200 27031
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/monitoring/MNT-9CF0250938/change/ HTTP/1.1" 200 84077
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+D:\applications\app_python\rdue\backend\mobiles_api\controllers\monitoring_controller.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/monitoring/synchronisation/ HTTP/1.1" 200 97
+"POST /api-mobile/monitoring/synchronisation/ HTTP/1.1" 200 97
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 485
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 148764
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 197111
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 172
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1758
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1170
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 397
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 336
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 299
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0767623025 HTTP/1.1" 200 717
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 704
+"GET /api-mobile/question/get_questions?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0767623025 HTTP/1.1" 200 18464
+"POST /api-mobile/monitoring/synchronisation/ HTTP/1.1" 200 97
+D:\applications\app_python\rdue\backend\mobiles_api\controllers\monitoring_controller.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/monitoring/synchronisation/ HTTP/1.1" 200 159
+"GET /admin/myapi/monitoring/ HTTP/1.1" 200 28003
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/monitoring/MNT-18035654F0/change/ HTTP/1.1" 200 84114
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2754
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2805
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4256
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34193
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 27441
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"POST /admin/myapi/cooperative/ HTTP/1.1" 200 350051
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+"POST /admin/myapi/cooperative/ HTTP/1.1" 302 0
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 26936
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 104
+"GET /admin/myapi/campagne/ HTTP/1.1" 200 27241
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 175
+"GET /admin/myapi/section/ HTTP/1.1" 200 29561
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+Watching for file changes with StatReloader
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 90
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1647
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 361465
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 473765
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1647
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 361465
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 473765
+Not Found: /
+"GET / HTTP/1.1" 404 2757
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2808
+"GET /admin/ HTTP/1.1" 200 34191
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 83152
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /admin/myapi/parcelle/?p=12 HTTP/1.1" 200 39346
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/parcelle/A-KP-009-P01/change/?_changelist_filters=p%3D12 HTTP/1.1" 200 107552
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /admin/myapi/culture/ HTTP/1.1" 200 26735
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/culture/30/change/ HTTP/1.1" 200 28782
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/culture/ HTTP/1.1" 200 26735
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 83152
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/parcelle/?p=11 HTTP/1.1" 200 84940
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/parcelle/A-NI-008-P01/change/?_changelist_filters=p%3D11 HTTP/1.1" 200 107564
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+D:\applications\app_python\rdue\backend\api_importation\cooperative_controller.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 83152
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/section/ HTTP/1.1" 200 29561
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/myapi/section/ HTTP/1.1" 200 175867
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+"POST /admin/myapi/section/ HTTP/1.1" 302 0
+"GET /admin/myapi/section/ HTTP/1.1" 200 27761
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /admin/myapi/culture/ HTTP/1.1" 200 26735
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/culture/30/change/ HTTP/1.1" 200 28782
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 175
+"GET /admin/myapi/culture/ HTTP/1.1" 200 26735
+"GET /admin/myapi/parcelle/ HTTP/1.1" 200 83152
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/parcelle/?p=11 HTTP/1.1" 200 84940
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/parcelle/A-NI-008-P01/change/?_changelist_filters=p%3D11 HTTP/1.1" 200 107564
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+D:\applications\app_python\rdue\backend\api_importation\cooperative_controller.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapi/section/ HTTP/1.1" 200 29561
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/myapi/section/ HTTP/1.1" 200 175867
+"POST /admin/myapi/section/ HTTP/1.1" 302 0
+"GET /admin/myapi/section/ HTTP/1.1" 200 27761
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 175
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 90
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1647
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 361465
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 472451
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 172
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1758
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1170
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 705
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 547
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 299
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0767623025 HTTP/1.1" 200 717
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 704
+"GET /api-mobile/question/get_questions?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0767623025 HTTP/1.1" 200 18464
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1647
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 361465
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 472451
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 172
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1758
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1170
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 705
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 547
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 299
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0767623025 HTTP/1.1" 200 717
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 704
+"GET /api-mobile/question/get_questions?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0767623025 HTTP/1.1" 200 18464
+Watching for file changes with StatReloader
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 399
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1647
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 361465
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 472451
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 172
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1758
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1170
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 705
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 547
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 299
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0767623025 HTTP/1.1" 200 717
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 704
+"GET /api-mobile/question/get_questions?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0767623025 HTTP/1.1" 200 18464
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\settings\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2754
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2805
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4256
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34399
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /admin/myapi/campagne/ HTTP/1.1" 200 27241
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"POST /api-importation/importation/cadesa/ HTTP/1.1" 200 175
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 25359
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 25373
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/add/ HTTP/1.1" 200 28759
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 25359
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enquete/add/ HTTP/1.1" 200 33949
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 25392
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typeenquete/add/ HTTP/1.1" 200 26805
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typeenquete/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 26866
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /admin/enquete/typeenquete/add/ HTTP/1.1" 200 26805
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typeenquete/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 27110
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 25359
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enquete/add/ HTTP/1.1" 200 34076
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 26860
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typeenquete/2/change/ HTTP/1.1" 200 27154
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typeenquete/2/change/ HTTP/1.1" 302 0
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 27109
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typeenquete/1/change/ HTTP/1.1" 200 27142
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typeenquete/1/change/ HTTP/1.1" 302 0
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 27104
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 25359
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enquete/add/ HTTP/1.1" 200 34072
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/enquete/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 26760
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enquete/add/ HTTP/1.1" 200 34072
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/enquete/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 26969
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 25373
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/add/ HTTP/1.1" 200 28833
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/enqueteur/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 26830
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/add/ HTTP/1.1" 200 28833
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 26590
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/add/ HTTP/1.1" 200 28833
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 26590
+"GET /admin/enquete/enqueteur/1/change/ HTTP/1.1" 200 29128
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/enqueteur/1/change/ HTTP/1.1" 302 0
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 26833
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/add/ HTTP/1.1" 200 28833
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/enqueteur/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 27046
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/2/change/ HTTP/1.1" 200 29110
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 26815
+"GET /admin/enquete/enqueteur/1/change/ HTTP/1.1" 200 29137
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 26815
+"GET /admin/enquete/question/ HTTP/1.1" 200 25366
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 25399
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26194
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 26826
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26194
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26489
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26487
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26495
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26497
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 27901
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26194
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/add/ HTTP/1.1" 200 26493
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /admin/enquete/typequestion/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/typequestion/ HTTP/1.1" 200 28331
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /api-mobile/question/insert_questions/ HTTP/1.1" 200 90
+"POST /api-mobile/question/insert_questions/ HTTP/1.1" 200 90
+"GET /admin/enquete/question/ HTTP/1.1" 200 34844
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2757
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2808
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4256
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34579
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 26815
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/enquete/enqueteur/add/ HTTP/1.1" 200 28833
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"POST /admin/enquete/enqueteur/add/ HTTP/1.1" 302 0
+"GET /admin/enquete/enqueteur/ HTTP/1.1" 200 27260
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"POST /api-mobile/utilisateur/connexion/ HTTP/1.1" 200 163
+"GET /api-mobile/cooperative/get_cooperative?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/cooperative/get_cooperative/?technicien_tel=0767623025 HTTP/1.1" 200 400
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/campagne/get_all_active_campagne_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 313
+"GET /api-mobile/culture/get_all_culture_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/culture/get_all_culture_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 142
+"GET /api-mobile/section/all_section_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/section/all_section_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 1647
+"GET /api-mobile/acte_propriete/get_all_acte_propriete HTTP/1.1" 301 0
+"GET /api-mobile/acte_propriete/get_all_acte_propriete/ HTTP/1.1" 200 258
+"GET /api-mobile/espece/get_all_espece HTTP/1.1" 301 0
+"GET /api-mobile/espece/get_all_espece/ HTTP/1.1" 200 10181
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite HTTP/1.1" 301 0
+"GET /api-mobile/observation_mortalite/get_all_observation_mortalite/ HTTP/1.1" 200 263
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition HTTP/1.1" 301 0
+"GET /api-mobile/mode_acquisition/get_all_mode_acquisition/ HTTP/1.1" 200 227
+"GET /api-mobile/certification/get_all_certification HTTP/1.1" 301 0
+"GET /api-mobile/certification/get_all_certification/ HTTP/1.1" 200 297
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/producteur/get_all_producteur_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 361465
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/parcelle/get_all_parcelle_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 477829
+"GET /api-mobile/certificat/get_all_certificat HTTP/1.1" 301 0
+"GET /api-mobile/certificat/get_all_certificat/ HTTP/1.1" 200 82
+"GET /api-mobile/planting/get_all_planting_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/planting/get_all_planting_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 104
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_planting/get_all_details_plantings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 124
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/monitoring/get_all_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 106
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/detail_monitoring/get_all_details_monitorings_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 126
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative?id_cooperative=43 HTTP/1.1" 301 0
+"GET /api-mobile/observation_monitoring/get_all_observation_monitoring_by_cooperative/?id_cooperative=43 HTTP/1.1" 200 98
+"GET /api-mobile/enquete/get_types_enquete HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 304
+"GET /api-mobile/enquete/get_enquetes?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/enquete/get_enquetes/?technicien_tel=0767623025 HTTP/1.1" 200 722
+"GET /api-mobile/question/get_types_question HTTP/1.1" 301 0
+"GET /api-mobile/question/get_types_question/ HTTP/1.1" 200 704
+"GET /api-mobile/question/get_questions?technicien_tel=0767623025 HTTP/1.1" 301 0
+"GET /api-mobile/question/get_questions/?technicien_tel=0767623025 HTTP/1.1" 200 19045
+>>>>>>> 1b9549bdd04a34fa06c3a13b74eb7e4e7b2f14b2

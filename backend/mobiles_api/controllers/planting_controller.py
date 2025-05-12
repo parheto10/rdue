@@ -14,6 +14,8 @@ class PlantingController:
             date = datetime.fromisoformat(request.data['date'])
             parcelle = None if request.data['parcelle']==None else Parcelle.objects.get(pk=request.data['parcelle'])
             planting, created = Planting.objects.get_or_create(code=code)
+            planting.latitude_du_lieu_de_planting = request.data['latitude_du_lieu_du_planting']
+            planting.longitude_du_lieu_de_planting = request.data['longitude_du_lieu_du_planting']
             planting.campagne = campagne
             planting.plant_existant = plant_existant
             planting.plant_recus = plant_recus

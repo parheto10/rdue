@@ -13,8 +13,9 @@ class MonitoringController :
             date  = datetime.fromisoformat(request.data['date'])
             taux_reussite = Decimal(request.data['taux_reussite'])
             campagne = planting.campagne
-            
             monitoring, created = Monitoring.objects.get_or_create(code=code)
+            monitoring.latitude_du_lieu_de_monitoring = request.data['latitude_du_lieu_du_monitoring']
+            monitoring.longitude_du_lieu_de_monitoring = request.data['longitude_du_lieu_du_monitoring']
             monitoring.planting = planting
             monitoring.date = date
             monitoring.taux_reussite = taux_reussite

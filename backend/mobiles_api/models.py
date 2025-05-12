@@ -1,6 +1,6 @@
 from django.db import models
 
-from myapi.models import Campagne, Cooperative, Utilisateur, Certification, Parcelle, Projet
+from myapi.models import Campagne, Cooperative, Espece, Utilisateur, Certification, Parcelle, Projet
 
 class Technicien(models.Model):
     user = models.OneToOneField(Utilisateur, on_delete=models.CASCADE, null=True)
@@ -45,3 +45,12 @@ class InfoPSE(models.Model):
     
     def __str__(self):
         return f"{self.projet.nomProjet} {self.campagne.libelle}"
+    
+    
+class ArbreExistant(models.Model):
+    nbre_de_regeneration_naturelle = models.IntegerField(default=0)
+    nbre_de_regeneration_assistee = models.IntegerField(default=0)
+    nbre_plantee = models.IntegerField(default=0)
+    picture = models.ImageField(upload_to='images_especes/', null=True, blank=True)
+    espece = models.ForeignKey(Espece, on_delete=models.CASCADE)
+    parcelle = models.ForeignKey(Parcelle, on_delete=models.CASCADE)

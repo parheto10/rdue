@@ -12,7 +12,10 @@ class QuestionController:
     
     def split_string(self, row:pd.Series):
         if row.get('CHOIX') is not None:
-            return str(row.get('CHOIX')).split(';')
+            if str(row.get('CHOIX')).find(";"):
+                return str(row.get('CHOIX')).split(';')
+            else:
+                return str(row.get('CHOIX')).split(':')
         else:
             None
     
