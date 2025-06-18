@@ -41,6 +41,14 @@ class Question(models.Model):
     def __str__(self):
         return self.libelle
     
+class Condition(models.Model):
+    question_principale = models.ForeignKey(Question, on_delete = models.CASCADE)
+    valeur = models.CharField(max_length=255)
+    question_cible = models.ForeignKey(Question, on_delete = models.CASCADE, related_name='conditions')
+    
+    def __str__(self):
+        return f"{self.question_principale} - {self.valeur} - {self.question_cible}"
+    
 class Reponse(models.Model):
     enquete  = models.ForeignKey(Enquete, on_delete = models.CASCADE)
     repondant = models.ForeignKey(Utilisateur, on_delete = models.CASCADE)
@@ -50,7 +58,7 @@ class Reponse(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     
     def __str__(self):
-        return self.enquete.identifiant + ' - '  + self.repondant.nom + ' ' + self.repondant.prenom
+        return f"{self.enquete.identifiant} - {self.repondant.nom}  {self.repondant.prenom}"
 
 class Enqueteur(models.Model):
     user = models.OneToOneField(Utilisateur, on_delete=models.CASCADE, null=True)
