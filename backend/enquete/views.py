@@ -1,10 +1,11 @@
 from rest_framework.decorators import action
 from rest_framework.viewsets import ViewSet
 from myapi.models import Utilisateur
-from enquete.controllers import QuestionController
+from enquete.controllers import ConditionController, QuestionController
 from foret.naiveclasses import ResponseClass
 from enquete.models import Enqueteur, Question, Enquete, Reponse, TypeEnquete, TypeQuestion
-from enquete.serializers import QuestionSerializer, EnqueteSerializer, TypeEnqueteSerializer, TypeQuestionSerializer
+from enquete.serializers import ConditionSerializer, QuestionSerializer, EnqueteSerializer, TypeEnqueteSerializer, TypeQuestionSerializer
+import pandas as pd
 
 class EnqueteViewSet(ViewSet):
     
@@ -67,9 +68,13 @@ class QuestionViewSet(ViewSet):
     @action(detail=False, methods=['POST'])
     def insert_questions(self, request):
         try:
-            controller_class = QuestionController(file=request.data['fichier'], identifiant_enquete=request.data['identifiant_enquete'])
+            data_frame = pd.read_excel(request.data['fichier'])
+            enquete = Enquete.objects.get(identifiant = request.data['identifiant_enquete'])
+            controller_class = QuestionController(data_frame=data_frame, enquete=enquete)
+            condition_controller_class = ConditionController(data_frame=data_frame, enquete=enquete)
             controller_class.multiple_insert()
-            response = ResponseClass(result=True, has_data=True, message=f"{controller_class.total} questions importées")
+            condition_controller_class.multiple_insert()
+            response = ResponseClass(result=True, has_data=True, message=f"{controller_class.total} questions importées et {condition_controller_class.total} conditions importées")
         except Exception as e:
             response = ResponseClass(result=False, has_data=False, message=str(e))
         finally:
@@ -85,6 +90,24 @@ class QuestionViewSet(ViewSet):
             response = ResponseClass(result=True, has_data=True, message="Questions d'enquêtes ouvertes", data=serializer.data)
         except Enqueteur.DoesNotExist:
             response = ResponseClass(result=False, has_data=False, message="Ce technicien n'existe pas dans la base")
+        finally:
+            return response.json_response()
+        
+    @action(detail=False)
+    def get_conditions_question(self, request):
+        try:
+            tel = self.request.GET.get('technicien_tel')
+            enqueteur = Enqueteur.objects.get(user__tel=tel)
+            questions =  Question.objects.filter(enquete__in = enqueteur.enquetes.filter(est_ouverte = True)) 
+            conditions = []
+            for question in questions:
+                conditions += question.conditions.all()
+            serializer = ConditionSerializer(conditions, many=True)
+            response = ResponseClass(result=True, has_data=True, message="Conditions d'enquêtes ouvertes", data=serializer.data)
+        except Enqueteur.DoesNotExist:
+            response = ResponseClass(result=False, has_data=False, message="Ce technicien n'existe pas dans la base")
+        except Exception as e:
+            response = ResponseClass(result=False, has_data=False, message=str(e))
         finally:
             return response.json_response()
     

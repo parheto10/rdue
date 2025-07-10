@@ -1,7 +1,7 @@
 from rest_framework.serializers import ModelSerializer
 
 
-from enquete.models import Question, TypeEnquete, Enquete, TypeQuestion, Reponse
+from enquete.models import Condition, Question, TypeEnquete, Enquete, TypeQuestion, Reponse
 
 class TypeEnqueteSerializer(ModelSerializer):
     class Meta:
@@ -24,6 +24,11 @@ class QuestionSerializer(ModelSerializer):
     enquete = EnqueteSerializer(many = False)
     class Meta:
         model = Question
+        fields = '__all__'
+
+class ConditionSerializer(ModelSerializer):
+    class Meta:
+        model = Condition
         fields = '__all__'
 
 class ReponseSerializer(ModelSerializer):
