@@ -2,18 +2,18 @@ from django.db import models
 from mobiles_api.models import Utilisateur, Projet, Campagne
 
 class TypeEnquete(models.Model):
-    code = models.CharField(max_length = 15, unique = True)
     libelle = models.CharField(max_length=255)
     created_at = models.DateTimeField(auto_now_add=True)
-    
+
     def __str__(self):
-        return f"{self.code} - {self.libelle}" 
+        return self.libelle
 
 class Enquete(models.Model):
     identifiant = models.CharField(max_length=255, unique=True)
     est_ouverte = models.BooleanField(default = True)
     
     type_enquete = models.ForeignKey(TypeEnquete, on_delete = models.CASCADE)
+    libelle = models.CharField(max_length=255, blank=True, null=True)
     projet = models.ForeignKey(Projet, on_delete = models.CASCADE)
     campagne = models.ForeignKey(Campagne, on_delete = models.CASCADE)
     created_by = models.ForeignKey(Utilisateur, on_delete = models.CASCADE)
