@@ -4,7 +4,7 @@ from myapi.models import Utilisateur
 from enquete.controllers import ConditionController, QuestionController
 from foret.naiveclasses import ResponseClass
 from enquete.models import Enqueteur, Question, Enquete, Reponse, TypeEnquete, TypeQuestion
-from enquete.serializers import ConditionSerializer, QuestionSerializer, EnqueteSerializer, TypeEnqueteSerializer, TypeQuestionSerializer
+from enquete.serializers import ConditionSerializer, QuestionSerializer, EnqueteSerializer, ReponseSerializer, TypeEnqueteSerializer, TypeQuestionSerializer
 import pandas as pd
 
 class EnqueteViewSet(ViewSet):
@@ -94,6 +94,18 @@ class QuestionViewSet(ViewSet):
             return response.json_response()
         
     @action(detail=False)
+    def questions(self, request):
+        try:
+            identifiant = self.request.GET.get('enquete_identifiant')
+            questions = Question.objects.all() if identifiant is None  else  Question.objects.filter(enquete__identifiant = identifiant) 
+            serializer = self.question_serializer_class( questions, many=True)
+            response = ResponseClass(result=True, has_data=True, message="Questions de l'enquête {identifiant}", data=serializer.data)
+        except Enqueteur.DoesNotExist:
+            response = ResponseClass(result=False, has_data=False, message="Ce technicien n'existe pas dans la base")
+        finally:
+            return response.json_response()
+        
+    @action(detail=False)
     def get_conditions_question(self, request):
         try:
             tel = self.request.GET.get('technicien_tel')
@@ -110,4 +122,20 @@ class QuestionViewSet(ViewSet):
             response = ResponseClass(result=False, has_data=False, message=str(e))
         finally:
             return response.json_response()
-    
+
+
+class ReponseViewSet(ViewSet):
+    reponse_serializer_class = ReponseSerializer
+
+    @action(detail=False)
+    def all(self, request):
+        try:
+            identifiant = self.request.GET.get('enquete_identifiant')
+            questions = Reponse.objects.all() if identifiant is None  else  Reponse.objects.filter(enquete__identifiant = identifiant) 
+            serializer = self.reponse_serializer_class( questions, many=True)
+            response = ResponseClass(result=True, has_data=True, message="Reponses d'enquête", data=serializer.data)
+        except Enqueteur.DoesNotExist:
+            response = ResponseClass(result=False, has_data=False, message="Ce technicien n'existe pas dans la base")
+        finally:
+            return response.json_response()
+      

@@ -1,7 +1,7 @@
 from rest_framework.serializers import ModelSerializer
 
 
-from myapi.serializers import CampagneSerializer
+from myapi.serializers import CampagneSerializer, ProjetSerializer, UtilisateurSerializer
 from enquete.models import Condition, Question, TypeEnquete, Enquete, TypeQuestion, Reponse
 
 class TypeEnqueteSerializer(ModelSerializer):
@@ -12,6 +12,8 @@ class TypeEnqueteSerializer(ModelSerializer):
 class EnqueteSerializer(ModelSerializer):
     type_enquete = TypeEnqueteSerializer(many = False)
     campagne = CampagneSerializer(many = False)
+    projet = ProjetSerializer(many = False)
+    created_by = UtilisateurSerializer(many = False)
     class Meta:
         model = Enquete
         fields = '__all__'
@@ -34,6 +36,8 @@ class ConditionSerializer(ModelSerializer):
         fields = '__all__'
 
 class ReponseSerializer(ModelSerializer):
+    # enquete = EnqueteSerializer(many = False)
+    repondant = UtilisateurSerializer(many = False)
     class Meta:
         model = Reponse
         fields = '__all__'
