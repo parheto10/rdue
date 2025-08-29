@@ -203050,3 +203050,340 @@ Traceback (most recent call last):
            ^^^^^^^^
 UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
 "PUT /api-mobile/question/update/ HTTP/1.1" 500 100257
+Watching for file changes with StatReloader
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 19959
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 111733
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 111733
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 446116
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 446116
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13749
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13749
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 46997
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 33887
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 33887
+"OPTIONS /api-mobile/question/update/ HTTP/1.1" 200 0
+Internal Server Error: /api-mobile/question/update/
+Traceback (most recent call last):
+  File "D:\applications\app_python\rdue\backend\enquete\views.py", line 144, in update_question
+    nbre = QuestionController.update(question=question, data=request.data)
+TypeError: QuestionController.update() missing 1 required positional argument: 'self'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\applications\app_python\rdue\backend\enquete\views.py", line 152, in update_question
+    return response.json_response()
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+"PATCH /api-mobile/question/update/ HTTP/1.1" 500 100297
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+"PATCH /api-mobile/question/update/ HTTP/1.1" 200 90
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 33887
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 33887
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 33887
+"OPTIONS /api-mobile/question/update/?id_question=2 HTTP/1.1" 200 0
+Internal Server Error: /api-mobile/question/update/
+Traceback (most recent call last):
+  File "D:\applications\app_python\rdue\backend\enquete\views.py", line 144, in update_question
+    QuestionController.update(question=question, data=request.data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: QuestionController.update() missing 1 required positional argument: 'self'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\applications\app_python\rdue\backend\enquete\views.py", line 149, in update_question
+    return response.json_response()
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+"PATCH /api-mobile/question/update/?id_question=2 HTTP/1.1" 500 100679
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+"PATCH /api-mobile/question/update/?id_question=2 HTTP/1.1" 200 88
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api-mobile/question/update/?id_question=3 HTTP/1.1" 200 0
+Internal Server Error: /api-mobile/question/update/
+Traceback (most recent call last):
+  File "D:\applications\app_python\rdue\backend\enquete\views.py", line 144, in update_question
+    QuestionController.update(question=question, data=request.data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: QuestionController.update() missing 1 required positional argument: 'self'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\applications\app_python\rdue\backend\enquete\views.py", line 149, in update_question
+    return response.json_response()
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+"PATCH /api-mobile/question/update/?id_question=3 HTTP/1.1" 500 100675
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api-mobile/question/update/
+Traceback (most recent call last):
+  File "D:\applications\app_python\rdue\backend\enquete\views.py", line 144, in update_question
+    QuestionController.update(question=question, data=request.data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: QuestionController.update() missing 1 required positional argument: 'self'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\applications\app_python\rdue\backend\enquete\views.py", line 149, in update_question
+    return response.json_response()
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+"PATCH /api-mobile/question/update/?id_question=3 HTTP/1.1" 500 100675
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api-mobile/question/update/?id_question=4 HTTP/1.1" 200 0
+"PATCH /api-mobile/question/update/?id_question=4 HTTP/1.1" 200 88
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 33886
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 33886
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 33886
+"OPTIONS /api-mobile/question/update/?id_question=1 HTTP/1.1" 200 0
+"PUT /api-mobile/question/update/?id_question=1 HTTP/1.1" 200 88
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 33888
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 33888

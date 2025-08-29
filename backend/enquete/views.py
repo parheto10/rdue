@@ -71,8 +71,6 @@ class EnqueteViewSet(ViewSet):
         finally:
             return response.json_response()
         
-
-        
 class QuestionViewSet(ViewSet):
        
     question_serializer_class = QuestionSerializer
@@ -142,12 +140,9 @@ class QuestionViewSet(ViewSet):
     @action(detail=False, methods=['PUT'], url_path='update')
     def update_question(self, request):
         try:
-            question = Question.objects.get(pk=request.data['id'])
-            nbre = QuestionController.update(question=question, data=request.data)
-            if nbre > 0:
-                response = ResponseClass(result=True, has_data=True, message="Question mise à jour")
-            else:
-                response = ResponseClass(result=False, has_data=False, message="Erreur de validation")
+            question = Question.objects.get(pk=request.GET.get('id_question'))
+            QuestionController.update(question=question, data=request.data)
+            response = ResponseClass(result=True, has_data=True, message= "Question mise à jour")
         except Question.DoesNotExist:
             response = ResponseClass(result=False, has_data=False, message="Question non trouvée")
         finally:

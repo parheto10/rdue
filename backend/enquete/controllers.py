@@ -34,11 +34,11 @@ class QuestionController:
         except Exception as e:
             raise Exception(str(e))
         
-    def update(self, question:Question, data:dict):
+    def update(question:Question, data:dict):
         value = {}
         try:
-            question.type_question = TypeQuestion.objects.get(libelle = data.get('type_question'))
-            question.enquete =  Enquete.objects.get(libelle = data.get('enquete'))
+            question.type_question = TypeQuestion.objects.get(pk = data['type_question']['id'])
+            question.enquete =  Enquete.objects.get(pk = data['enquete']['id'])
             question.est_obligatoire = str(data.get('est_obligatoire')).capitalize()
             question.libelle = data.get('libelle')
             # question.choix = data.get('choix')
