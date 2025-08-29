@@ -1,7 +1,7 @@
 from rest_framework.decorators import action
 from rest_framework.viewsets import ViewSet
 from myapi.models import Utilisateur
-from enquete.controllers import ConditionController, QuestionController
+from enquete.controllers import ConditionController, QuestionController, EnqueteController
 from foret.naiveclasses import ResponseClass
 from enquete.models import Enqueteur, Question, Enquete, Reponse, TypeEnquete, TypeQuestion
 from enquete.serializers import ConditionSerializer, QuestionSerializer, EnqueteSerializer, ReponseSerializer, TypeEnqueteSerializer, TypeQuestionSerializer
@@ -10,6 +10,17 @@ import pandas as pd
 class EnqueteViewSet(ViewSet):
     
     enquete_serializer_class = EnqueteSerializer
+    enquete_controller = EnqueteController()
+
+    @action(detail=False, methods=['post'])
+    def register(self, request):
+        try:
+            enquete_serializer = self.enquete_serializer_class(self.enquete_controller.insert(data=request.data), many=False)
+            response = ResponseClass(result=True, has_data=True, message="Enquete créée avec succès", data=enquete_serializer.data)
+        except Exception as e:
+            response = ResponseClass(result=False, has_data=False, message=str(e))
+        finally:
+            return response.json_response()
     
     @action(detail=False)
     def get_types_enquete(self, request):
@@ -18,6 +29,17 @@ class EnqueteViewSet(ViewSet):
             response = ResponseClass(result=True, has_data=True, message="Types d'Enquête", data=serializer.data)
         except Exception as e:
             response = ResponseClass(result=False, has_data=False, message=str(e))
+        finally:
+            return response.json_response()
+        
+    @action(detail=False)
+    def all(self, request):
+        try:
+            user = Utilisateur.objects.get(pk=request.GET.get('user_id'))
+            serializer = self.enquete_serializer_class(Enquete.objects.filter(created_by=user), many=True)
+            response = ResponseClass(result=True, has_data=True, message="Toutes les enquêtes", data=serializer.data)
+        except Enqueteur.DoesNotExist:
+            response = ResponseClass(result=False, has_data=False, message="Ce technicien n'existe pas dans la base")
         finally:
             return response.json_response()
     
@@ -102,6 +124,32 @@ class QuestionViewSet(ViewSet):
             response = ResponseClass(result=True, has_data=True, message="Questions de l'enquête {identifiant}", data=serializer.data)
         except Enqueteur.DoesNotExist:
             response = ResponseClass(result=False, has_data=False, message="Ce technicien n'existe pas dans la base")
+        finally:
+            return response.json_response()
+
+    @action(detail=False, methods=['DELETE'], url_path='delete')
+    def delete_question(self, request):
+        try:
+            id_question = self.request.GET.get('id_question')
+            questions = Question.objects.filter(id=id_question)
+            questions.delete()
+            response = ResponseClass(result=True, has_data=True, message="Question supprimée")
+        except Enqueteur.DoesNotExist:
+            response = ResponseClass(result=False, has_data=False, message="Ce technicien n'existe pas dans la base")
+        finally:
+            return response.json_response()
+
+    @action(detail=False, methods=['PUT'], url_path='update')
+    def update_question(self, request):
+        try:
+            question = Question.objects.get(pk=request.data['id'])
+            nbre = QuestionController.update(question=question, data=request.data)
+            if nbre > 0:
+                response = ResponseClass(result=True, has_data=True, message="Question mise à jour")
+            else:
+                response = ResponseClass(result=False, has_data=False, message="Erreur de validation")
+        except Question.DoesNotExist:
+            response = ResponseClass(result=False, has_data=False, message="Question non trouvée")
         finally:
             return response.json_response()
         

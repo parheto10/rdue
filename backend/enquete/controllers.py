@@ -1,6 +1,8 @@
+import uuid
 import pandas as pd
 
-from enquete.models import Condition, Enquete, Question, TypeQuestion
+from myapi.models import Campagne, Projet, Utilisateur
+from enquete.models import Condition, Enquete, Question, TypeEnquete, TypeQuestion
 
 class QuestionController:
     total = 0
@@ -31,10 +33,37 @@ class QuestionController:
             return question
         except Exception as e:
             raise Exception(str(e))
+        
+    def update(self, question:Question, data:dict):
+        value = {}
+        try:
+            question.type_question = TypeQuestion.objects.get(libelle = data.get('type_question'))
+            question.enquete =  Enquete.objects.get(libelle = data.get('enquete'))
+            question.est_obligatoire = str(data.get('est_obligatoire')).capitalize()
+            question.libelle = data.get('libelle')
+            # question.choix = data.get('choix')
+            question.save()
+            return question
+        except Exception as e:
+            raise Exception(str(e))
     
     def multiple_insert(self):
         for _, row in self.data_frame.iterrows():
             self.insert(row=row)
+
+class EnqueteController:
+    def insert(self, data:dict):
+        try:
+            data['identifiant'] =  f"E{uuid.uuid4().hex.upper()[0:10]}Q"
+            data['campagne'] = Campagne.objects.get(id=int(data.get('campagne')))
+            data['type_enquete'] = TypeEnquete.objects.get(id=int(data.get('type_enquete')))
+            data['est_ouverte'] = str(data.get('est_ouverte')).capitalize()
+            data['projet'] = Projet.objects.get(id=int(data.get('projet')))
+            data['created_by'] = Utilisateur.objects.get(id=int(data.get('created_by')))
+            enquete = Enquete.objects.create(**data)
+            return enquete
+        except Exception as e:
+            raise Exception(str(e))
 
 
 class ConditionController:
