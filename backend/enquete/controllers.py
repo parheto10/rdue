@@ -35,13 +35,12 @@ class QuestionController:
             raise Exception(str(e))
         
     def update(question:Question, data:dict):
-        value = {}
         try:
             question.type_question = TypeQuestion.objects.get(pk = data['type_question']['id'])
             question.enquete =  Enquete.objects.get(pk = data['enquete']['id'])
             question.est_obligatoire = str(data.get('est_obligatoire')).capitalize()
             question.libelle = data.get('libelle')
-            # question.choix = data.get('choix')
+            question.choix = data.get('choix')
             question.save()
             return question
         except Exception as e:
@@ -61,6 +60,15 @@ class EnqueteController:
             data['projet'] = Projet.objects.get(id=int(data.get('projet')))
             data['created_by'] = Utilisateur.objects.get(id=int(data.get('created_by')))
             enquete = Enquete.objects.create(**data)
+            return enquete
+        except Exception as e:
+            raise Exception(str(e))
+        
+    def update(enquete:Enquete, data:dict):
+        try:
+            enquete.est_ouverte = str(data.get('est_ouverte')).capitalize()
+            enquete.libelle = data.get('libelle')
+            enquete.save()
             return enquete
         except Exception as e:
             raise Exception(str(e))

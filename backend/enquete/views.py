@@ -54,7 +54,18 @@ class EnqueteViewSet(ViewSet):
             response = ResponseClass(result=False, has_data=False, message="Ce technicien n'existe pas dans la base")
         finally:
             return response.json_response()
-        
+    
+    @action(detail=False, methods=['PATCH'], url_path='update')
+    def update_enquete(self, request):
+        try:
+            enquete = Enquete.objects.get(pk=request.GET.get('id_enquete'))
+            EnqueteController.update(enquete=enquete, data=request.data)
+            response = ResponseClass(result=True, has_data=True, message= "Enquête mise à jour")
+        except Enquete.DoesNotExist:
+            response = ResponseClass(result=False, has_data=False, message="Enquête non trouvée")
+        finally:
+            return response.json_response()
+
     @action(detail=False, methods=['post'])
     def synchronisation(self, request):
         try:
