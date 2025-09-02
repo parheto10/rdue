@@ -6,12 +6,8 @@ from enquete.models import Condition, Enquete, Question, TypeEnquete, TypeQuesti
 
 class QuestionController:
     total = 0
-    
-    def __init__(self, data_frame:pd.DataFrame, enquete:Enquete) -> None:
-        self.data_frame = data_frame
-        self.enquete = enquete
 
-    def split_string(self, row:pd.Series):
+    def split_string(self, row:dict):
         if row.get('CHOIX') is not None:
             if str(row.get('CHOIX')).find(";"):
                 return str(row.get('CHOIX')).split(';')
@@ -19,12 +15,12 @@ class QuestionController:
                 return str(row.get('CHOIX')).split(':')
         else:
             None
-    
-    def insert(self, row:pd.Series):
+
+    def insert(self, row:dict, enquete:Enquete):
         value = {}
         try:
             value['type_question'] = TypeQuestion.objects.get(libelle = row.get('TYPE'))
-            value['enquete'] = self.enquete
+            value['enquete'] = enquete
             value['est_obligatoire'] = True if str(row.get('EST_OBLIGATOIRE')).upper() == 'OUI' else False
             value['libelle'] = row.get('LIBELLE')
             value['choix'] = self.split_string(row=row)
@@ -33,6 +29,24 @@ class QuestionController:
             return question
         except Exception as e:
             raise Exception(str(e))
+
+    def insert_from_web(self, row:dict, enquete:Enquete):
+        value = {}
+        try:
+            value['type_question'] = TypeQuestion.objects.get(libelle = row.get('type_question')['libelle'])
+            value['enquete'] = enquete
+            value['est_obligatoire'] = row.get('est_obligatoire')
+            value['libelle'] = row.get('libelle')
+            value['choix'] = row.get('choix')
+            question = Question.objects.create(**value)
+            self.total += 1
+            return question
+        except Exception as e:
+            raise Exception(str(e))
+
+    def multiple_insert_from_web(self, data:list, enquete:Enquete):
+        for row in data:
+            self.insert_from_web(row=row, enquete=enquete)
         
     def update(question:Question, data:dict):
         try:
@@ -46,9 +60,9 @@ class QuestionController:
         except Exception as e:
             raise Exception(str(e))
     
-    def multiple_insert(self):
-        for _, row in self.data_frame.iterrows():
-            self.insert(row=row)
+    def multiple_insert(self,  data_frame:pd.DataFrame, enquete:Enquete):
+        for _, row in data_frame.iterrows():
+            self.insert(row=row, enquete=enquete)
 
 class EnqueteController:
     def insert(self, data:dict):

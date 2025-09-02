@@ -204300,3 +204300,1613 @@ D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloadin
 Watching for file changes with StatReloader
 D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
 Watching for file changes with StatReloader
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13749
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13749
+"OPTIONS /api-mobile/enquete/update/?id_enquete=9 HTTP/1.1" 200 0
+"PATCH /api-mobile/enquete/update/?id_enquete=9 HTTP/1.1" 200 92
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"OPTIONS /api-mobile/enquete/update/?id_enquete=2 HTTP/1.1" 200 0
+"PATCH /api-mobile/enquete/update/?id_enquete=2 HTTP/1.1" 200 92
+"PATCH /api-mobile/enquete/update/?id_enquete=2 HTTP/1.1" 200 92
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13739
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13739
+"PATCH /api-mobile/enquete/update/?id_enquete=2 HTTP/1.1" 200 92
+"OPTIONS /api-mobile/enquete/update/?id_enquete=1 HTTP/1.1" 200 0
+"PATCH /api-mobile/enquete/update/?id_enquete=1 HTTP/1.1" 200 92
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32165
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32165
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-2 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-2 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 44585
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32165
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32165
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32165
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32165
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=EF356FF9299Q HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=EF356FF9299Q HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EF356FF9299Q HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32165
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32165
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32165
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32165
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32165
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-2 HTTP/1.1" 200 102
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-2 HTTP/1.1" 200 84
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-2 HTTP/1.1" 200 84
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-2 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 44585
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32165
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"PATCH /api-mobile/enquete/update/?id_enquete=1 HTTP/1.1" 200 92
+"PATCH /api-mobile/enquete/update/?id_enquete=2 HTTP/1.1" 200 92
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+Watching for file changes with StatReloader
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 111734
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 111734
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 446116
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 446116
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 239
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 239
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1230
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1230
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 19946
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32147
+"OPTIONS /api-mobile/question/update/?id_question=2 HTTP/1.1" 200 0
+"PUT /api-mobile/question/update/?id_question=2 HTTP/1.1" 200 88
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/region-list/ HTTP/1.1" 200 4141
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1230
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/region-list/ HTTP/1.1" 200 4141
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1230
+"GET /api/region-list/ HTTP/1.1" 200 4141
+"GET /api/region-list/ HTTP/1.1" 200 4141
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/points/ HTTP/1.1" 200 2
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/points/ HTTP/1.1" 200 2
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/section-list/?coopID=42 HTTP/1.1" 200 8030
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 446116
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 446116
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/especes/ HTTP/1.1" 200 10417
+"GET /api/especes/ HTTP/1.1" 200 10417
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+Not Found: /api/formations/
+"GET /api/formations/ HTTP/1.1" 404 14398
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+Not Found: /api/formations/
+"GET /api/formations/ HTTP/1.1" 404 14398
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 239
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 239
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1230
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1230
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 239
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 239
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1230
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1230
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 239
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 239
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1230
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1230
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 19946
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 44566
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 5422
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 19946
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 239
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/enquete/get_types_enquete/ HTTP/1.1" 200 239
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1230
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1230
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 111734
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 111734
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 446116
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 446116
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 111734
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 111734
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 446116
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 446116
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 111734
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 2754
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 111734
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 446116
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 446116
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 19946
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 19946
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 19946
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"OPTIONS /api-mobile/question/multiple-insert-web/ HTTP/1.1" 200 0
+"POST /api-mobile/question/multiple-insert-web/ HTTP/1.1" 200 86
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 102
+"POST /api-mobile/question/multiple-insert-web/ HTTP/1.1" 200 157
+D:\applications\app_python\rdue\backend\enquete\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/question/multiple-insert-web/ HTTP/1.1" 200 162
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\enquete\controllers.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api-mobile/question/multiple-insert-web/ HTTP/1.1" 200 85
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 33323
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 33323
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 33323
+"OPTIONS /api-mobile/question/update/?id_question=23 HTTP/1.1" 200 0
+"PUT /api-mobile/question/update/?id_question=23 HTTP/1.1" 200 88
+"OPTIONS /api-mobile/question/update/?id_question=24 HTTP/1.1" 200 0
+"PUT /api-mobile/question/update/?id_question=24 HTTP/1.1" 200 88
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 33321
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 33321
+"POST /api-mobile/question/multiple-insert-web/ HTTP/1.1" 200 85
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 66544
+"OPTIONS /api-mobile/question/delete/?id_question=60 HTTP/1.1" 200 0
+"DELETE /api-mobile/question/delete/?id_question=60 HTTP/1.1" 200 86
+"OPTIONS /api-mobile/question/delete/?id_question=59 HTTP/1.1" 200 0
+"DELETE /api-mobile/question/delete/?id_question=59 HTTP/1.1" 200 86
+"OPTIONS /api-mobile/question/delete/?id_question=58 HTTP/1.1" 200 0
+"DELETE /api-mobile/question/delete/?id_question=58 HTTP/1.1" 200 86
+"OPTIONS /api-mobile/question/delete/?id_question=57 HTTP/1.1" 200 0
+"DELETE /api-mobile/question/delete/?id_question=57 HTTP/1.1" 200 86
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 59577
+"POST /api-mobile/question/multiple-insert-web/ HTTP/1.1" 200 85
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 92800
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 92800
+"POST /api-mobile/question/multiple-insert-web/ HTTP/1.1" 200 85
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 126023
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 126023
+"POST /api-mobile/question/multiple-insert-web/ HTTP/1.1" 200 85
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 159264
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 159264
+"POST /api-mobile/question/multiple-insert-web/ HTTP/1.1" 200 85
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 192506
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 192506
+"POST /api-mobile/question/multiple-insert-web/ HTTP/1.1" 200 85
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 225748
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 225748
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 225748
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 225748
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 44566
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 411
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 532
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 13736
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 32146
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU3NTkwMzU1LCJpYXQiOjE3NTU1MTY3NTV9.kWsxMdAWKQ77SmN21cxdQ7Dlonq7NlyGc-vQzDG1dVE HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1693
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 225748
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 225748
+"GET /api-mobile/question/questions/?enquete_identifiant=DGNP-1 HTTP/1.1" 200 225748

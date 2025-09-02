@@ -110,6 +110,17 @@ class QuestionViewSet(ViewSet):
             response = ResponseClass(result=False, has_data=False, message=str(e))
         finally:
             return response.json_response()
+        
+    @action(detail=False, methods=['POST'], url_path='multiple-insert-web')
+    def insert_questions_from_web(self, request):
+        try:
+            enquete = Enquete.objects.get(identifiant = request.data['identifiant_enquete'])
+            QuestionController().multiple_insert_from_web(request.data['questions'], enquete=enquete)
+            response = ResponseClass(result=True, has_data=True, message=f"Questions importé")
+        except Exception as e:
+            response = ResponseClass(result=False, has_data=False, message=str(e))
+        finally:
+            return response.json_response()
     
     @action(detail=False)
     def get_questions(self, request):
