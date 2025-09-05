@@ -63,7 +63,8 @@ INSTALLED_APPS = [
     'myapi',
     'import_export',
     'mobiles_api',
-    'enquete'
+    'enquete',
+    'ars1000'
 ]
 
 MIDDLEWARE = [
