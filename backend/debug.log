@@ -210067,3 +210067,315 @@ django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into 
 "GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 36561
 "GET /api-mobile/reponses/all/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 194710
 "GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 36561
+Watching for file changes with StatReloader
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 2341
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5573
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 111775
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5573
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 111775
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1328205
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1328205
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1664
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1664
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+D:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api-mobile
+"GET /api-mobile HTTP/1.1" 404 2802
+D:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/utilisateur/utilisateurs HTTP/1.1" 301 0
+Internal Server Error: /api-mobile/utilisateur/utilisateurs/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py", line 24, in get_utilisateurs
+    return ResponseClass(result=True, has_data=True, message="Liste des utilisateurs", data=serializer.data)
+                                                                                            ^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 687, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `sexe` is not valid for model `Utilisateur`.
+"GET /api-mobile/utilisateur/utilisateurs/ HTTP/1.1" 500 148891
+D:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\mobiles_api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/utilisateur/utilisateurs HTTP/1.1" 301 0
+Internal Server Error: /api-mobile/utilisateur/utilisateurs/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'foret.naiveclasses.ResponseClass'>`
+"GET /api-mobile/utilisateur/utilisateurs/ HTTP/1.1" 500 81950
+D:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\mobiles_api\views_classes\utilisateur_view.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/utilisateur/utilisateurs HTTP/1.1" 301 0
+"GET /api-mobile/utilisateur/utilisateurs/ HTTP/1.1" 200 3430
+Not Found: /
+"GET / HTTP/1.1" 404 2754
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2805
+"GET /admin/ HTTP/1.1" 200 34711
+"GET /admin/myapi/cooperative/ HTTP/1.1" 200 27014
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 27703
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/1/change/ HTTP/1.1" 200 76535
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 27703
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/2/change/ HTTP/1.1" 200 76491
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 27703
+"GET /admin/myapi/utilisateur/5/change/ HTTP/1.1" 200 76513
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 27703
+"GET /admin/mobiles_api/technicien/ HTTP/1.1" 200 27057
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/mobiles_api/technicien/4/change/ HTTP/1.1" 200 29518
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/utilisateur/6/change/?_to_field=id HTTP/1.1" 200 76554
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/mobiles_api/technicien/4/change/ HTTP/1.1" 200 29518
+"GET /admin/myapi/utilisateur/6/change/?_to_field=id HTTP/1.1" 200 76554
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/mobiles_api/technicien/4/change/ HTTP/1.1" 200 29518
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/region-list/ HTTP/1.1" 200 4342
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzU5NTk3NzI3LCJpYXQiOjE3NTc1MjQxMjd9.6RidKO42RaysauftCcT0LhdsEO8QNz_CzmZHjk_111o HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1279
+"GET /api/region-list/ HTTP/1.1" 200 4342
+"GET /api/proj-list/?userID=1 HTTP/1.1" 200 1279
+"GET /api/region-list/ HTTP/1.1" 200 4342
+"GET /api/region-list/ HTTP/1.1" 200 4342
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5573
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5573
+"GET /admin/myapi/utilisateur/6/change/?_to_field=id HTTP/1.1" 200 76554
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/reponse/ HTTP/1.1" 200 65767
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/reponse/137/change/ HTTP/1.1" 200 31550
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typeenquete/ HTTP/1.1" 200 26811
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/typeenquete/1/change/ HTTP/1.1" 200 26481
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enquete/ HTTP/1.1" 200 26740
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/enquete/enquete/1/change/ HTTP/1.1" 200 34816
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621

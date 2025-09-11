@@ -7,8 +7,7 @@ from .models import Certificat, CompensationPSE, CategorieActiviteRetribution, A
 class UtilisateurSerializer(ModelSerializer):
     class Meta:
         model = Utilisateur
-        fields = ['id','nom', 'prenom', 'tel', 'sexe']
-        read_only = ['id','nom', 'prenom', 'tel', 'sexe']
+        fields = '__all__'
         
 class CooperativeSerializer(ModelSerializer):
     
