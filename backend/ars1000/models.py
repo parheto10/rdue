@@ -41,6 +41,8 @@ class Conjoint(AbstractClass):
     code = models.CharField(max_length=255, null=True)
     nom_prenoms = models.CharField(max_length=255, null=True)
     categorie = models.CharField(max_length=255, null=True)
+    sexe = models.CharField(max_length=1, null=True)
+    date_naissance = models.DateField(null=True)
     producteur = models.ForeignKey(InfoProducteur, on_delete=models.CASCADE)
 
 class Enfant(AbstractClass):
