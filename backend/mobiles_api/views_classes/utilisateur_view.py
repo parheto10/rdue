@@ -4,6 +4,7 @@ from rest_framework.decorators import action
 from rest_framework.viewsets import ViewSet
 
 # internals imports
+from mobiles_api.models import Technicien
 from foret.naiveclasses import ResponseClass
 from mobiles_api.serializers import UtilisateurSerializer
 from myapi.models import Utilisateur
@@ -11,7 +12,21 @@ from myapi.models import Utilisateur
 class UtilisateurViewSet(ViewSet):
     
     serializer_class = UtilisateurSerializer
-    
+
+    @action(detail=False, methods=['GET'], url_path='utilisateurs')
+    def get_utilisateurs(self, request):
+        try:
+            id_coop = request.query_params.get('id_coop', None)
+            if id_coop:
+                utilisateurs = Utilisateur.objects.filter(technicien__cooperative__id=id_coop)
+            else:
+                utilisateurs = Utilisateur.objects.all()
+            serializer = self.serializer_class(utilisateurs, many=True)
+            return ResponseClass(result=True, has_data=True, message="Liste des utilisateurs", data=serializer.data).json_response()
+        except Exception as e:
+            return ResponseClass(result=False, has_data=False, message=str(e)).json_response()
+        
+
     @action(detail=False, methods=['POST'])
     def connexion(self, request):
         tel = request.data['tel']

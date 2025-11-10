@@ -12,7 +12,7 @@ class MonitoringController :
             planting = Planting.objects.get(pk=request.data['planting'])
             date  = datetime.fromisoformat(request.data['date'])
             taux_reussite = Decimal(request.data['taux_reussite'])
-            campagne = planting.campagne
+            campagne = campagne = None if request.data['campagne']==None else Campagne.objects.get(pk=request.data['campagne'])
             monitoring, created = Monitoring.objects.get_or_create(code=code)
             monitoring.latitude_du_lieu_de_monitoring = request.data['latitude_du_lieu_du_monitoring']
             monitoring.longitude_du_lieu_de_monitoring = request.data['longitude_du_lieu_du_monitoring']

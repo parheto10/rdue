@@ -65,6 +65,18 @@ class EnqueteViewSet(ViewSet):
             response = ResponseClass(result=False, has_data=False, message="Enquête non trouvée")
         finally:
             return response.json_response()
+        
+    @action(detail=False, methods=['DELETE'], url_path='delete')
+    def delete_enquete(self, request):
+        try:
+            id_enquete = self.request.GET.get('id_enquete')
+            enquete = Enquete.objects.filter(id=id_enquete)
+            enquete.delete()
+            response = ResponseClass(result=True, has_data=True, message="Enquête supprimée")
+        except Enqueteur.DoesNotExist:
+            response = ResponseClass(result=False, has_data=False, message="Ce technicien n'existe pas dans la base")
+        finally:
+            return response.json_response()
 
     @action(detail=False, methods=['post'])
     def synchronisation(self, request):
