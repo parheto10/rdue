@@ -9,11 +9,12 @@ from .importation_controller import ImportationController
 class DataImportation(ViewSet):
     
     @action(detail=False, methods=['post'])
-    def cadesa(self, request):
+    def planting(self, request):
         try:
             file = request.data['data']
             campagne = request.data['campagne']
-            importation_controller = ImportationController(file, campagne=campagne)
+            sheet_number = request.data.get('sheet_number', 0)
+            importation_controller = ImportationController(file, campagne=campagne, sheet_number=sheet_number)
             importation_controller.importer()
             response = ResponseClass(result=True, has_data=True, message=importation_controller.message)
         except Exception as e:
