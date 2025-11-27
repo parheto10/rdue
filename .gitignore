@@ -1,3 +1,26 @@
 # Ignorer le fichier log
 *.log
 *.pyc
+
+# Ignorer les fichiers volumineux
+static/geodata/ocs2020.tif
+*.tif
+
+# Ignorer les dossiers
+__pycache__/
+.venv/
+venv/
+env/
+.env
+.idea/
+.vscode/
+
+# Ignorer les fichiers de base de données
+*.db
+*.sqlite3
+db.sqlite3
+
+# Ignorer les dossiers de cache
+.cache/
+.pytest_cache/
+.coverage
