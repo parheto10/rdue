@@ -19,6 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 # views classes imports
+from geoportail.views import GeoportailViewSet
 from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, PlantingViewSet, DetailPlantingViewSet, CertificationViewSet, CertificatViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet, ActeProprieteViewSet, ObservationMortaliteViewSet, ObservationMonitoringViewSet, MonitoringViewSet, DetailMonitoringViewSet, CompensationPSEViewSet, CategorieActiviteRetributionViewSet, ActiviteRetributionViewSet, InfoPSEViewSet
 from api_importation.views import DataImportation
 from enquete.views import EnqueteViewSet, QuestionViewSet, ReponseViewSet
@@ -57,6 +58,8 @@ importation.register('importation', DataImportation, basename='importation')
 router.register('enquete', EnqueteViewSet, basename='enquete')
 router.register('question', QuestionViewSet, basename='question')
 router.register('reponses', ReponseViewSet, basename='reponses')
+# Geoportail
+router.register('geoportail', GeoportailViewSet, basename='geoportail')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
