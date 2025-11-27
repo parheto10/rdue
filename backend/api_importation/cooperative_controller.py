@@ -67,8 +67,8 @@ class CooperativeController:
                 self.parcelles_non_enregistres.append(parcelle.code)
                 # return None
             else:
-                # parcelle.latitude = str(prod.get('LAT'))
-                # parcelle.longitude = str(prod.get('LON'))
+                parcelle.latitude = str(prod.get('LAT'))
+                parcelle.longitude = str(prod.get('LON'))
                 parcelle.superficie = float(prod.get('SUPERFICIE PARCELLE'))
                 parcelle.culture = Culture.objects.get(cooperative=self.cooperative)
                 parcelle.save()

@@ -1,7 +1,7 @@
 from typing import cast
 from django.core.exceptions import ObjectDoesNotExist
 import pandas as pd
-from myapi.models import Campagne, Cooperative
+from myapi.models import Campagne, Cooperative, Culture
 from .cooperative_controller import CooperativeController, MonitoringCooperativeController
 
 class ImportationController:
@@ -19,8 +19,11 @@ class ImportationController:
             coops = Cooperative.objects.filter(nomCoop__in =self.coops)
             return coops
         except Cooperative.DoesNotExist:
-            raise Exception(str(ObjectDoesNotExist))
-    
+            last_coop = Cooperative.objects.all().order_by('id').last()
+            for coop in self.coops:
+                new_coop = Cooperative.objects.create(**{"nomCoop": coop, "projet": last_coop.projet, "respo":last_coop.respo})
+                Culture.objects.create(**{"libelle":"Cacao", "cooperative":new_coop})
+            return Cooperative.objects.filter(nomCoop__in =self.coops)    
     def importer(self):
         try:
             coops = self.getCoop()

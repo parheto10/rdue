@@ -22,7 +22,7 @@ class DataImportation(ViewSet):
         return response.json_response()
     
     @action(detail=False, methods=['post'])
-    def importation_monitoring(self, request):
+    def monitoring(self, request):
         try:
             file = request.data['data']
             campagne = request.data['campagne']
