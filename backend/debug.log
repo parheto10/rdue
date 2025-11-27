@@ -211832,3 +211832,1185 @@ D:\applications\app_python\rdue\backend\mobiles_api\controllers\detailmonitoring
 Watching for file changes with StatReloader
 D:\applications\app_python\rdue\backend\mobiles_api\controllers\monitoring_controller.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114065
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114065
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+code 400, message Bad request version (';\x9d¤ÉCÞû¶mM_\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06E::\x00\x00\x00\x17\x00\x00\x00-\x00\x02\x01\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('¡E')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x88')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x9c\x1bï×')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Eúú\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06Ò\x01\x00\x06Î\x03\x03¤^>')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /api-mobile/geoportail/get_geospatial_data/ HTTP/1.1" 200 535
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2805
+"GET /api-mobile/geoportail/get_geospatial_data/ HTTP/1.1" 200 535
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+code 400, message Bad request version ('\x89\x9c\x07\x01\x92~æ\x83\x92F\x96¡RK\x04')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x1b\x00\x03\x02\x00\x02\x00#\x00\x00\x003\x04ï\x04í\x8a\x8a\x00\x01\x00\x11ì\x04À¬²£\x8481\x83\x95ZF#J\x058\x84\x82\x9c"pi')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x93\x915')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06E\x9a\x9a\x00\x00\x00\x17\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('s\x07\x9bñ5Y\x9c°\x96\x81S\x8c\xadõ+·3#\x18l\x17LKe4\x06h;z°\x8fH6@D¦TR')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('grÄ\x1b\x18K\x91¬)¬^\x98ÊQì\x88]\x1aÂ\x12×KW\x05Zjvù\x106\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06eJJ\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ÿ\x9bù@\x94ºü\x0e?¾\x91\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('¬D»Î£KCB\x90¯Ø0\x95³YÒS\x8e\x14µQ¼;´¤d³Ä\x8b+\x95\x11¿°0C\x04T\x11Jw%(ê(2\x04\x7fjÓ\x96^ì\x94y\x8bh\x19ä#¤ì»¬:Nõ\x96¿\x13¡\x01')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06E')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /api-mobile/geoportail/get_geospatial_data/ HTTP/1.1" 200 535
+Not Found: /geoportail/get_geospatial_data
+"GET /geoportail/get_geospatial_data HTTP/1.1" 404 2862
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+Not Found: /geoportail/get_geospatial_data
+"GET /geoportail/get_geospatial_data HTTP/1.1" 404 2862
+code 400, message Bad request version ('§¥k\x8bÚzµ¯+\x13Aa°Û<KpÁÁ\x99«\x1bÁ\x82u\x82òrÐ+S[')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("\x827bV\x95g·;\x92:¢\x0eR#'\x1bº\x82kóÁÁÐ§\x81¨\x91zÂFe`ÏÕfE¶@e\x81\\¦åB¼Ú\x10k`êAÜäb¾´Gl[B\x8d¬T\x92Ìk>sZ")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('CÅãy\x89\x00,A*\x15$¥»ÌVó\x812\x193ú\x82ô')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('SÉ?')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00\x17\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x95¡m?×%]y\x00\x86Îs.I\x96Ü´\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('«')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('**\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06\x1a\x1a\x03\x04\x03\x03\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('á')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('sÎ\x8byÒ|\x13û')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ÉRàÊ°a¾Ïrf\x9d\x15\x13nu')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06¥ZZ\x00\x00\x003\x04ï\x04íúú\x00\x01\x00\x11ì\x04ÀÚ\x07\x99´5±k\x80:©\x03\x02\x92\x8b\x1b×Hµ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x08ça\x00ð>)öuÿ%')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x88±')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4256
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2805
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 34614
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/myapi/utilisateur/ HTTP/1.1" 200 27703
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"POST /api/login/ HTTP/1.1" 200 56
+"POST /api/login/ HTTP/1.1" 200 194
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+- Broken pipe from ('127.0.0.1', 63754)
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114080
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114080
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY2MzIzMDQ0LCJpYXQiOjE3NjQyNDk0NDR9.q6e178zvtE_3rFPQzFDznJW_GJuVnlC-vTdLDZTZcC0 HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api-mobile/geoportail/get_geospatial_data HTTP/1.1" 301 0
+code 400, message Bad request version ('|G\x16ñ"jU\x05Üe')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x8bÁ²B«QÉz\x93¸\x06Svc\x12Ø\x81\x08ÞÄQ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ËÆV_rlQt&\x96iµ\x81Ú¡')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06eÚÚ\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114065
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114065
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06e\x1a\x1a\x00\x00\x003\x04ï\x04í')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version (';|S;dþH0z=©$&&')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x07\x12\x01\x00\x07\x0e\x03\x03jÂó\x01\x88i;c\x11´Ë\x88"')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06E')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+code 400, message Bad request syntax ('\x16\x03\x01\x06²\x01\x00\x06®\x03\x03Ì\x03ås<c¨\x83À\x9dùá#¯\x8bÖF\x80aFº¼\x87\x9fþï\x0c')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x1b\x00\x03\x02\x00\x02\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x12\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('à\x84{noAXI=°UÐnI\x97øÝ\x8eËÇJI\\\x83Ür\x93\x00#\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 68361
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 68361
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 419
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+code 400, message Bad request version ('áU,')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114065
+code 400, message Bad request version ("'°\x83QÌ2Ð\x1bt5ç;")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Y\x14ùç\x95Në\x81Û*ÃìKS)Ý±')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00\x17\x00\x00\x00\x12\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114065
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+code 400, message Bad request version ('ù\x9e@µ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00-\x00\x02\x01\x01\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 68361
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 68361
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 68361
+"GET /api-mobile/question/questions/?enquete_identifiant=EMNT-1 HTTP/1.1" 200 68361
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+code 400, message Bad request version ('YÂ\x89X}ñ`RK\x84\x892¦KcfAz\x02\x8c£è\x9d%ë8\x87')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03É®\x05\x05/aR¼{p\xad\x9eþMT\x9fÎ\x9fò¨:Ëïd\x1bûRÁÈ:.Ø')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+D:\applications\app_python\rdue\backend\geoportail\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\geoportail\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api-mobile/geoportail/geospatial-data HTTP/1.1" 301 0
+code 400, message Bad request version ('&ï\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('N\x92yí\x08ÐAh¬>Ú')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+code 400, message Bad request version ('¥\x96\x9b^i\x9f')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03Z®\x047ÒEß')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+code 400, message Bad request version ('\x88l½\x19YÖ©\x8cv¶\x08\x81¥b<kh"')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\\\x11')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x9e\x14ÜË\xad¨w¸öÌ,\x1bò-\x98yÆ¹!PÐAÜ{A»4á\x90#\xad»O,')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('½\x1a*${p)ïk§')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ("Ã'")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('Ç+û}¶\x92ðá\x1aÕ\x1a')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00+\x00\x07\x06JJ\x03\x04\x03\x03\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x02h2\x08http/1.1\x00#\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x12\x00\x00\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('®e^V¬ÍÂ8\x902Ñ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('y\x0fÉ±CÛYô+Þi%*\x00ð£\x87ÍK&Û?\x05>r\x17\x07ì\x07\x15\x9f\x92,?yþsàut')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('|j¿\x1aDÀÏ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('U\x90\x02fÞZ\x8a^§¹\x89Ô\x14à¢Ô*0\x81åHµ¬ò\x94æ\x01\x7f»"(\x9a\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('w¨8ZÄw3m²\x8e\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('TÝ.^Ìa\x9c')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('$\x95Nb\x19,Î¡;Â(#\x83è{cìUÙD\x97m[tµfÆr\x96')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('é)ñ¤,ãÂ«úTyxLÂ¯ù\x9e\x18é[ï\x8b´lÐ³ÝÑ\\Hv\x04úgÆ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('u\x08\x01\x15\x16,!¢Óâ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('<×Ï\x82\x95')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x02\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('GTÙ¤N\x08#sC\x8fdÉ}»à\x92]æ\x89\x146£\\W\x9e]ú´\x8dpN¥j\x89\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06ªª\x03\x04\x03\x03DÍ\x00\x05\x00\x03\x02h2\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /locales/en-GB/translation.json
+"GET /locales/en-GB/translation.json HTTP/1.1" 404 2862
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114065
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114065
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+Not Found: /locales/en-GB/translation.json
+"GET /locales/en-GB/translation.json HTTP/1.1" 404 2862
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api-mobile/geoportail/geospatial-data HTTP/1.1" 301 0
+"GET /api-mobile/geoportail/geospatial-data HTTP/1.1" 301 0
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+Not Found: /locales/en-GB/translation.json
+"GET /locales/en-GB/translation.json HTTP/1.1" 404 2862
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114065
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114065
+Not Found: /locales/en-GB/translation.json
+"GET /locales/en-GB/translation.json HTTP/1.1" 404 2862
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+Not Found: /locales/en-GB/translation.json
+"GET /locales/en-GB/translation.json HTTP/1.1" 404 2862
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/campagnes-list/?resp=1&open HTTP/1.1" 200 1679
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114065
+"GET /api/cooperative-list/?userID=1 HTTP/1.1" 200 5569
+"GET /api/producteurs-by-section/?cooperative=42 HTTP/1.1" 200 229
+Internal Server Error: /api/parcelle_by_risque/
+Traceback (most recent call last):
+  File "C:\Python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\applications\app_python\rdue\backend\myapi\views.py", line 2039, in parcelle_by_risque_state
+    riqueCoop = models.RisqueRDUE.objects.filter(cooperative_id = int(cooperativeID)).annotate(parcelle_num=Count('parcelle')).order_by("-id")
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<6 lines>...
+        summarize=summarize,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'cooperative_id' into field. Choices are: id, libelle, parcelle
+"GET /api/parcelle_by_risque/?cooperative=42 HTTP/1.1" 500 114065
+Not Found: /locales/en-GB/translation.json
+"GET /locales/en-GB/translation.json HTTP/1.1" 404 2862
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api/users-clients/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNzY1MjE1MzYyLCJpYXQiOjE3NjMxNDE3NjJ9.jhfd9RzZ9uXbXMYAUoR9Q7pf2W11DkSN0oWWuj2vJ6s HTTP/1.1" 200 358
+"GET /api-mobile/campagne/get_all_active_campagne_by_user/?id_utilisateur=1 HTTP/1.1" 200 540
+"GET /api-mobile/enquete/all/?user_id=1 HTTP/1.1" 200 1647
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
+"GET /api/parcelles-carte/?manager=1 HTTP/1.1" 200 1327213
