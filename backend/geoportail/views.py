@@ -63,7 +63,7 @@ class GeoportailViewSet(ViewSet):
     23: "#cccccc"
     }
 
-    @action(detail=False, url_path='geospatial-data', methods=['get'])
+    @action(detail=False, url_path='occupation-du-sol', methods=['get'])
     def get_geospatial_data(self, request):
         # 1. Lire le fichier GeoJSON du polygone
         gdf = gpd.read_file(self.polygone_file)

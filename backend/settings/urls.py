@@ -59,7 +59,7 @@ router.register('enquete', EnqueteViewSet, basename='enquete')
 router.register('question', QuestionViewSet, basename='question')
 router.register('reponses', ReponseViewSet, basename='reponses')
 # Geoportail
-router.register('geoportail', GeoportailViewSet, basename='geoportail')
+router.register('ocs', GeoportailViewSet, basename='ocs')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
