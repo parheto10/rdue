@@ -9,9 +9,12 @@ class CooperativeController:
     producteurs_non_enregistres = []
     parcelles_non_enregistres = []
     planting_non_enregistres = []
+    producteurs_enregistres = []
+    parcelles_enregistres = []
+    planting_enregistres = []
     message = ''
     def __init__(self, coop:Cooperative, camp:Campagne, data:DataFrame) -> None:
-        self.especes = ["BANGBAYÉ","ACACIA","ALBIZIA","EMIEN","AKO","BAZA","KAPOTIER","CEDRELA","FROMAGÉ","ORANGER","TIAMA","SIPO","PETIT COLA","GMELINA","SIBO/BAHIA","NIANGON","KPLÉ","ACAJOU / PETITE FEUILLE","ACAJOU / GRAND FEUILLE","ACAJOU","BÉTÉ","POIVRE LONG","IROKO","KOTO","AVOCAT","ASAMELA","DAMEBA","AKODIAKÉDÉ","ILOMBA","APKI","POÉ","TECK","FRAMIRÉ","FRAKÉ","MAKORÉ","BITEI"]
+        self.especes = ["BANGBAYÉ","ACACIA","ALBIZIA","EMIEN","AKO","BAZA","KAPOTIER","CEDRELA","FROMAGÉ","ORANGER","TIAMA","SIPO","PETIT COLA","GMELINA","SIBO/BAHIA","NIANGON","KPLÉ","ACAJOU / PETITE FEUILLE","ACAJOU / GRAND FEUILLE","ACAJOU","BÉTÉ","POIVRE LONG","IROKO","KOTO","AVOCAT","ASAMELA","DAMEBA","AKODIAKÉDÉ","ILOMBA","AKPI","POÉ","TECK","FRAMIRÉ","FRAKÉ","MAKORÉ","BITEI"]
         self.cooperative = coop
         self.data = data
         self.campagne = camp
@@ -42,7 +45,7 @@ class CooperativeController:
         
     def insertion_prod(self, prod:Series, section:Section):
         try:
-            producteur, is_created = Producteur.objects.get_or_create(code=prod.get('CODE PRODUCTEUR'))
+            producteur, is_created = Producteur.objects.get_or_create(code=prod.get('CODE PRODUCTEUR'), section=section, campagne = self.campagne)
             if is_created == False:
                 self.producteurs_non_enregistres.append(producteur.code)
             else:
@@ -52,17 +55,18 @@ class CooperativeController:
                 producteur.lieu_habitation = str(prod.get('LOCALITE'))
                 producteur.campagne = self.campagne
                 producteur.save()
+                self.producteurs_enregistres.append(producteur.code)
             return producteur
-        except TypeError:
-            pass
-        except Exception as e:
+        except TypeError as e:
             raise(Exception(str(e)+" in insertion_prod"))
+        except Exception as e:
+            raise(Exception(str(e)+" in insertion_prod on code "+str(prod.get('CODE PRODUCTEUR'))))
         
         
     def insertion_parcelle(self, prod:Series, producteur:Producteur):
         try:
             code =  prod.get('CODE PARCELLE')
-            parcelle, is_created = Parcelle.objects.get_or_create(code=code, producteur = producteur)
+            parcelle, is_created = Parcelle.objects.get_or_create(code=code, producteur = producteur, campagne = self.campagne)
             if is_created == False:
                 self.parcelles_non_enregistres.append(parcelle.code)
                 # return None
@@ -71,12 +75,14 @@ class CooperativeController:
                 parcelle.longitude = str(prod.get('LON'))
                 parcelle.superficie = float(prod.get('SUPERFICIE PARCELLE'))
                 parcelle.culture = Culture.objects.get(cooperative=self.cooperative)
+                parcelle.campagne = self.campagne
                 parcelle.save()
+                self.parcelles_enregistres.append(parcelle.code)
             return parcelle
-        except TypeError:
-            pass
-        except Exception as e:
+        except TypeError as e:
             raise(Exception(str(e)+" in insertion_parcelle"))
+        except Exception as e:
+            raise(Exception(str(e)+" in insertion_parcelle on code "+str(prod.get('CODE PARCELLE'))))
         
     def insertion_planting(self, prod:Series, parcelle:Parcelle):
         try:
@@ -91,9 +97,10 @@ class CooperativeController:
                 planting.plant_recus = int(prod.get('NOMBRE DE PLANTS RECUS'))
                 # planting.plant_existant = int(prod.get('ARBRES EXISTANTS'))
                 planting.save()
+                self.planting_enregistres.append(planting.code)
             return planting
-        except TypeError:
-            pass
+        except TypeError as e:
+            raise(Exception(str(e)+" in insertion_planting"))
         except Exception as e:
             raise(Exception(str(e)+" in insertion_planting"))
         
@@ -107,8 +114,8 @@ class CooperativeController:
                 detail_planting.plants = int(prod[espece.libelle])
                 detail_planting.save()
                 return detail_planting
-        except TypeError:
-            pass
+        except TypeError as e:
+            raise(Exception(str(e)+" in insertion_details_planting"))
         except Exception as e:
             raise(Exception(str(e)+" in insertion_details_planting"))
                 
@@ -119,6 +126,10 @@ class CooperativeController:
     def insertion_producteur(self):
         self.producteurs_non_enregistres = []
         self.parcelles_non_enregistres = []
+        self.planting_non_enregistres = []
+        self.producteurs_enregistres = []
+        self.parcelles_enregistres = []
+        self.planting_enregistres = []
         nbre_prods = 0
         nbre_parcelles = 0
         nbre_plantings = 0

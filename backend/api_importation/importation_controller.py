@@ -34,6 +34,16 @@ class ImportationController:
                     cooperative_controller = CooperativeController(coop=cooperative,camp=self.campagne, data=data)
                     cooperative_controller.insertion_producteur()
             self.message = cooperative_controller.message
+            self.stats = {
+                "total_producteurs": len(cooperative_controller.producteurs_enregistres) + len(cooperative_controller.producteurs_non_enregistres),
+                "producteurs_enregistres": len(cooperative_controller.producteurs_enregistres),
+                "producteurs_non_enregistres": len(cooperative_controller.producteurs_non_enregistres),
+                "total_parcelles": len(cooperative_controller.parcelles_enregistres) + len(cooperative_controller.parcelles_non_enregistres),
+                "parcelles_non_enregistres": len(cooperative_controller.parcelles_non_enregistres),
+                "parcelles_enregistres": len(cooperative_controller.parcelles_enregistres),
+                "total_planting": len(cooperative_controller.planting_enregistres) + len(cooperative_controller.planting_non_enregistres),
+                "planting_non_enregistres": len(cooperative_controller.planting_non_enregistres),
+                "planting_enregistres": len(cooperative_controller.planting_enregistres),}
         except Exception as e:
             self.message = str(e)
             

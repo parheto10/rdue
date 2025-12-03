@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 
 import os
 import time
+import uuid
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, Permission
 from django.core import serializers
 from django.db import models
@@ -459,7 +460,8 @@ class GroupeProducteur(models.Model):
 
 
 class Producteur(models.Model):
-    code = models.CharField(max_length=150,unique=True,primary_key=True)
+    identifiant = models.CharField(unique=True, primary_key=True, default=uuid.uuid4().hex.upper()[0:10], editable=False, max_length=255)
+    code = models.CharField(max_length=150)
     section = models.ForeignKey(Section, on_delete=models.CASCADE, null=True)
     # fournisseur = models.ManyToManyField(Founisseur,related_name="fournisseurs_producteurs",blank=True)
     # genre = models.CharField(max_length=2, choices=GENRE, default="H")
@@ -480,6 +482,8 @@ class Producteur(models.Model):
     
     class Meta:
         verbose_name_plural = "15. Producteurs"
+        constraints = [
+            models.UniqueConstraint(fields=['code', 'section', 'campagne'], name='unique_producteur')]
     
     def __str__(self):
         return '%s-%s' %(self.code,self.nomComplet) 
@@ -563,7 +567,8 @@ class RisqueRDUE(models.Model):
      
 
 class Parcelle(models.Model):
-    code = models.CharField(max_length=150,unique=True,primary_key=True)
+    identifiant = models.CharField(primary_key=True, max_length=255, unique=True, default=uuid.uuid4().hex.upper()[0:10], editable=False)
+    code = models.CharField(max_length=150)
     risque = models.ForeignKey(RisqueRDUE, on_delete=models.CASCADE,null=True, blank=True)
     producteur = models.ForeignKey(Producteur, on_delete=models.CASCADE,null=True)
     campagne = models.ForeignKey(Campagne, on_delete=models.CASCADE, null=True)
@@ -583,6 +588,8 @@ class Parcelle(models.Model):
     
     class Meta:
         verbose_name_plural = "18. Parcelles"
+        constraints = [
+            models.UniqueConstraint(fields=['code', 'producteur', 'campagne'], name='unique_parcelle')]
     
     def __str__(self):
         return '%s-%s' %(self.code,self.producteur.nomComplet) 

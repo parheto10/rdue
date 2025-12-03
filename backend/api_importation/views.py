@@ -18,7 +18,7 @@ class DataImportation(ViewSet):
             importation_controller.importer()
             response = ResponseClass(result=True, has_data=True, message=importation_controller.message)
         except Exception as e:
-            response = ResponseClass(result=False, has_data=False, message=str(e))
+            response = ResponseClass(result=False, has_data=False, message=str(e), data=importation_controller.stats if 'importation_controller' in locals() else {})
         return response.json_response()
     
     @action(detail=False, methods=['post'])
