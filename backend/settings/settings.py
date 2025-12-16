@@ -64,7 +64,6 @@ INSTALLED_APPS = [
     'import_export',
     'mobiles_api',
     'enquete',
-    'ars1000'
 ]
 
 MIDDLEWARE = [
@@ -105,7 +104,7 @@ WSGI_APPLICATION = 'settings.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db_mdz.sqlite3',
+        'NAME': BASE_DIR / 'db_fildisi_new.sqlite3',
         # 'NAME': BASE_DIR / 'db_demo_last.sqlite3',
     }
 }

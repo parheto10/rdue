@@ -212175,3 +212175,21 @@ Watching for file changes with StatReloader
 D:\applications\app_python\rdue\backend\myapi\models.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Session data corrupted
+"GET /admin/myapi/campagneprojet/ HTTP/1.1" 302 0
+Session data corrupted
+"GET /admin/login/?next=/admin/myapi/campagneprojet/ HTTP/1.1" 200 4298
+Session data corrupted
+"POST /admin/login/?next=/admin/myapi/campagneprojet/ HTTP/1.1" 302 0
+"GET /admin/myapi/campagneprojet/ HTTP/1.1" 200 25423
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/espece/ HTTP/1.1" 200 35041
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"GET /admin/myapi/culture/ HTTP/1.1" 200 30887
+"GET /admin/jsi18n/ HTTP/1.1" 200 8621
+"POST /api-importation/importation/planting/ HTTP/1.1" 200 153
+Watching for file changes with StatReloader
+D:\applications\app_python\rdue\backend\settings\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader

@@ -1,6 +1,7 @@
 # Ignorer le fichier log
 *.log
 *.pyc
+*.ipynb
 
 # Ignorer les fichiers volumineux
 static/geodata/ocs2020.tif

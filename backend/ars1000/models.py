@@ -82,7 +82,7 @@ class InfoParcelle(AbstractClass):
 
 class DocumentationFonciere(AbstractClass):
     organe_delivrance = models.CharField(max_length=255, null=True)
-    parcelle = models.ForeignKey(Parcelle, on_delete=models.CASCADE)
+    # parcelle = models.ForeignKey(Parcelle, on_delete=models.CASCADE)
     statut_producteur = models.ForeignKey(StatutMenage, on_delete=models.CASCADE)
 
 class EnfantHasTacheChampetre(AbstractClass):
@@ -125,7 +125,7 @@ class AvantageCultureEspece(AbstractClass):
 class Abattage(AbstractClass):
     code = models.CharField(max_length=255, null=True)
     date = models.DateField(null=True)
-    parcelle = models.ForeignKey(Parcelle, on_delete=models.CASCADE)
+    # parcelle = models.ForeignKey(Parcelle, on_delete=models.CASCADE)
 
 class DetailAbattage(AbstractClass):
     nbre_plant = models.IntegerField(null=True)
@@ -169,12 +169,12 @@ class Produit(AbstractClass):
 
 class ProduitHasProducteur(AbstractClass):
     produits = models.ManyToManyField(Produit)
-    producteur = models.ForeignKey(Producteur, on_delete=models.CASCADE)
+    # producteur = models.ForeignKey(Producteur, on_delete=models.CASCADE)
     date_de_livraison = models.DateField(null=True)
     cooperative = models.CharField(max_length=255, null=True)
 
 class ParcelleHasProduit(AbstractClass):
-    parcelle = models.ForeignKey(Parcelle, on_delete=models.CASCADE)
+    # parcelle = models.ForeignKey(Parcelle, on_delete=models.CASCADE, null=True)
     produit = models.ForeignKey(Produit, on_delete=models.CASCADE)
     date_application = models.DateField(null=True)
     dose_par_ha = models.FloatField(null=True)
