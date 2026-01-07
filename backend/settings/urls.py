@@ -19,9 +19,10 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 # views classes imports
+from enquete.views import EnqueteViewSet, QuestionViewSet, ReponseViewSet
 from mobiles_api.views import UtilisateurViewSet, CooperativeViewSet, SectionViewSet, CampagneViewSet, ProducteurViewSet, ParcelleViewSet, PlantingViewSet, DetailPlantingViewSet, CertificationViewSet, CertificatViewSet, CultureViewSet, ModeAcquisitionViewSet, EspeceViewSet, ActeProprieteViewSet, ObservationMortaliteViewSet, ObservationMonitoringViewSet, MonitoringViewSet, DetailMonitoringViewSet, CompensationPSEViewSet, CategorieActiviteRetributionViewSet, ActiviteRetributionViewSet, InfoPSEViewSet
 from api_importation.views import DataImportation
-from enquete.views import EnqueteViewSet, QuestionViewSet, ReponseViewSet
+
 # rest_framework imports
 from rest_framework import routers
 # Routes de l'api pour les applications mobiles
