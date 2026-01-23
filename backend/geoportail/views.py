@@ -6,10 +6,33 @@ import geopandas as gpd
 import rasterio
 from rasterio.mask import mask
 import pandas as pd
+import numpy as np
+import json
 
 class GeoportailViewSet(ViewSet):
     raster_path = str(settings.GEODATA_ROOT) + '/ocs2020.tif'
     polygone_file = str(settings.GEODATA_ROOT) + '/polygon.geojson'
+
+    def _convert_to_json_serializable(self, obj):
+        """
+        Convertit les objets numpy et pandas en types Python natifs sérialisables en JSON
+        """
+        if isinstance(obj, dict):
+            return {key: self._convert_to_json_serializable(value) for key, value in obj.items()}
+        elif isinstance(obj, (list, tuple)):
+            return [self._convert_to_json_serializable(item) for item in obj]
+        elif isinstance(obj, (np.integer, np.int32, np.int64)):
+            return int(obj)
+        elif isinstance(obj, (np.floating, np.float32, np.float64)):
+            return float(obj)
+        elif isinstance(obj, np.ndarray):
+            return obj.tolist()
+        elif pd.isna(obj):
+            return None
+        elif isinstance(obj, pd.Series):
+            return obj.to_dict()
+        else:
+            return obj
     value_to_class = {
     1: 'Forêt dense',
     2: 'Forêt claire',
@@ -122,8 +145,215 @@ class GeoportailViewSet(ViewSet):
                     'NombrePixels': counts.values,
                     'Proportion': proportions.values
                 })
-                response = ResponseClass(result=True, has_data=True, message="Données géospatiales extraites avec succès", data=results_df.to_dict(orient='records'))
+                response = ResponseClass(result=True, has_data=True, message="Données géospatiales extraites avec succès", data=self._convert_to_json_serializable(results_df.to_dict(orient='records')))
         except Exception as e:
             response = ResponseClass(result=False, has_data=False, message=f"Erreur lors de la lecture du raster ou du polygone : {e}")
         finally:
             return response.json_response()
+
+    @action(detail=False, url_path='occupation-du-sol-parcelle', methods=['get'])
+    def get_geospatial_data_by_property(self, request):
+        """
+        Traite un polygone sélectionné par la valeur d'une propriété depuis un fichier GeoJSON.
+        Paramètres de requête:
+        - file: nom du fichier GeoJSON (défaut: capressa.geojson)
+        - property: nom de la propriété à utiliser pour le filtrage (ex: CODE, NOM, VILLAGE)
+        - value: valeur de la propriété à rechercher
+        """
+        try:
+            # Paramètres de requête
+            filename = 'capressa.geojson'
+            property_value = request.query_params.get('code_parcelle')
+
+            if property_value is None:
+                return ResponseClass(result=False, has_data=False,
+                                   message="Le paramètre 'code_parcelle' est requis").json_response()
+            geojson_path = str(settings.GEODATA_ROOT) + f'/{filename}'
+
+            # Vérifier que le fichier existe
+            import os
+            if not os.path.exists(geojson_path):
+                return ResponseClass(result=False, has_data=False,
+                                   message=f"Fichier GeoJSON non trouvé: {filename}").json_response()
+
+            # Lire le fichier GeoJSON
+            gdf = gpd.read_file(geojson_path)
+
+            # Filtrer par la propriété et valeur spécifiées
+            # Essayer d'abord une correspondance exacte
+            filtered_gdf = gdf[gdf['CODE'] == str(property_value)]
+
+            # Vérifier qu'on a trouvé au moins un résultat
+            if len(filtered_gdf) == 0:
+                return ResponseClass(result=False, has_data=False,
+                                   message=f"Aucun polygone trouvé avec CODE = '{property_value}'").json_response()
+
+            # Si plusieurs résultats, prendre le premier et avertir
+            if len(filtered_gdf) > 1:
+                selected_row = filtered_gdf.iloc[0]
+                warning_message = f"Plusieurs polygones ({len(filtered_gdf)}) trouvés avec CODE = '{property_value}'. Utilisation du premier résultat."
+            else:
+                selected_row = filtered_gdf.iloc[0]
+                warning_message = None
+
+            # Obtenir l'index original dans le GeoDataFrame complet
+            original_index = gdf.index.get_loc(selected_row.name)
+            selected_geometry = selected_row.geometry
+
+            # Lire le raster
+            with rasterio.open(self.raster_path) as src:
+                profile = src.profile
+                raster_crs = src.crs
+
+                # Assurer la cohérence des CRS
+                if gdf.crs != raster_crs:
+                    # Créer un GeoDataFrame temporaire avec le polygone sélectionné
+                    temp_gdf = gpd.GeoDataFrame([selected_row], geometry=[selected_geometry], crs=gdf.crs)
+                    temp_gdf = temp_gdf.to_crs(raster_crs)
+                    selected_geometry = temp_gdf.iloc[0].geometry
+
+                # Préparer la géométrie pour le masque
+                geometries = [selected_geometry.__geo_interface__]
+
+                # Découpage du raster
+                out_image, out_transform = mask(src, geometries, crop=True)
+                pixel_values = out_image[0].flatten()
+
+                # Gestion des valeurs NoData
+                nodata_val = profile.get('nodata', 0)
+                valid_pixels = pixel_values[pixel_values != nodata_val]
+
+                if len(valid_pixels) == 0:
+                    response_data = {
+                        'polygon_index': original_index,
+                        'properties': self._convert_to_json_serializable(dict(selected_row.drop('geometry'))),
+                        'statistics': {
+                            'total_pixels': 0,
+                            'classes': [],
+                            'message': 'Aucun pixel valide trouvé pour ce polygone'
+                        }
+                    }
+                    if warning_message:
+                        response_data['warning'] = warning_message
+                    return ResponseClass(result=True, has_data=True,
+                                       message="Aucun pixel valide trouvé", data=response_data).json_response()
+
+                # Comptage des classes
+                counts = pd.Series(valid_pixels).value_counts().sort_index()
+                total_pixels = counts.sum()
+                proportions = (counts / total_pixels) * 100
+
+                # Création des résultats
+                classes_data = []
+                for class_id, count in counts.items():
+                    classes_data.append({
+                        'ClasseID': int(class_id),
+                        'ClasseNom': self.value_to_class.get(int(class_id), 'Inconnu'),
+                        'ClasseCouleur': self.value_to_color.get(int(class_id), '#000000'),
+                        'NombrePixels': int(count),
+                        'Proportion': float(proportions[class_id])
+                    })
+
+                response_data = {
+                   
+                    'polygon_index': original_index,
+                    'properties': self._convert_to_json_serializable(dict(selected_row.drop('geometry'))),
+                    'statistics': {
+                        'total_pixels': int(total_pixels),
+                        'classes': classes_data
+                    }
+                }
+
+                if warning_message:
+                    response_data['warning'] = warning_message
+    
+                message = "Statistiques du polygone extraites avec succès"
+                if warning_message:
+                    message += " (avec avertissement)"
+
+                return ResponseClass(result=True, has_data=True,
+                                   message=message, data=classes_data).json_response()
+
+        except Exception as e:
+            return ResponseClass(result=False, has_data=False,
+                               message=f"Erreur lors du traitement : {e}").json_response()
+
+    @action(detail=False, url_path='proprietes-geojson', methods=['get'])
+    def get_geojson_properties(self, request):
+        """
+        Liste les propriétés disponibles dans un fichier GeoJSON et leurs valeurs uniques.
+        Paramètres de requête:
+        - file: nom du fichier GeoJSON (défaut: capressa.geojson)
+        - property: nom d'une propriété spécifique pour voir ses valeurs uniques (optionnel)
+        """
+        try:
+            # Paramètres de requête
+            filename = request.query_params.get('file', 'capressa.geojson')
+            specific_property = request.query_params.get('property')
+
+            geojson_path = str(settings.GEODATA_ROOT) + f'/{filename}'
+
+            # Vérifier que le fichier existe
+            import os
+            if not os.path.exists(geojson_path):
+                return ResponseClass(result=False, has_data=False,
+                                   message=f"Fichier GeoJSON non trouvé: {filename}").json_response()
+
+            # Lire le fichier GeoJSON
+            gdf = gpd.read_file(geojson_path)
+
+            # Obtenir les colonnes (exclure geometry)
+            columns = [col for col in gdf.columns if col != 'geometry']
+
+            if specific_property:
+                # Vérifier que la propriété existe
+                if specific_property not in columns:
+                    return ResponseClass(result=False, has_data=False,
+                                       message=f"Propriété '{specific_property}' introuvable. Propriétés disponibles: {', '.join(columns)}").json_response()
+
+                # Obtenir les valeurs uniques pour cette propriété
+                unique_values = gdf[specific_property].unique()
+                # Convertir en liste et gérer les types
+                values_list = []
+                for val in unique_values:
+                    if pd.isna(val):
+                        values_list.append(None)
+                    else:
+                        values_list.append(str(val))
+
+                response_data = {
+                    'file': filename,
+                    'property': specific_property,
+                    'unique_values_count': len(values_list),
+                    'unique_values': sorted(values_list, key=lambda x: (x is None, x))
+                }
+            else:
+                # Lister toutes les propriétés avec des informations
+                properties_info = []
+                for col in columns:
+                    unique_count = gdf[col].nunique()
+                    has_nulls = gdf[col].isnull().any()
+                    sample_values = gdf[col].dropna().unique()[:5]  # 5 premiers exemples
+
+                    properties_info.append({
+                        'name': col,
+                        'unique_values_count': int(unique_count),
+                        'has_null_values': bool(has_nulls),
+                        'sample_values': [str(val) for val in sample_values],
+                        'data_type': str(gdf[col].dtype)
+                    })
+
+                response_data = {
+                    'file': filename,
+                    'total_features': len(gdf),
+                    'properties_count': len(columns),
+                    'properties': properties_info
+                }
+
+            return ResponseClass(result=True, has_data=True,
+                               message="Propriétés GeoJSON récupérées avec succès",
+                               data=response_data).json_response()
+
+        except Exception as e:
+            return ResponseClass(result=False, has_data=False,
+                               message=f"Erreur lors de la récupération des propriétés : {e}").json_response()
